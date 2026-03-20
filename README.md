@@ -40,6 +40,19 @@ python3 "eve-frontier-utopia-analysis/scripts/build_interactable_inventory.py" \
   --output-root "/Users/ocrand/Documents/New project/eve_skills/output/eve_frontier_utopia"
 ```
 
+4. Smoke test the Utopia World API:
+
+```bash
+python3 "eve-frontier-utopia-analysis/scripts/test_world_api.py"
+```
+
+To test the protected character endpoint as well, pass a bearer token:
+
+```bash
+python3 "eve-frontier-utopia-analysis/scripts/test_world_api.py" \
+  --bearer-token "YOUR_TOKEN"
+```
+
 ## Tracked vs Ignored Data
 
 This repo tracks curated outputs that are useful for review and reuse:
@@ -48,6 +61,7 @@ This repo tracks curated outputs that are useful for review and reuse:
 - reports
 - metadata summaries
 - protobuf interface JSON
+- World API smoke test reports
 
 This repo intentionally ignores large raw client artifacts:
 

@@ -1,0 +1,85 @@
+{
+  "tested_at_utc": "2026-03-20T08:11:40.003994+00:00",
+  "base_url": "https://world-api-utopia.uat.pub.evefrontier.com",
+  "public_calls": {
+    "health": {
+      "ok": true,
+      "status": 200,
+      "body": {
+        "ok": true
+      }
+    },
+    "config": {
+      "status": 200,
+      "ok": true,
+      "entry_count": 1,
+      "body": [
+        {
+          "podPublicSigningKey": "1aeay5VvV4s7oX7SB5jvScZFhMiGgjqBA6pvfxDiXpw"
+        }
+      ]
+    },
+    "solarsystems": {
+      "status": 200,
+      "ok": true,
+      "count": 2,
+      "metadata": {
+        "total": 24502,
+        "limit": 2,
+        "offset": 0
+      },
+      "first_ids": [
+        30000001,
+        30000002
+      ]
+    },
+    "ships": {
+      "status": 200,
+      "ok": true,
+      "count": 1,
+      "metadata": {
+        "total": 11,
+        "limit": 1,
+        "offset": 0
+      }
+    },
+    "sample_ship_chain": {
+      "skipped": false,
+      "ship_id": 81609,
+      "ship_name": "USV",
+      "detail": {
+        "status": 200,
+        "ok": true
+      },
+      "pod": {
+        "status": 200,
+        "ok": true,
+        "keys": [
+          "entries",
+          "signature",
+          "signerPublicKey"
+        ]
+      },
+      "pod_verify": {
+        "status": 200,
+        "ok": true,
+        "body": {
+          "isValid": true
+        }
+      }
+    }
+  },
+  "protected_calls": {
+    "without_token": {
+      "status": 401,
+      "ok": false,
+      "body": {
+        "message": "missing authorization header"
+      }
+    },
+    "with_token": {
+      "skipped": true,
+      "reason": "no bearer token provided"
+    }
+  }
+}

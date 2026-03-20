@@ -41,12 +41,21 @@ python3 /Users/ocrand/Documents/New\ project/eve_skills/eve-frontier-utopia-anal
   --output-root "/Users/ocrand/Documents/New project/eve_skills/output/eve_frontier_utopia"
 ```
 
-4. Use the generated files to organize:
+4. Smoke test the World API:
+
+```bash
+python3 /Users/ocrand/Documents/New\ project/eve_skills/eve-frontier-utopia-analysis/scripts/test_world_api.py
+```
+
+Pass `--bearer-token ...` when you want to verify a protected route such as `/v2/characters/me/jumps`.
+
+5. Use the generated files to organize:
 - static world objects from `staticdata/mapObjects.db`
 - interactable place families inferred from `frontier/...` client modules
 - UI entry points under `eve/client/script/ui/...`
 - proto/API schemas from `eveProto/generated/eve/...`
 - combined reports in `reports/interactable_inventory.md` and `metadata/interactable_inventory.json`
+- live World API smoke test results in `reports/world_api_smoke_test.json`
 
 ## Data Sources To Prioritize
 
