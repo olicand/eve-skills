@@ -4,6 +4,8 @@ The product goal is to expose EVE Frontier abilities as user-facing skills, not 
 
 ## Skills Ready For Players Now
 
+- `/moveme`: sandbox chat skill.
+- `/giveitem <item> <quantity>`: sandbox chat skill.
 - `/system find <name>`: public lookup skill.
 - `/ship info <id>`: public lookup skill.
 
@@ -23,5 +25,6 @@ The product goal is to expose EVE Frontier abilities as user-facing skills, not 
 ## Product Guidance
 
 - Build the player experience around intent-level commands.
+- For official sandbox slash commands, prefer formatting exact chat commands over reverse engineering raw protocol traffic.
 - Keep raw auth exchange, localhost bridge calls, and token-sensitive flows behind internal tooling.
 - Only expose action skills after runtime guards and entity-resolution checks are proven.

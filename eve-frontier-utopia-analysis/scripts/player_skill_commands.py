@@ -45,11 +45,52 @@ DEFAULT_USER_SKILL_DELIVERY_REPORT = Path(
     "/Users/ocrand/Documents/New project/eve_skills/output/eve_frontier_utopia/reports/user_skill_delivery.md"
 )
 
+COMMON_SANDBOX_ITEMS = {
+    "carbon weave": 84210,
+    "thermal composites": 88561,
+    "printed circuits": 84180,
+    "reinforced alloys": 84182,
+    "feldspar crystals": 77800,
+    "hydrated sulfide matrix": 77811,
+    "building foam": 89089,
+}
+
 
 def get_player_skill_contracts() -> dict[str, Any]:
     return {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "commands": [
+            {
+                "name": "/moveme",
+                "parameters": [],
+                "public": True,
+                "auth_required": True,
+                "execution_tier": "sandbox_chat_command",
+                "recommended_agent_exposure": "enable_for_sandbox_players_with_manual_chat_execution",
+                "status": "ready_now_manual_chat_execution",
+                "dependencies": ["sandbox chat slash command support"],
+                "runtime_requirements": [
+                    "logged-in sandbox session",
+                    "chat window available",
+                ],
+                "output": "A ready-to-use /moveme chat command for sandbox travel.",
+            },
+            {
+                "name": "/giveitem",
+                "parameters": ["item", "quantity"],
+                "public": True,
+                "auth_required": True,
+                "execution_tier": "sandbox_chat_command",
+                "recommended_agent_exposure": "enable_for_sandbox_players_with_manual_chat_execution",
+                "status": "ready_now_manual_chat_execution",
+                "dependencies": ["sandbox chat slash command support"],
+                "runtime_requirements": [
+                    "logged-in sandbox session",
+                    "chat window available",
+                    "cargo space or willingness to overload cargo",
+                ],
+                "output": "A ready-to-use /giveitem chat command for sandbox item spawning.",
+            },
             {
                 "name": "/system find",
                 "parameters": ["name"],
@@ -177,6 +218,42 @@ def get_user_skill_catalog() -> dict[str, Any]:
     return {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "skills": [
+            {
+                "skill_id": "moveme",
+                "display_name": "Move Me",
+                "user_goal": "Instantly move to a sandbox destination using the official chat slash command.",
+                "agent_entrypoint": "/moveme",
+                "status": "ready_now_manual_chat_execution",
+                "player_exposure": "sandbox_player",
+                "requires_login": True,
+                "requires_live_game_context": True,
+                "examples": [
+                    "/moveme",
+                ],
+                "notes": [
+                    "Official sandbox slash command entered through the in-game chat window.",
+                    "Current integration returns the exact command string for manual chat execution.",
+                ],
+            },
+            {
+                "skill_id": "giveitem",
+                "display_name": "Give Item",
+                "user_goal": "Spawn a sandbox item into the current ship cargo using the official chat slash command.",
+                "agent_entrypoint": "/giveitem <item> <quantity>",
+                "status": "ready_now_manual_chat_execution",
+                "player_exposure": "sandbox_player",
+                "requires_login": True,
+                "requires_live_game_context": True,
+                "examples": [
+                    "/giveitem 84210 2",
+                    "/giveitem \"Carbon Weave\" 2",
+                ],
+                "notes": [
+                    "Official sandbox slash command entered through the in-game chat window.",
+                    "Current integration returns the exact command string for manual chat execution.",
+                    "Can overload ship cargo if the quantity is too large.",
+                ],
+            },
             {
                 "skill_id": "system_find",
                 "display_name": "System Find",
@@ -321,6 +398,10 @@ def write_json(path: Path, payload: Any) -> None:
 
 
 def translate_skill_argv(argv: list[str]) -> list[str]:
+    if len(argv) >= 1 and argv[0] == "/moveme":
+        return ["sandbox-moveme", *argv[1:]]
+    if len(argv) >= 1 and argv[0] == "/giveitem":
+        return ["sandbox-giveitem", *argv[1:]]
     if len(argv) >= 2 and argv[0] == "/system" and argv[1] == "find":
         return ["system-find", *argv[2:]]
     if len(argv) >= 2 and argv[0] == "/ship" and argv[1] == "info":
@@ -343,6 +424,22 @@ def translate_skill_argv(argv: list[str]) -> list[str]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Player-facing EVE Frontier skill commands.")
     subparsers = parser.add_subparsers(dest="command", required=True)
+
+    sandbox_moveme = subparsers.add_parser("sandbox-moveme", help="Build the official /moveme sandbox chat command.")
+    sandbox_moveme.add_argument(
+        "--execution-mode",
+        default="manual_chat_entry",
+        help="Current supported mode is manual_chat_entry.",
+    )
+
+    sandbox_giveitem = subparsers.add_parser("sandbox-giveitem", help="Build the official /giveitem sandbox chat command.")
+    sandbox_giveitem.add_argument("item", nargs="+", help="Item ID or item name.")
+    sandbox_giveitem.add_argument("quantity", type=int, help="Quantity to spawn.")
+    sandbox_giveitem.add_argument(
+        "--execution-mode",
+        default="manual_chat_entry",
+        help="Current supported mode is manual_chat_entry.",
+    )
 
     system_find = subparsers.add_parser("system-find", help="Resolve solar systems by name.")
     system_find.add_argument("name", nargs="+", help="Solar system name to search.")
@@ -466,6 +563,65 @@ def ensure_system_index(path: Path, *, base_url: str, rebuild: bool) -> dict[str
         write_json(resolved, payload)
         return payload
     return load_system_index(resolved)
+
+
+def resolve_sandbox_item(item_parts: list[str]) -> dict[str, Any]:
+    raw_item = " ".join(item_parts).strip()
+    if raw_item.isdigit():
+        item_id = int(raw_item)
+        resolved_name = next((name.title() for name, value in COMMON_SANDBOX_ITEMS.items() if value == item_id), None)
+        return {
+            "input": raw_item,
+            "mode": "item_id",
+            "item_id": item_id,
+            "item_name": resolved_name,
+            "chat_argument": raw_item,
+        }
+
+    normalized = raw_item.strip("\"' ").lower()
+    item_id = COMMON_SANDBOX_ITEMS.get(normalized)
+    clean_name = raw_item.strip("\"'")
+    return {
+        "input": raw_item,
+        "mode": "item_name",
+        "item_id": item_id,
+        "item_name": clean_name,
+        "chat_argument": f"\"{clean_name}\"",
+    }
+
+
+def handle_sandbox_moveme(args: argparse.Namespace) -> dict[str, Any]:
+    return {
+        "command": "/moveme",
+        "status": "ready_now_manual_chat_execution",
+        "execution_mode": args.execution_mode,
+        "chat_command": "/moveme",
+        "notes": [
+            "Official sandbox slash command entered through the in-game chat window.",
+            "The current skill integration formats the exact command for manual chat execution.",
+        ],
+    }
+
+
+def handle_sandbox_giveitem(args: argparse.Namespace) -> dict[str, Any]:
+    resolved_item = resolve_sandbox_item(args.item)
+    chat_command = f"/giveitem {resolved_item['chat_argument']} {args.quantity}"
+    return {
+        "command": "/giveitem",
+        "status": "ready_now_manual_chat_execution",
+        "execution_mode": args.execution_mode,
+        "quantity": args.quantity,
+        "item": resolved_item,
+        "chat_command": chat_command,
+        "warnings": [
+            "This command is intended for the official sandbox slash-command environment.",
+            "Spawning too many items can overload the ship cargo and prevent warping.",
+        ],
+        "notes": [
+            "The current skill integration formats the exact command for manual chat execution.",
+            "Known common sandbox items are embedded locally for convenience.",
+        ],
+    }
 
 
 def handle_system_find(args: argparse.Namespace) -> dict[str, Any]:
@@ -592,6 +748,8 @@ def handle_write_contracts(args: argparse.Namespace) -> dict[str, Any]:
     commands_report_path.write_text(
         "# Player Commands\n\n"
         "These are the current player-facing skill commands bundled in this repo.\n\n"
+        "- `/moveme`: official sandbox slash command for instant sandbox travel, currently formatted for manual chat execution.\n"
+        "- `/giveitem <item> <quantity>`: official sandbox slash command for sandbox item spawning, currently formatted for manual chat execution.\n"
         "- `/system find <name>`: public World API lookup plus local system index.\n"
         "- `/ship info <id>`: public World API ship detail lookup.\n"
         "- `/jump-history`: protected World API path, currently dependent on discovering a valid World API bearer.\n"
@@ -618,7 +776,11 @@ def handle_write_contracts(args: argparse.Namespace) -> dict[str, Any]:
     agent_integration_report_path.parent.mkdir(parents=True, exist_ok=True)
     agent_integration_report_path.write_text(
         "# Agent Skill Integration\n\n"
-        "The right way to expose these commands through an Agent is to split them into three lanes.\n\n"
+        "The right way to expose these commands through an Agent is to split them into four lanes.\n\n"
+        "## Lane 0: Sandbox Chat Skills\n\n"
+        "- `/moveme`: official sandbox chat slash command.\n"
+        "- `/giveitem <item> <quantity>`: official sandbox chat slash command.\n"
+        "- These are user-facing in the sandbox, but the current integration should treat them as formatted chat commands rather than raw network calls.\n\n"
         "## Lane 1: Public Read Skills\n\n"
         "- `/system find <name>`: safe to expose directly to all players. It only depends on the public World API plus the local system index.\n"
         "- `/ship info <id>`: safe to expose directly to all players. It only depends on the public World API.\n\n"
@@ -632,11 +794,12 @@ def handle_write_contracts(args: argparse.Namespace) -> dict[str, Any]:
         "- `/move <from> <to>`: keep behind a game-operation layer. This is not a plain HTTP lookup. It requires live `source_gate`, `destination_gate`, and `character` identifiers plus a working prepared/sponsored transaction execution path.\n"
         "- `/launcher connect <singleUseToken>`: treat as operator-only. It depends on an official one-time token source and should not be exposed as a normal player command.\n\n"
         "## Recommended Agent Contract\n\n"
+        "- Expose Lane 0 as sandbox-only user skills that return exact chat commands for execution.\n"
         "- Expose Lane 1 immediately as player-facing skills.\n"
         "- Expose Lane 2 only to the local operator Agent running on the same machine as the launcher.\n"
         "- Hold Lane 3 behind runtime guards that check login state, live entity resolution, and signing readiness before the Agent can call them.\n\n"
         "## Current Readiness\n\n"
-        "- Ready now: `/system find`, `/ship info`, `/launcher status`, `/launcher focus`, `/launcher journey`.\n"
+        "- Ready now: `/moveme`, `/giveitem`, `/system find`, `/ship info`, `/launcher status`, `/launcher focus`, `/launcher journey`.\n"
         "- Blocked on auth mapping: `/jump-history`.\n"
         "- Blocked on live IDs and transaction execution: `/move`.\n"
         "- Sensitive operator bridge: `/launcher connect`.\n"
@@ -647,6 +810,8 @@ def handle_write_contracts(args: argparse.Namespace) -> dict[str, Any]:
         "# User Skill Delivery\n\n"
         "The product goal is to expose EVE Frontier abilities as user-facing skills, not to expose raw transport or token plumbing.\n\n"
         "## Skills Ready For Players Now\n\n"
+        "- `/moveme`: sandbox chat skill.\n"
+        "- `/giveitem <item> <quantity>`: sandbox chat skill.\n"
         "- `/system find <name>`: public lookup skill.\n"
         "- `/ship info <id>`: public lookup skill.\n\n"
         "## Skills Ready Only For Local Operator Agents\n\n"
@@ -660,6 +825,7 @@ def handle_write_contracts(args: argparse.Namespace) -> dict[str, Any]:
         "- `/launcher connect <singleUseToken>`: depends on an official one-time token source and should stay operator-only.\n\n"
         "## Product Guidance\n\n"
         "- Build the player experience around intent-level commands.\n"
+        "- For official sandbox slash commands, prefer formatting exact chat commands over reverse engineering raw protocol traffic.\n"
         "- Keep raw auth exchange, localhost bridge calls, and token-sensitive flows behind internal tooling.\n"
         "- Only expose action skills after runtime guards and entity-resolution checks are proven.\n"
     )
@@ -679,7 +845,11 @@ def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(translate_skill_argv(list(argv or __import__("sys").argv[1:])))
 
-    if args.command == "system-find":
+    if args.command == "sandbox-moveme":
+        result = handle_sandbox_moveme(args)
+    elif args.command == "sandbox-giveitem":
+        result = handle_sandbox_giveitem(args)
+    elif args.command == "system-find":
         result = handle_system_find(args)
     elif args.command == "ship-info":
         result = handle_ship_info(args)

@@ -1,6 +1,42 @@
 {
-  "generated_at_utc": "2026-03-20T12:58:41.059658+00:00",
+  "generated_at_utc": "2026-03-20T13:26:38.015882+00:00",
   "skills": [
+    {
+      "skill_id": "moveme",
+      "display_name": "Move Me",
+      "user_goal": "Instantly move to a sandbox destination using the official chat slash command.",
+      "agent_entrypoint": "/moveme",
+      "status": "ready_now_manual_chat_execution",
+      "player_exposure": "sandbox_player",
+      "requires_login": true,
+      "requires_live_game_context": true,
+      "examples": [
+        "/moveme"
+      ],
+      "notes": [
+        "Official sandbox slash command entered through the in-game chat window.",
+        "Current integration returns the exact command string for manual chat execution."
+      ]
+    },
+    {
+      "skill_id": "giveitem",
+      "display_name": "Give Item",
+      "user_goal": "Spawn a sandbox item into the current ship cargo using the official chat slash command.",
+      "agent_entrypoint": "/giveitem <item> <quantity>",
+      "status": "ready_now_manual_chat_execution",
+      "player_exposure": "sandbox_player",
+      "requires_login": true,
+      "requires_live_game_context": true,
+      "examples": [
+        "/giveitem 84210 2",
+        "/giveitem \"Carbon Weave\" 2"
+      ],
+      "notes": [
+        "Official sandbox slash command entered through the in-game chat window.",
+        "Current integration returns the exact command string for manual chat execution.",
+        "Can overload ship cargo if the quantity is too large."
+      ]
+    },
     {
       "skill_id": "system_find",
       "display_name": "System Find",

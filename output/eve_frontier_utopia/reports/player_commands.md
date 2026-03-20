@@ -2,6 +2,8 @@
 
 These are the current player-facing skill commands bundled in this repo.
 
+- `/moveme`: official sandbox slash command for instant sandbox travel, currently formatted for manual chat execution.
+- `/giveitem <item> <quantity>`: official sandbox slash command for sandbox item spawning, currently formatted for manual chat execution.
 - `/system find <name>`: public World API lookup plus local system index.
 - `/ship info <id>`: public World API ship detail lookup.
 - `/jump-history`: protected World API path, currently dependent on discovering a valid World API bearer.

@@ -17,6 +17,8 @@ python3 "/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-anal
 
 ## Commands
 
+- `/moveme`
+- `/giveitem <item> <quantity>`
 - `/system find <name>`
 - `/ship info <id>`
 - `/jump-history`
@@ -28,6 +30,9 @@ python3 "/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-anal
 
 ## Readiness Rules
 
+- Safe to expose as sandbox player skills now:
+  - `/moveme`
+  - `/giveitem`
 - Safe to expose as player-facing skills now:
   - `/system find`
   - `/ship info`
@@ -49,6 +54,8 @@ Before claiming a command is ready, check:
 ## Quick Usage
 
 ```bash
+python3 "/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py" /moveme
+python3 "/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py" /giveitem 84210 2
 python3 "/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py" /system find "A 2560"
 python3 "/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py" /ship info 81609
 python3 "/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py" /launcher status
@@ -59,6 +66,7 @@ python3 "/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-anal
 ## Guardrails
 
 - Prefer the existing logged-in local session. Do not ask the user for raw credentials.
+- `/moveme` and `/giveitem` should currently be treated as exact sandbox chat commands for manual in-game entry.
 - `/jump-history` is only ready if a bearer token is accepted by `/v2/characters/me/jumps`.
 - `/move` is only ready if live `source_gate`, `destination_gate`, and `character` identifiers have been resolved and a prepared or sponsored transaction path is available.
 - When `/move` is still blocked, return the blocker report instead of pretending to submit a transaction.

@@ -1,6 +1,12 @@
 # Agent Skill Integration
 
-The right way to expose these commands through an Agent is to split them into three lanes.
+The right way to expose these commands through an Agent is to split them into four lanes.
+
+## Lane 0: Sandbox Chat Skills
+
+- `/moveme`: official sandbox chat slash command.
+- `/giveitem <item> <quantity>`: official sandbox chat slash command.
+- These are user-facing in the sandbox, but the current integration should treat them as formatted chat commands rather than raw network calls.
 
 ## Lane 1: Public Read Skills
 
@@ -22,13 +28,14 @@ The right way to expose these commands through an Agent is to split them into th
 
 ## Recommended Agent Contract
 
+- Expose Lane 0 as sandbox-only user skills that return exact chat commands for execution.
 - Expose Lane 1 immediately as player-facing skills.
 - Expose Lane 2 only to the local operator Agent running on the same machine as the launcher.
 - Hold Lane 3 behind runtime guards that check login state, live entity resolution, and signing readiness before the Agent can call them.
 
 ## Current Readiness
 
-- Ready now: `/system find`, `/ship info`, `/launcher status`, `/launcher focus`, `/launcher journey`.
+- Ready now: `/moveme`, `/giveitem`, `/system find`, `/ship info`, `/launcher status`, `/launcher focus`, `/launcher journey`.
 - Blocked on auth mapping: `/jump-history`.
 - Blocked on live IDs and transaction execution: `/move`.
 - Sensitive operator bridge: `/launcher connect`.

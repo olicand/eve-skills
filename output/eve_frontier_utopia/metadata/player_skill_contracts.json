@@ -1,6 +1,44 @@
 {
-  "generated_at_utc": "2026-03-20T12:58:41.059495+00:00",
+  "generated_at_utc": "2026-03-20T13:26:38.015708+00:00",
   "commands": [
+    {
+      "name": "/moveme",
+      "parameters": [],
+      "public": true,
+      "auth_required": true,
+      "execution_tier": "sandbox_chat_command",
+      "recommended_agent_exposure": "enable_for_sandbox_players_with_manual_chat_execution",
+      "status": "ready_now_manual_chat_execution",
+      "dependencies": [
+        "sandbox chat slash command support"
+      ],
+      "runtime_requirements": [
+        "logged-in sandbox session",
+        "chat window available"
+      ],
+      "output": "A ready-to-use /moveme chat command for sandbox travel."
+    },
+    {
+      "name": "/giveitem",
+      "parameters": [
+        "item",
+        "quantity"
+      ],
+      "public": true,
+      "auth_required": true,
+      "execution_tier": "sandbox_chat_command",
+      "recommended_agent_exposure": "enable_for_sandbox_players_with_manual_chat_execution",
+      "status": "ready_now_manual_chat_execution",
+      "dependencies": [
+        "sandbox chat slash command support"
+      ],
+      "runtime_requirements": [
+        "logged-in sandbox session",
+        "chat window available",
+        "cargo space or willingness to overload cargo"
+      ],
+      "output": "A ready-to-use /giveitem chat command for sandbox item spawning."
+    },
     {
       "name": "/system find",
       "parameters": [
