@@ -1,0 +1,246 @@
+{
+  "mode": "snapshot",
+  "machonet_root": "/Users/ocrand/Library/Application Support/CCP/EVE/_users_ocrand_library_application_support_eve_frontier_sharedcache_utopia_eve.app_contents_resources_build_utopia.servers.evefrontier.com/cache/MachoNet/198.18.0.64/489",
+  "entry_count": 31,
+  "entries": [
+    {
+      "path": "CachedMethodCalls/16ea.cache",
+      "size": 635,
+      "mtime_ns": 1773994791317805440
+    },
+    {
+      "path": "CachedMethodCalls/1ea2.cache",
+      "size": 6398,
+      "mtime_ns": 1773997279446751128
+    },
+    {
+      "path": "CachedMethodCalls/2b0c.cache",
+      "size": 585,
+      "mtime_ns": 1773994796324610511
+    },
+    {
+      "path": "CachedMethodCalls/2c9e.cache",
+      "size": 439,
+      "mtime_ns": 1773997331959725492
+    },
+    {
+      "path": "CachedMethodCalls/579f.cache",
+      "size": 626,
+      "mtime_ns": 1773994797054633275
+    },
+    {
+      "path": "CachedMethodCalls/6af6.cache",
+      "size": 200192,
+      "mtime_ns": 1773997281238323597
+    },
+    {
+      "path": "CachedMethodCalls/73bc.cache",
+      "size": 443,
+      "mtime_ns": 1773997334002609625
+    },
+    {
+      "path": "CachedMethodCalls/73e1.cache",
+      "size": 626,
+      "mtime_ns": 1773994790963415257
+    },
+    {
+      "path": "CachedMethodCalls/78f1.cache",
+      "size": 5482,
+      "mtime_ns": 1773997331052392670
+    },
+    {
+      "path": "CachedMethodCalls/ac0d.cache",
+      "size": 450,
+      "mtime_ns": 1773994789933245161
+    },
+    {
+      "path": "CachedMethodCalls/cf3d.cache",
+      "size": 621,
+      "mtime_ns": 1774000041974856993
+    },
+    {
+      "path": "CachedMethodCalls/f72.cache",
+      "size": 585,
+      "mtime_ns": 1773994790232841200
+    },
+    {
+      "path": "CachedObjects/1b46.cache",
+      "size": 49616,
+      "mtime_ns": 1773997281236703718
+    },
+    {
+      "path": "CachedObjects/2c9e.cache",
+      "size": 270,
+      "mtime_ns": 1773997331959492741
+    },
+    {
+      "path": "CachedObjects/52bb.cache",
+      "size": 325,
+      "mtime_ns": 1773994789933063911
+    },
+    {
+      "path": "CachedObjects/73f6.cache",
+      "size": 1841,
+      "mtime_ns": 1773997331052199586
+    },
+    {
+      "path": "CachedObjects/85ca.cache",
+      "size": 318,
+      "mtime_ns": 1773997334002470125
+    },
+    {
+      "path": "CachedObjects/87ad.cache",
+      "size": 435,
+      "mtime_ns": 1773994797054458775
+    },
+    {
+      "path": "CachedObjects/a00e.cache",
+      "size": 3042,
+      "mtime_ns": 1773997279446566503
+    },
+    {
+      "path": "CachedObjects/be9d.cache",
+      "size": 1359,
+      "mtime_ns": 1773997278711034341
+    },
+    {
+      "path": "CachedObjects/d2d6.cache",
+      "size": 435,
+      "mtime_ns": 1773994790963266340
+    },
+    {
+      "path": "MethodCallCachingDetails/1ea2.cache",
+      "size": 49,
+      "mtime_ns": 1773997279053991452,
+      "decoded": {
+        "service": "GetOldStationData",
+        "method": "run",
+        "metadata": [
+          "versionCheck"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/23f.cache",
+      "size": 94,
+      "mtime_ns": 1774000041974706534,
+      "decoded": {
+        "service": "structureDirectory",
+        "method": "GetStructureMapData",
+        "metadata": [
+          "5 minutes",
+          "versionCheck",
+          "x",
+          "sessionInfo"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/3e18.cache",
+      "size": 75,
+      "mtime_ns": 1773994790232670742,
+      "decoded": {
+        "service": "charMgr",
+        "method": "GetPublicInfo3",
+        "metadata": [
+          "30 minutes",
+          "15 minutes",
+          "versionCheck"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/6af6.cache",
+      "size": 54,
+      "mtime_ns": 1773997280552760376,
+      "decoded": {
+        "service": "GetAverageMarketPrices",
+        "method": "run",
+        "metadata": [
+          "versionCheck"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/73bc.cache",
+      "size": 45,
+      "mtime_ns": 1773997333413646820,
+      "decoded": {
+        "service": "GetFormations",
+        "method": "run",
+        "metadata": [
+          "versionCheck"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/78f1.cache",
+      "size": 73,
+      "mtime_ns": 1773997330705313217,
+      "decoded": {
+        "service": "standingMgr",
+        "method": "GetNPCNPCStandings",
+        "metadata": [
+          "run",
+          "run",
+          "run",
+          "versionCheck"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/96fd.cache",
+      "size": 66,
+      "mtime_ns": 1773994790621955130,
+      "decoded": {
+        "service": "corporationSvc",
+        "method": "GetMedalsReceived",
+        "metadata": [
+          "1 hour",
+          "versionCheck"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/ac0d.cache",
+      "size": 49,
+      "mtime_ns": 1773994789580044729,
+      "decoded": {
+        "service": "agentMgr",
+        "method": "GetAgents",
+        "metadata": [
+          "run",
+          "versionCheck"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/b36e.cache",
+      "size": 81,
+      "mtime_ns": 1773997331375122279,
+      "decoded": {
+        "service": "standingMgr",
+        "method": "GetCharStandings",
+        "metadata": [
+          "always",
+          "versionCheck",
+          "x",
+          "sessionInfo"
+        ]
+      }
+    },
+    {
+      "path": "MethodCallCachingDetails/bf4a.cache",
+      "size": 91,
+      "mtime_ns": 1773994791317650940,
+      "decoded": {
+        "service": "corporationSvc",
+        "method": ")GetEmployementRecordAndCharacterTransfers",
+        "metadata": [
+          "day",
+          "versionCheck"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "generated_at_utc": "2026-03-20T12:58:41.059658+00:00",
+  "skills": [
+    {
+      "skill_id": "system_find",
+      "display_name": "System Find",
+      "user_goal": "Find a solar system by player-facing name.",
+      "agent_entrypoint": "/system find <name>",
+      "status": "ready_now",
+      "player_exposure": "public",
+      "requires_login": false,
+      "requires_live_game_context": false,
+      "examples": [
+        "/system find A 2560",
+        "/system find M 974"
+      ],
+      "notes": [
+        "Uses the public World API plus the local system index.",
+        "Safe to expose directly to players."
+      ]
+    },
+    {
+      "skill_id": "ship_info",
+      "display_name": "Ship Info",
+      "user_goal": "Look up a ship by identifier.",
+      "agent_entrypoint": "/ship info <id>",
+      "status": "ready_now",
+      "player_exposure": "public",
+      "requires_login": false,
+      "requires_live_game_context": false,
+      "examples": [
+        "/ship info 81609"
+      ],
+      "notes": [
+        "Uses the public World API.",
+        "Safe to expose directly to players."
+      ]
+    },
+    {
+      "skill_id": "jump_history",
+      "display_name": "Jump History",
+      "user_goal": "Read the logged-in character jump history.",
+      "agent_entrypoint": "/jump-history",
+      "status": "blocked_on_auth_mapping",
+      "player_exposure": "disabled_until_bearer_source_is_verified",
+      "requires_login": true,
+      "requires_live_game_context": true,
+      "examples": [
+        "/jump-history"
+      ],
+      "notes": [
+        "Needs a World API bearer accepted by /v2/characters/me/jumps.",
+        "Current local SSO and OAuth tokens are rejected by the endpoint."
+      ]
+    },
+    {
+      "skill_id": "move",
+      "display_name": "Move",
+      "user_goal": "Move between systems through the in-game jump transaction flow.",
+      "agent_entrypoint": "/move <from> <to>",
+      "status": "blocked_on_live_ids_and_transaction_execution",
+      "player_exposure": "disabled_until_live_entity_resolution_is_ready",
+      "requires_login": true,
+      "requires_live_game_context": true,
+      "examples": [
+        "/move A 2560 M 974"
+      ],
+      "notes": [
+        "Needs live source_gate, destination_gate, and character identifiers.",
+        "Also needs a prepared or sponsored transaction signing path."
+      ]
+    },
+    {
+      "skill_id": "launcher_status",
+      "display_name": "Launcher Status",
+      "user_goal": "Read the local launcher state on this machine.",
+      "agent_entrypoint": "/launcher status",
+      "status": "ready_now",
+      "player_exposure": "operator_only",
+      "requires_login": false,
+      "requires_live_game_context": false,
+      "examples": [
+        "/launcher status"
+      ],
+      "notes": [
+        "This is a localhost bridge call, not a remote player capability."
+      ]
+    },
+    {
+      "skill_id": "launcher_focus",
+      "display_name": "Launcher Focus",
+      "user_goal": "Bring the local launcher to the foreground.",
+      "agent_entrypoint": "/launcher focus",
+      "status": "ready_now",
+      "player_exposure": "operator_only",
+      "requires_login": false,
+      "requires_live_game_context": false,
+      "examples": [
+        "/launcher focus"
+      ],
+      "notes": [
+        "This is a localhost bridge call, not a remote player capability."
+      ]
+    },
+    {
+      "skill_id": "launcher_journey",
+      "display_name": "Launcher Journey",
+      "user_goal": "Write a journey identifier into the local launcher state.",
+      "agent_entrypoint": "/launcher journey <journeyId>",
+      "status": "ready_now",
+      "player_exposure": "operator_only",
+      "requires_login": false,
+      "requires_live_game_context": false,
+      "examples": [
+        "/launcher journey <journeyId>"
+      ],
+      "notes": [
+        "This is a localhost bridge call, not a remote player capability."
+      ]
+    },
+    {
+      "skill_id": "launcher_connect",
+      "display_name": "Launcher Connect",
+      "user_goal": "Forward an official one-time connect token to the local launcher bridge.",
+      "agent_entrypoint": "/launcher connect <singleUseToken>",
+      "status": "needs_official_connect_token_source",
+      "player_exposure": "operator_only_sensitive",
+      "requires_login": true,
+      "requires_live_game_context": false,
+      "examples": [
+        "/launcher connect <singleUseToken>"
+      ],
+      "notes": [
+        "Depends on an official one-time token source.",
+        "Should not be exposed as a normal player-facing skill."
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-20T08:38:05.697124+00:00",
+  "generated_at_utc": "2026-03-20T12:58:41.059495+00:00",
   "commands": [
     {
       "name": "/system find",
@@ -8,9 +8,16 @@
       ],
       "public": true,
       "auth_required": false,
+      "execution_tier": "public_read",
+      "recommended_agent_exposure": "enable_for_all_players",
+      "status": "ready_now",
       "dependencies": [
         "/v2/solarsystems",
         "system_search_index.json"
+      ],
+      "runtime_requirements": [
+        "World API reachable",
+        "local system index present or rebuildable"
       ],
       "output": "Matched solar systems with static gate hints."
     },
@@ -21,8 +28,15 @@
       ],
       "public": true,
       "auth_required": false,
+      "execution_tier": "public_read",
+      "recommended_agent_exposure": "enable_for_all_players",
+      "status": "ready_now",
       "dependencies": [
         "/v2/ships/{id}"
+      ],
+      "runtime_requirements": [
+        "World API reachable",
+        "valid ship identifier"
       ],
       "output": "Ship detail JSON from the public World API."
     },
@@ -31,9 +45,16 @@
       "parameters": [],
       "public": false,
       "auth_required": true,
+      "execution_tier": "protected_read",
+      "recommended_agent_exposure": "hold_until_world_api_bearer_source_is_confirmed",
+      "status": "blocked_on_auth_mapping",
       "dependencies": [
         "/v2/characters/me/jumps",
         "World API bearer token"
+      ],
+      "runtime_requirements": [
+        "running logged-in Utopia session",
+        "World API bearer accepted by /v2/characters/me/jumps"
       ],
       "output": "Current character jump history."
     },
@@ -45,6 +66,9 @@
       ],
       "public": false,
       "auth_required": true,
+      "execution_tier": "in_game_transaction",
+      "recommended_agent_exposure": "gate_behind_live_entity_resolution_and_signing",
+      "status": "blocked_on_live_ids_and_transaction_execution",
       "dependencies": [
         "system_search_index.json",
         "eve.assembly.gate.api.PrepareJumpTransactionRequest",
@@ -52,7 +76,87 @@
         "character identifier",
         "wallet or sponsored transaction signing flow"
       ],
+      "runtime_requirements": [
+        "running Utopia client",
+        "running zk_signer",
+        "resolved source gate identifier",
+        "resolved destination gate identifier",
+        "resolved character identifier",
+        "prepared or sponsored transaction execution path"
+      ],
       "output": "Prepared jump transaction plan or a blocked-by report."
+    },
+    {
+      "name": "/launcher status",
+      "parameters": [],
+      "public": true,
+      "auth_required": false,
+      "execution_tier": "local_runtime_control",
+      "recommended_agent_exposure": "enable_for_local_operator_tools",
+      "status": "ready_now",
+      "dependencies": [
+        "http://localhost:3275/status"
+      ],
+      "runtime_requirements": [
+        "Frontier launcher running on localhost:3275"
+      ],
+      "output": "Live EVE Frontier launcher status from the local HTTP bridge."
+    },
+    {
+      "name": "/launcher focus",
+      "parameters": [],
+      "public": true,
+      "auth_required": false,
+      "execution_tier": "local_runtime_control",
+      "recommended_agent_exposure": "enable_for_local_operator_tools",
+      "status": "ready_now",
+      "dependencies": [
+        "http://localhost:3275/focus"
+      ],
+      "runtime_requirements": [
+        "Frontier launcher running on localhost:3275"
+      ],
+      "output": "Bring the launcher window to the foreground via the local HTTP bridge."
+    },
+    {
+      "name": "/launcher journey",
+      "parameters": [
+        "journeyId"
+      ],
+      "public": true,
+      "auth_required": false,
+      "execution_tier": "local_runtime_control",
+      "recommended_agent_exposure": "enable_for_local_operator_tools",
+      "status": "ready_now",
+      "dependencies": [
+        "http://localhost:3275/journey"
+      ],
+      "runtime_requirements": [
+        "Frontier launcher running on localhost:3275",
+        "journeyId value"
+      ],
+      "output": "Submit a journey ID into the local launcher state."
+    },
+    {
+      "name": "/launcher connect",
+      "parameters": [
+        "singleUseToken"
+      ],
+      "public": false,
+      "auth_required": true,
+      "execution_tier": "launcher_auth_bridge",
+      "recommended_agent_exposure": "operator_only_and_one_time_token_sensitive",
+      "status": "needs_official_connect_token_source",
+      "dependencies": [
+        "http://localhost:3275/connect",
+        "https://signup.eveonline.com/api/v2/token/launcher",
+        "official connect/signup single-use token"
+      ],
+      "runtime_requirements": [
+        "Frontier launcher running on localhost:3275",
+        "official single-use connect token"
+      ],
+      "output": "Forward a single-use token into the launcher bridge and optionally probe the exchanged access token against World API auth."
     }
   ]
 }

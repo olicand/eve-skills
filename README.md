@@ -94,16 +94,7 @@ zsh "eve-frontier-utopia-analysis/scripts/capture_proxy_loopback.sh"
 zsh "eve-frontier-utopia-analysis/scripts/launch_frontier_with_sslkeylog.sh"
 ```
 
-The loopback capture watches the local ClashX proxy on `127.0.0.1:7890`. The TLS keylog launcher is aimed at Electron/Chromium-side traffic and is the best starting point when you want Wireshark to decrypt launcher/EVE Vault HTTPS.
-
-9. If you need to inspect the official auth chain in the launcher or webview, use the local capture helpers:
-
-```bash
-"eve-frontier-utopia-analysis/scripts/launch_frontier_with_sslkeylog.sh"
-"eve-frontier-utopia-analysis/scripts/capture_proxy_loopback.sh"
-```
-
-The first script launches the Electron app with `SSLKEYLOGFILE` so Wireshark can decrypt Chromium TLS. The second captures traffic on `lo0` for the current ClashX proxy path at `127.0.0.1:7890`.
+The loopback capture watches the local ClashX proxy on `127.0.0.1:7890`. The TLS keylog launcher now uses `open "EVE Frontier.app" --args --frontier-test-servers=Utopia` together with `launchctl setenv SSLKEYLOGFILE ...`, which is the safer way to reach the Utopia launcher environment while still giving Wireshark Chromium TLS secrets.
 
 ## Tracked vs Ignored Data
 

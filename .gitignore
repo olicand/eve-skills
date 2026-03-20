@@ -14,3 +14,5 @@ output/eve_frontier_utopia/staticdata/
 output/eve_frontier_utopia/analysis/pyc_disassembly/
 output/eve_frontier_utopia/analysis/pyc_metadata/
 output/eve_frontier_utopia/analysis/pb2/**/*_error.json
+output/eve_frontier_utopia/captures/
+output/eve_frontier_utopia/launcher_asar/
