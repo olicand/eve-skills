@@ -1,7 +1,7 @@
 interface:
-  display_name: "EVE Frontier Utopia Analysis"
-  short_description: "Extract Frontier interaction surfaces"
-  default_prompt: "Use $eve-frontier-utopia-analysis to extract EVE Frontier Utopia interaction points into a separate output folder."
+  display_name: "EVE Frontier Utopia Analysis And Player Commands"
+  short_description: "Analyze Utopia and run player-facing World API skills"
+  default_prompt: "Use $eve-frontier-utopia-analysis to extract EVE Frontier Utopia interaction points, build searchable system metadata, and run /system find, /ship info, /jump-history, or /move command workflows."
 
 policy:
   allow_implicit_invocation: true

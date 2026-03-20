@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "eve/sponsoredtransaction/preparedtransaction/preparedtransaction.proto",
+    "eve/sponsoredtransaction/reservation/reservation.proto",
+    "eve/sponsoredtransaction/result.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "reservation_id",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.reservation.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "transaction_b64_bytes",
+          "number": 2,
+          "type": "string",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.sponsoredtransaction.preparedtransaction.api.CreateRequest",
+      "name": "CreateRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Identifier"
+        }
+      ],
+      "full_name": "eve.sponsoredtransaction.preparedtransaction.api.CreateResponse",
+      "name": "CreateResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "user_signature_b64_bytes",
+          "number": 2,
+          "type": "string",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.sponsoredtransaction.preparedtransaction.api.ExecuteRequest",
+      "name": "ExecuteRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "transaction_result",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.Result"
+        }
+      ],
+      "full_name": "eve.sponsoredtransaction.preparedtransaction.api.ExecuteResponse",
+      "name": "ExecuteResponse",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/sponsoredtransaction/preparedtransaction/api/requests.proto",
+  "package": "eve.sponsoredtransaction.preparedtransaction.api"
+}

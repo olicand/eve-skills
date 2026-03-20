@@ -1,0 +1,40 @@
+{
+  "dependencies": [],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "uuid",
+          "number": 1,
+          "type": "bytes",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.sponsoredtransaction.preparedtransaction.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "bcs_data_b64_bytes",
+          "number": 1,
+          "type": "string",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.sponsoredtransaction.preparedtransaction.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/sponsoredtransaction/preparedtransaction/preparedtransaction.proto",
+  "package": "eve.sponsoredtransaction.preparedtransaction"
+}

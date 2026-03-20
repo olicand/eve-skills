@@ -1,0 +1,73 @@
+{
+  "dependencies": [],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "transaction_digest",
+          "number": 1,
+          "type": "string",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "execution_status",
+          "number": 2,
+          "type": "string",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "execution_error_message",
+          "number": 3,
+          "type": "string",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "events",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.Result.Events"
+        }
+      ],
+      "full_name": "eve.sponsoredtransaction.Result",
+      "name": "Result",
+      "nested_messages": [
+        {
+          "enum_types": [],
+          "fields": [
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "type",
+              "number": 1,
+              "type": "string",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "bcs_data_b64_bytes",
+              "number": 2,
+              "type": "string",
+              "type_name": null
+            }
+          ],
+          "full_name": "eve.sponsoredtransaction.Result.Events",
+          "name": "Events",
+          "nested_messages": []
+        }
+      ]
+    }
+  ],
+  "name": "eve/sponsoredtransaction/result.proto",
+  "package": "eve.sponsoredtransaction"
+}

@@ -1,5 +1,5 @@
 {
-  "tested_at_utc": "2026-03-20T08:11:40.003994+00:00",
+  "tested_at_utc": "2026-03-20T08:39:33.015132+00:00",
   "base_url": "https://world-api-utopia.uat.pub.evefrontier.com",
   "public_calls": {
     "health": {
@@ -48,7 +48,6 @@
       "ship_id": 81609,
       "ship_name": "USV",
       "detail": {
-        "status": 200,
         "ok": true
       },
       "pod": {
@@ -77,9 +76,125 @@
         "message": "missing authorization header"
       }
     },
+    "auth_report": {
+      "runtime": {
+        "launcher_running": true,
+        "utopia_client_running": true,
+        "zk_signer_running": true
+      },
+      "running_session": {
+        "pid": 71140,
+        "server": "utopia.servers.evefrontier.com",
+        "tenant": "utopia",
+        "email": "o********g@gmail.com",
+        "application_id": "3161415f-dcaa-4354-8ee5-cbc61de9d980",
+        "scope": "openid email offline_access eveClientLogin"
+      },
+      "sources": [
+        {
+          "source": "game_sso_token",
+          "claims": {
+            "aud": "3161415f-dcaa-4354-8ee5-cbc61de9d980",
+            "iss": "test.auth.evefrontier.com",
+            "scope": "openid email offline_access eveClientLogin",
+            "tenant": "utopia",
+            "email": "o********g@gmail.com",
+            "application_id": "3161415f-dcaa-4354-8ee5-cbc61de9d980"
+          }
+        },
+        {
+          "source": "oauth_access_token",
+          "claims": {
+            "aud": "3161415f-dcaa-4354-8ee5-cbc61de9d980",
+            "iss": "test.auth.evefrontier.com",
+            "scope": "openid email offline_access eveClientLogin",
+            "tenant": "utopia",
+            "email": "o********g@gmail.com",
+            "application_id": "3161415f-dcaa-4354-8ee5-cbc61de9d980"
+          }
+        },
+        {
+          "source": "oauth_id_token",
+          "claims": {
+            "aud": "3161415f-dcaa-4354-8ee5-cbc61de9d980",
+            "iss": "test.auth.evefrontier.com",
+            "scope": "openid email offline_access eveClientLogin",
+            "tenant": "utopia",
+            "email": "o********g@gmail.com",
+            "application_id": null
+          }
+        }
+      ],
+      "oauth_exchange": {
+        "ok": true,
+        "status": 200,
+        "keys": [
+          "access_token",
+          "expires_in",
+          "id_token",
+          "refresh_token",
+          "refresh_token_id",
+          "scope",
+          "token_type",
+          "userId"
+        ]
+      },
+      "world_api_probe": [
+        {
+          "source": "game_sso_token",
+          "claims": {
+            "aud": "3161415f-dcaa-4354-8ee5-cbc61de9d980",
+            "iss": "test.auth.evefrontier.com",
+            "scope": "openid email offline_access eveClientLogin",
+            "tenant": "utopia",
+            "email": "o********g@gmail.com",
+            "application_id": "3161415f-dcaa-4354-8ee5-cbc61de9d980"
+          },
+          "status": 401,
+          "ok": false,
+          "body": {
+            "message": "invalid token in authorization header"
+          }
+        },
+        {
+          "source": "oauth_access_token",
+          "claims": {
+            "aud": "3161415f-dcaa-4354-8ee5-cbc61de9d980",
+            "iss": "test.auth.evefrontier.com",
+            "scope": "openid email offline_access eveClientLogin",
+            "tenant": "utopia",
+            "email": "o********g@gmail.com",
+            "application_id": "3161415f-dcaa-4354-8ee5-cbc61de9d980"
+          },
+          "status": 401,
+          "ok": false,
+          "body": {
+            "message": "invalid token in authorization header"
+          }
+        },
+        {
+          "source": "oauth_id_token",
+          "claims": {
+            "aud": "3161415f-dcaa-4354-8ee5-cbc61de9d980",
+            "iss": "test.auth.evefrontier.com",
+            "scope": "openid email offline_access eveClientLogin",
+            "tenant": "utopia",
+            "email": "o********g@gmail.com",
+            "application_id": null
+          },
+          "status": 401,
+          "ok": false,
+          "body": {
+            "message": "invalid token in authorization header"
+          }
+        }
+      ],
+      "world_api_ready": false,
+      "next_step": "No locally-derived token currently passes /v2/characters/me/jumps. Capture the official browser or launcher auth flow to find the World API-specific bearer exchange."
+    },
     "with_token": {
       "skipped": true,
-      "reason": "no bearer token provided"
+      "reason": "no valid bearer token available from explicit input or local session probe"
     }
   }
 }

@@ -1,0 +1,300 @@
+{
+  "dependencies": [
+    "eve/constellation/constellation.proto",
+    "eve/math/vector.proto",
+    "eve/search.proto",
+    "eve/securitystatus/securitystatus.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.solarsystem.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "name",
+          "number": 1,
+          "type": "string",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "position",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.math.Vector3"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "security",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.securitystatus.Value"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "constellation",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.constellation.Identifier"
+        }
+      ],
+      "full_name": "eve.solarsystem.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "solar_system",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        }
+      ],
+      "full_name": "eve.solarsystem.GetRequest",
+      "name": "GetRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "attributes",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.Attributes"
+        }
+      ],
+      "full_name": "eve.solarsystem.GetResponse",
+      "name": "GetResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [],
+      "full_name": "eve.solarsystem.GetAllRequest",
+      "name": "GetAllRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "solar_systems",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        }
+      ],
+      "full_name": "eve.solarsystem.GetAllResponse",
+      "name": "GetAllResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "constellation",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.constellation.Identifier"
+        }
+      ],
+      "full_name": "eve.solarsystem.GetSolarSystemsInConstellationRequest",
+      "name": "GetSolarSystemsInConstellationRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "solar_systems",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        }
+      ],
+      "full_name": "eve.solarsystem.GetSolarSystemsInConstellationResponse",
+      "name": "GetSolarSystemsInConstellationResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "query",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.SearchQuery"
+        }
+      ],
+      "full_name": "eve.solarsystem.SearchRequest",
+      "name": "SearchRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "solar_systems",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        }
+      ],
+      "full_name": "eve.solarsystem.SearchResponse",
+      "name": "SearchResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [],
+      "full_name": "eve.solarsystem.GetKillsRequest",
+      "name": "GetKillsRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "kills",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.GetKillsResponse.Kills"
+        }
+      ],
+      "full_name": "eve.solarsystem.GetKillsResponse",
+      "name": "GetKillsResponse",
+      "nested_messages": [
+        {
+          "enum_types": [],
+          "fields": [
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "solar_system",
+              "number": 1,
+              "type": "message",
+              "type_name": "eve.solarsystem.Identifier"
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "npcs",
+              "number": 2,
+              "type": "uint32",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "pods",
+              "number": 3,
+              "type": "uint32",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "ships",
+              "number": 4,
+              "type": "uint32",
+              "type_name": null
+            }
+          ],
+          "full_name": "eve.solarsystem.GetKillsResponse.Kills",
+          "name": "Kills",
+          "nested_messages": []
+        }
+      ]
+    },
+    {
+      "enum_types": [],
+      "fields": [],
+      "full_name": "eve.solarsystem.GetJumpsRequest",
+      "name": "GetJumpsRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "jumps",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.GetJumpsResponse.Jumps"
+        }
+      ],
+      "full_name": "eve.solarsystem.GetJumpsResponse",
+      "name": "GetJumpsResponse",
+      "nested_messages": [
+        {
+          "enum_types": [],
+          "fields": [
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "solar_system",
+              "number": 1,
+              "type": "message",
+              "type_name": "eve.solarsystem.Identifier"
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "jumps",
+              "number": 2,
+              "type": "uint32",
+              "type_name": null
+            }
+          ],
+          "full_name": "eve.solarsystem.GetJumpsResponse.Jumps",
+          "name": "Jumps",
+          "nested_messages": []
+        }
+      ]
+    }
+  ],
+  "name": "eve/solarsystem/solarsystem.proto",
+  "package": "eve.solarsystem"
+}

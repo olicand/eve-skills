@@ -3,10 +3,11 @@ from __future__ import annotations
 
 import argparse
 import json
-import urllib.error
-import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+
+from auth_session import resolve_world_api_auth
+from world_api_client import DEFAULT_WORLD_API_BASE_URL, WorldApiClient, request_json
 
 
 def parse_args() -> argparse.Namespace:
@@ -15,7 +16,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--base-url",
-        default="https://world-api-utopia.uat.pub.evefrontier.com",
+        default=DEFAULT_WORLD_API_BASE_URL,
         help="World API base URL.",
     )
     parser.add_argument(
@@ -32,48 +33,22 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def parse_json(raw: bytes) -> object:
-    text = raw.decode("utf-8")
-    return json.loads(text)
-
-
-def request_json(url: str, *, method: str = "GET", headers: dict[str, str] | None = None, body: object | None = None) -> dict[str, object]:
-    encoded = None
-    request_headers = dict(headers or {})
-    if body is not None:
-        encoded = json.dumps(body).encode("utf-8")
-        request_headers.setdefault("Content-Type", "application/json")
-
-    req = urllib.request.Request(url, data=encoded, headers=request_headers, method=method)
-    try:
-        with urllib.request.urlopen(req, timeout=20) as response:
-            payload = parse_json(response.read())
-            return {"ok": True, "status": response.status, "body": payload}
-    except urllib.error.HTTPError as exc:
-        payload = None
-        raw = exc.read()
-        try:
-            payload = parse_json(raw)
-        except Exception:
-            payload = raw.decode("utf-8", errors="replace")
-        return {"ok": False, "status": exc.code, "body": payload}
-
-
 def write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n")
 
 
 def summarize_public_calls(base_url: str) -> dict[str, object]:
+    client = WorldApiClient(base_url=base_url)
     health = request_json(f"{base_url}/health")
     config = request_json(f"{base_url}/config")
-    solarsystems = request_json(f"{base_url}/v2/solarsystems?limit=2&offset=0")
-    ships = request_json(f"{base_url}/v2/ships?limit=1&offset=0")
+    solarsystems = client.list_solarsystems(limit=2, offset=0)
+    ships = client.list_ships(limit=1, offset=0)
 
     ship_summary: dict[str, object] = {"skipped": True}
-    if ships["ok"] and ships["body"].get("data"):
-        ship_id = ships["body"]["data"][0]["id"]
-        ship_detail = request_json(f"{base_url}/v2/ships/{ship_id}")
+    if ships.get("data"):
+        ship_id = ships["data"][0]["id"]
+        ship_detail = client.get_ship(ship_id)
         ship_pod = request_json(f"{base_url}/v2/ships/{ship_id}?format=pod")
 
         verify = {"skipped": True}
@@ -83,8 +58,8 @@ def summarize_public_calls(base_url: str) -> dict[str, object]:
         ship_summary = {
             "skipped": False,
             "ship_id": ship_id,
-            "ship_name": ship_detail["body"].get("name") if ship_detail["ok"] else None,
-            "detail": {"status": ship_detail["status"], "ok": ship_detail["ok"]},
+            "ship_name": ship_detail.get("name"),
+            "detail": {"ok": True},
             "pod": {
                 "status": ship_pod["status"],
                 "ok": ship_pod["ok"],
@@ -106,17 +81,17 @@ def summarize_public_calls(base_url: str) -> dict[str, object]:
             "body": config["body"],
         },
         "solarsystems": {
-            "status": solarsystems["status"],
-            "ok": solarsystems["ok"],
-            "count": len(solarsystems["body"].get("data", [])) if solarsystems["ok"] else None,
-            "metadata": solarsystems["body"].get("metadata") if solarsystems["ok"] else None,
-            "first_ids": [item["id"] for item in solarsystems["body"].get("data", [])] if solarsystems["ok"] else [],
+            "status": 200,
+            "ok": True,
+            "count": len(solarsystems.get("data", [])),
+            "metadata": solarsystems.get("metadata"),
+            "first_ids": [item["id"] for item in solarsystems.get("data", [])],
         },
         "ships": {
-            "status": ships["status"],
-            "ok": ships["ok"],
-            "count": len(ships["body"].get("data", [])) if ships["ok"] else None,
-            "metadata": ships["body"].get("metadata") if ships["ok"] else None,
+            "status": 200,
+            "ok": True,
+            "count": len(ships.get("data", [])),
+            "metadata": ships.get("metadata"),
         },
         "sample_ship_chain": ship_summary,
     }
@@ -143,7 +118,24 @@ def summarize_protected_calls(base_url: str, bearer_token: str) -> dict[str, obj
             "body": with_token["body"],
         }
     else:
-        summary["with_token"] = {"skipped": True, "reason": "no bearer token provided"}
+        derived_token, auth_report = resolve_world_api_auth(base_url=base_url, probe_world_api=True)
+        summary["auth_report"] = auth_report
+        if derived_token:
+            with_token = request_json(
+                f"{base_url}/v2/characters/me/jumps",
+                headers={"Authorization": f"Bearer {derived_token}"},
+            )
+            summary["with_token"] = {
+                "status": with_token["status"],
+                "ok": with_token["ok"],
+                "body": with_token["body"],
+                "source": "derived_local_session",
+            }
+        else:
+            summary["with_token"] = {
+                "skipped": True,
+                "reason": "no valid bearer token available from explicit input or local session probe",
+            }
 
     return summary
 

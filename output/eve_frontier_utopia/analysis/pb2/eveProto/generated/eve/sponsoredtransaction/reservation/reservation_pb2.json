@@ -1,0 +1,24 @@
+{
+  "dependencies": [],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "id",
+          "number": 1,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.sponsoredtransaction.reservation.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/sponsoredtransaction/reservation/reservation.proto",
+  "package": "eve.sponsoredtransaction.reservation"
+}

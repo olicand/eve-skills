@@ -5,7 +5,7 @@ description: Use when analyzing a local EVE Frontier SharedCache/utopia client, 
 
 # EVE Frontier Utopia Analysis
 
-Use this skill when the user wants to inspect a local EVE Frontier client cache, reverse engineer the `utopia` build, or turn the results into reusable notes/skills.
+Use this skill when the user wants to inspect a local EVE Frontier client cache, reverse engineer the `utopia` build, or turn the results into reusable notes and player-facing command skills.
 
 ## Rules
 
@@ -49,13 +49,43 @@ python3 /Users/ocrand/Documents/New\ project/eve_skills/eve-frontier-utopia-anal
 
 Pass `--bearer-token ...` when you want to verify a protected route such as `/v2/characters/me/jumps`.
 
-5. Use the generated files to organize:
+5. Build the solar-system search index used by player commands:
+
+```bash
+python3 /Users/ocrand/Documents/New\ project/eve_skills/eve-frontier-utopia-analysis/scripts/build_system_search_index.py
+```
+
+6. Use the player command router:
+
+```bash
+python3 /Users/ocrand/Documents/New\ project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py /system find "A 2560"
+python3 /Users/ocrand/Documents/New\ project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py /ship info 81609
+python3 /Users/ocrand/Documents/New\ project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py /jump-history
+python3 /Users/ocrand/Documents/New\ project/eve_skills/eve-frontier-utopia-analysis/scripts/player_skill_commands.py /move "A 2560" "A 2561"
+```
+
+`/system find` and `/ship info` use the public World API. `/jump-history` probes local login state and tests candidate bearer tokens against `/v2/characters/me/jumps`. `/move` resolves systems and returns the jump transaction contract plus current blockers; it does not pretend to submit a transaction when live gate identifiers are still missing.
+
+7. If you need to inspect the official auth exchange, use the local capture helpers:
+
+```bash
+"/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-analysis/scripts/launch_frontier_with_sslkeylog.sh"
+"/Users/ocrand/Documents/New project/eve_skills/eve-frontier-utopia-analysis/scripts/capture_proxy_loopback.sh"
+```
+
+The first one is for decryptable Electron/WebView TLS in Wireshark. The second one captures traffic sent to the local ClashX proxy on `lo0`.
+
+8. Use the generated files to organize:
 - static world objects from `staticdata/mapObjects.db`
 - interactable place families inferred from `frontier/...` client modules
 - UI entry points under `eve/client/script/ui/...`
 - proto/API schemas from `eveProto/generated/eve/...`
 - combined reports in `reports/interactable_inventory.md` and `metadata/interactable_inventory.json`
 - live World API smoke test results in `reports/world_api_smoke_test.json`
+- player command contracts in `metadata/player_skill_contracts.json`
+- system search data in `metadata/system_search_index.json`
+- command usage report in `reports/player_commands.md`
+- auth and capture notes in `reports/move_auth_flow.md`
 
 ## Data Sources To Prioritize
 
@@ -98,3 +128,5 @@ Pass `--bearer-token ...` when you want to verify a protected route such as `/v2
 - Do not claim perfect completeness from static analysis alone. Call out where a category is inferred from client modules rather than confirmed from a live server payload.
 - For pb2 files, prefer schema export over prose. The generated JSON is usually more useful than free-form summary.
 - For non-pb2 gameplay modules, use `marshal + dis` analysis to collect imports, class names, method names, and disassembly. Full source decompilation is optional and not required for first-pass interface organization.
+- For authenticated player commands, prefer deriving tokens from an already logged-in local client session. Do not ask the user to hand over raw credentials when a local session or wallet flow can be reused instead.
+- For `/move`, keep the boundary explicit: the public World API helps with system resolution, but actual jump submission depends on the gate transaction contracts and a live signed transaction flow.

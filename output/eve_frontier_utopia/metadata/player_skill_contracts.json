@@ -1,0 +1,58 @@
+{
+  "generated_at_utc": "2026-03-20T08:38:05.697124+00:00",
+  "commands": [
+    {
+      "name": "/system find",
+      "parameters": [
+        "name"
+      ],
+      "public": true,
+      "auth_required": false,
+      "dependencies": [
+        "/v2/solarsystems",
+        "system_search_index.json"
+      ],
+      "output": "Matched solar systems with static gate hints."
+    },
+    {
+      "name": "/ship info",
+      "parameters": [
+        "id"
+      ],
+      "public": true,
+      "auth_required": false,
+      "dependencies": [
+        "/v2/ships/{id}"
+      ],
+      "output": "Ship detail JSON from the public World API."
+    },
+    {
+      "name": "/jump-history",
+      "parameters": [],
+      "public": false,
+      "auth_required": true,
+      "dependencies": [
+        "/v2/characters/me/jumps",
+        "World API bearer token"
+      ],
+      "output": "Current character jump history."
+    },
+    {
+      "name": "/move",
+      "parameters": [
+        "from",
+        "to"
+      ],
+      "public": false,
+      "auth_required": true,
+      "dependencies": [
+        "system_search_index.json",
+        "eve.assembly.gate.api.PrepareJumpTransactionRequest",
+        "live source_gate/destination_gate identifiers",
+        "character identifier",
+        "wallet or sponsored transaction signing flow"
+      ],
+      "output": "Prepared jump transaction plan or a blocked-by report."
+    }
+  ]
+}
