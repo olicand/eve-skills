@@ -1,0 +1,22 @@
+{
+  "depletionStdDevMax": 0.3,
+  "depletionStdDevStepSize": 0.005,
+  "depletion_template_count": 56,
+  "depletion_template_item_type": "str",
+  "found": true,
+  "keys": [
+    "depletionStdDevMax",
+    "depletionTemplates",
+    "depletionStdDevStepSize",
+    "depletionStdDevMin"
+  ],
+  "pickle_type": "dict",
+  "res_rel": "56/5670748e14796ef7_2e2bb515e1e67607785dd50e32eb9769",
+  "size": 202125,
+  "value_types": {
+    "depletionStdDevMax": "float",
+    "depletionStdDevMin": "float",
+    "depletionStdDevStepSize": "float",
+    "depletionTemplates": "list"
+  }
+}

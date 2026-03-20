@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "eve/deadspace/archetype.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.deadspace.datasite.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "archetype",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.deadspace.archetype.Identifier"
+        }
+      ],
+      "full_name": "eve.deadspace.datasite.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/deadspace/datasite/data_site.proto",
+  "package": "eve.deadspace.datasite"
+}

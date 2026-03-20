@@ -1,0 +1,80 @@
+{
+  "dependencies": [],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint32",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.schematic.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "cycle_time_sec",
+          "number": 1,
+          "type": "uint32",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "schematic_name",
+          "number": 2,
+          "type": "string",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.schematic.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "schematic",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.schematic.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.schematic.GetRequest",
+      "name": "GetRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "schematic",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.schematic.Attributes"
+        }
+      ],
+      "full_name": "eve.planetinteraction.schematic.GetResponse",
+      "name": "GetResponse",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/planetinteraction/schematic/schematic.proto",
+  "package": "eve.planetinteraction.schematic"
+}

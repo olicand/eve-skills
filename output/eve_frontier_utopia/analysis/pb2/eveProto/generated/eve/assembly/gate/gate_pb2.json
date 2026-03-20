@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "eve/assembly/assembly.proto",
+    "eve/character/character.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.assembly.gate.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "owner",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "type_id",
+          "number": 2,
+          "type": "uint64",
+          "type_name": null
+        },
+        {
+          "enum_name": "eve.assembly.Status",
+          "label": "optional",
+          "name": "status",
+          "number": 3,
+          "type": "enum",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "energy_source",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.assembly.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "linked_destination_gate",
+          "number": 5,
+          "type": "message",
+          "type_name": "eve.assembly.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_location",
+          "number": 6,
+          "type": "message",
+          "type_name": "eve.assembly.Location"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_location",
+          "number": 7,
+          "type": "message",
+          "type_name": "eve.assembly.Location"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "metadata",
+          "number": 8,
+          "type": "message",
+          "type_name": "eve.assembly.Metadata"
+        }
+      ],
+      "full_name": "eve.assembly.gate.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/assembly/gate/gate.proto",
+  "package": "eve.assembly.gate"
+}

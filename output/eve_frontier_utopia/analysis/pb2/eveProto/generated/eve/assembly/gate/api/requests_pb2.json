@@ -1,0 +1,346 @@
+{
+  "dependencies": [
+    "eve/assembly/gate/gate.proto",
+    "eve/character/character.proto",
+    "eve/sponsoredtransaction/preparedtransaction/preparedtransaction.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Attributes"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.CreateRequest",
+      "name": "CreateRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [],
+      "full_name": "eve.assembly.gate.api.CreateResponse",
+      "name": "CreateResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.GetRequest",
+      "name": "GetRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "attributes",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Attributes"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.GetResponse",
+      "name": "GetResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "assembly",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareOnlineTransactionRequest",
+      "name": "PrepareOnlineTransactionRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction_attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Attributes"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareOnlineTransactionResponse",
+      "name": "PrepareOnlineTransactionResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "assembly",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareOfflineTransactionRequest",
+      "name": "PrepareOfflineTransactionRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction_attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Attributes"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareOfflineTransactionResponse",
+      "name": "PrepareOfflineTransactionResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_gate",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "owner",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareLinkGateTransactionRequest",
+      "name": "PrepareLinkGateTransactionRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction_attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Attributes"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareLinkGateTransactionResponse",
+      "name": "PrepareLinkGateTransactionResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_gate",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "owner",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareUnlinkGateTransactionRequest",
+      "name": "PrepareUnlinkGateTransactionRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction_attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Attributes"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareUnlinkGateTransactionResponse",
+      "name": "PrepareUnlinkGateTransactionResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_gate",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareJumpTransactionRequest",
+      "name": "PrepareJumpTransactionRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "prepared_transaction_attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.sponsoredtransaction.preparedtransaction.Attributes"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.PrepareJumpTransactionResponse",
+      "name": "PrepareJumpTransactionResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.DeleteRequest",
+      "name": "DeleteRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [],
+      "full_name": "eve.assembly.gate.api.DeleteResponse",
+      "name": "DeleteResponse",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/assembly/gate/api/requests.proto",
+  "package": "eve.assembly.gate.api"
+}

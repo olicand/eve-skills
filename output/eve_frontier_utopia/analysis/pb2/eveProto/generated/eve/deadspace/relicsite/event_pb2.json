@@ -1,0 +1,35 @@
+{
+  "dependencies": [
+    "eve/character/character.proto",
+    "eve/deadspace/relicsite/relic_site.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "site_attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.deadspace.relicsite.Attributes"
+        }
+      ],
+      "full_name": "eve.deadspace.relicsite.event.CharacterCompleted",
+      "name": "CharacterCompleted",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/deadspace/relicsite/event.proto",
+  "package": "eve.deadspace.relicsite.event"
+}

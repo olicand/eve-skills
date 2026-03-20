@@ -1,0 +1,124 @@
+{
+  "dependencies": [
+    "eve/character/character.proto",
+    "eve/planet/planet.proto",
+    "google/protobuf/timestamp.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint32",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.factory.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "planet",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planet.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.factory.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "factory",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.factory.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "cycle_completions",
+          "number": 2,
+          "type": "message",
+          "type_name": "google.protobuf.Timestamp"
+        }
+      ],
+      "full_name": "eve.planetinteraction.factory.Started",
+      "name": "Started",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "factory",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.factory.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.factory.Offlined",
+      "name": "Offlined",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "factory",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.factory.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.factory.GetRequest",
+      "name": "GetRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "factory",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.factory.Attributes"
+        }
+      ],
+      "full_name": "eve.planetinteraction.factory.GetResponse",
+      "name": "GetResponse",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/planetinteraction/factory/factory.proto",
+  "package": "eve.planetinteraction.factory"
+}

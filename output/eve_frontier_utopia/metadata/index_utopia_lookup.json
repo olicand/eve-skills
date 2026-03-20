@@ -1,0 +1,3178 @@
+{
+  "app:/EVE.app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 357,
+    "hash": "d0ad67b7bd645688dfecf08266f1cd9b",
+    "path": "app:/EVE.app/Contents/Info.plist",
+    "res_rel": "a3/a374381be814f746_d0ad67b7bd645688dfecf08266f1cd9b",
+    "size": 683
+  },
+  "app:/EVE.app/Contents/MacOS/EVE": {
+    "build": "33252",
+    "compressed_size": 14895,
+    "hash": "47b22b57372cb58942f31a3161111266",
+    "path": "app:/EVE.app/Contents/MacOS/EVE",
+    "res_rel": "23/2376c8082e3c8d34_47b22b57372cb58942f31a3161111266",
+    "size": 151536
+  },
+  "app:/EVE.app/Contents/Resources/EVE.icns": {
+    "build": "33252",
+    "compressed_size": 492855,
+    "hash": "9d17a7c1a21c8515aa09c54f9b9c0cb3",
+    "path": "app:/EVE.app/Contents/Resources/EVE.icns",
+    "res_rel": "f0/f0a624a80a74af3f_9d17a7c1a21c8515aa09c54f9b9c0cb3",
+    "size": 492657
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/CcpCore.so": {
+    "build": "33188",
+    "compressed_size": 120467,
+    "hash": "8b60030359dda25e175e5885ccb16afc",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/CcpCore.so",
+    "res_rel": "40/40784a6f5310e8fc_8b60030359dda25e175e5885ccb16afc",
+    "size": 361984
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_audio2.so": {
+    "build": "33188",
+    "compressed_size": 2658357,
+    "hash": "a59b5f9afa41855d24d433b1da3435ce",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_audio2.so",
+    "res_rel": "8e/8e32e2e9d5606330_a59b5f9afa41855d24d433b1da3435ce",
+    "size": 5761616
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_blake2.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 42505,
+    "hash": "54669ed18f0e6300e3b2c18caa395621",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_blake2.cpython-312-darwin.so",
+    "res_rel": "2a/2a4daa8bff47c789_54669ed18f0e6300e3b2c18caa395621",
+    "size": 192352
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_carbonsocket.so": {
+    "build": "33188",
+    "compressed_size": 138100,
+    "hash": "755eab0e335d44be52344beff6ecef46",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_carbonsocket.so",
+    "res_rel": "8e/8e4997f01f68bc3c_755eab0e335d44be52344beff6ecef46",
+    "size": 398384
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_carbonssl.so": {
+    "build": "33188",
+    "compressed_size": 2589958,
+    "hash": "ed96f4183c4017b2ddf770e34869c701",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_carbonssl.so",
+    "res_rel": "d4/d4378c15e0cd6595_ed96f4183c4017b2ddf770e34869c701",
+    "size": 5537920
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_contextvars.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 14018,
+    "hash": "a334821ab9c3e9b225dd9b21242cf295",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_contextvars.cpython-312-darwin.so",
+    "res_rel": "b9/b9b9813915fcf4dd_a334821ab9c3e9b225dd9b21242cf295",
+    "size": 151504
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_csv.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 39055,
+    "hash": "42fe5feae170d111433df954b5362e3d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_csv.cpython-312-darwin.so",
+    "res_rel": "1a/1add3bc9222696da_42fe5feae170d111433df954b5362e3d",
+    "size": 194592
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_ctypes.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 117209,
+    "hash": "0e8a60e303f4808088e5e13c0e69f3a5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_ctypes.cpython-312-darwin.so",
+    "res_rel": "2b/2be364c63f79a1dc_0e8a60e303f4808088e5e13c0e69f3a5",
+    "size": 381616
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_destiny.so": {
+    "build": "33188",
+    "compressed_size": 737360,
+    "hash": "7961321d288705258c6fa4f3edadb64f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_destiny.so",
+    "res_rel": "dd/ddecdd6a2dbd3b92_7961321d288705258c6fa4f3edadb64f",
+    "size": 1821280
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_evelocalization.so": {
+    "build": "33188",
+    "compressed_size": 106129,
+    "hash": "d769ac6b5b8f51bed04bfc6932737f87",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_evelocalization.so",
+    "res_rel": "9b/9b9733706aef0c83_d769ac6b5b8f51bed04bfc6932737f87",
+    "size": 354528
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_geo2.so": {
+    "build": "33188",
+    "compressed_size": 96964,
+    "hash": "adceecd290d9ad5856dd2092db8f48ee",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_geo2.so",
+    "res_rel": "c8/c82eba252fcaed35_adceecd290d9ad5856dd2092db8f48ee",
+    "size": 400320
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_greenlet.so": {
+    "build": "33188",
+    "compressed_size": 72986,
+    "hash": "0c9552960ffab7d07d93824ce6a75e01",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_greenlet.so",
+    "res_rel": "df/df875061f1d8b10c_0c9552960ffab7d07d93824ce6a75e01",
+    "size": 258288
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_ime.so": {
+    "build": "33188",
+    "compressed_size": 31028,
+    "hash": "d1258bac954a2dfeb2a7f7a8a78b0bf7",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_ime.so",
+    "res_rel": "e2/e24a812dcba1273d_d1258bac954a2dfeb2a7f7a8a78b0bf7",
+    "size": 173056
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_lsprof.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 29192,
+    "hash": "7b8c0f1da669a4efa712600c39f72263",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_lsprof.cpython-312-darwin.so",
+    "res_rel": "81/813576108406f698_7b8c0f1da669a4efa712600c39f72263",
+    "size": 157776
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_md5.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 25360,
+    "hash": "2ca21b009e42ecd8d62bf1a54110883e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_md5.cpython-312-darwin.so",
+    "res_rel": "24/2477d42660e87486_2ca21b009e42ecd8d62bf1a54110883e",
+    "size": 156464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_posixsubprocess.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 25939,
+    "hash": "34d8ebef7f8ab947ec5f79409da28c0c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_posixsubprocess.cpython-312-darwin.so",
+    "res_rel": "24/24691b617e228d9e_34d8ebef7f8ab947ec5f79409da28c0c",
+    "size": 155664
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_pyevepathfinder.so": {
+    "build": "33188",
+    "compressed_size": 275398,
+    "hash": "259cd5d312ed23e602f28d9c064633bd",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_pyevepathfinder.so",
+    "res_rel": "91/916658b85de050d4_259cd5d312ed23e602f28d9c064633bd",
+    "size": 744096
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_pyfsd.so": {
+    "build": "33188",
+    "compressed_size": 108034,
+    "hash": "9233439bd76a2294bea7ea06072dbb14",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_pyfsd.so",
+    "res_rel": "33/33a0aea193d45800_9233439bd76a2294bea7ea06072dbb14",
+    "size": 351680
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_random.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 23733,
+    "hash": "86878a92a3958a64fe18211e23e1bba2",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_random.cpython-312-darwin.so",
+    "res_rel": "f2/f226eec86967a3d7_86878a92a3958a64fe18211e23e1bba2",
+    "size": 156128
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_scheduler.so": {
+    "build": "33188",
+    "compressed_size": 71220,
+    "hash": "0cb492cd4f2002ffde80dc8a637abb9e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_scheduler.so",
+    "res_rel": "c8/c85541db3931f26d_0cb492cd4f2002ffde80dc8a637abb9e",
+    "size": 273184
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_scproxy.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 17886,
+    "hash": "9bfabbea6d117d24ad91663a59301dd4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_scproxy.cpython-312-darwin.so",
+    "res_rel": "37/376882e36e8df800_9bfabbea6d117d24ad91663a59301dd4",
+    "size": 154272
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_sha1.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 23383,
+    "hash": "51ea9e4e357b5785ea8c9ede81fd09a0",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_sha1.cpython-312-darwin.so",
+    "res_rel": "7a/7a9079db9d26e689_51ea9e4e357b5785ea8c9ede81fd09a0",
+    "size": 156560
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_sha2.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 57237,
+    "hash": "c8cb1dfa577887c78053914eef670334",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_sha2.cpython-312-darwin.so",
+    "res_rel": "6e/6e0b186e5537227e_c8cb1dfa577887c78053914eef670334",
+    "size": 209648
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_sha3.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 34382,
+    "hash": "ab1761e311eecd5f265ba25396294d27",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_sha3.cpython-312-darwin.so",
+    "res_rel": "09/09147c68dab65bff_ab1761e311eecd5f265ba25396294d27",
+    "size": 175968
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_spacemouse.so": {
+    "build": "33188",
+    "compressed_size": 18991,
+    "hash": "28b56954400269c1c94d68f5ada242cf",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_spacemouse.so",
+    "res_rel": "47/47336b1950aa7b65_28b56954400269c1c94d68f5ada242cf",
+    "size": 152048
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_sqlite3.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 1124112,
+    "hash": "5da37dbdda61c9eb3f0e7759b763bb95",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_sqlite3.cpython-312-darwin.so",
+    "res_rel": "9b/9b3405c12b5a6021_5da37dbdda61c9eb3f0e7759b763bb95",
+    "size": 3048320
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_struct.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 48413,
+    "hash": "cb8998c59518df4881bf80f1aacbe9ac",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_struct.cpython-312-darwin.so",
+    "res_rel": "3e/3e2d8b48582ff715_cb8998c59518df4881bf80f1aacbe9ac",
+    "size": 219760
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_trinity_metal.so": {
+    "build": "33188",
+    "compressed_size": 13833113,
+    "hash": "2a7b072057806b2da1fffae2f7e60e81",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_trinity_metal.so",
+    "res_rel": "00/005b329a203b57a3_2a7b072057806b2da1fffae2f7e60e81",
+    "size": 39504208
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_videoplayer.so": {
+    "build": "33188",
+    "compressed_size": 1310172,
+    "hash": "51bdf8a9231906dc2ca13a0220b79ad5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_videoplayer.so",
+    "res_rel": "30/3002b74a2515639e_51bdf8a9231906dc2ca13a0220b79ad5",
+    "size": 2987312
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_watchdog_fsevents.so": {
+    "build": "33252",
+    "compressed_size": 27593,
+    "hash": "58f9802658d4300c531d09f4191978e7",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_watchdog_fsevents.so",
+    "res_rel": "8a/8a636ca948239f86_58f9802658d4300c531d09f4191978e7",
+    "size": 173936
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_webbrowser.so": {
+    "build": "33188",
+    "compressed_size": 230652,
+    "hash": "b2bf5c04d0560f18d83100492371d433",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_webbrowser.so",
+    "res_rel": "cc/ccefeb29e0770636_b2bf5c04d0560f18d83100492371d433",
+    "size": 871168
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/_yaml.so": {
+    "build": "33252",
+    "compressed_size": 236455,
+    "hash": "76c8d8092eba0b5bb72aa2b1ebd6fa11",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/_yaml.so",
+    "res_rel": "a7/a7cb013522f717fb_76c8d8092eba0b5bb72aa2b1ebd6fa11",
+    "size": 673008
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/accountingEntryTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 34055,
+    "hash": "bb5b06ba6efa656ff774bb3acb32d55f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/accountingEntryTypesLoader.so",
+    "res_rel": "0f/0fcf4a680a9bd13c_bb5b06ba6efa656ff774bb3acb32d55f",
+    "size": 176448
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/accountingKeysLoader.so": {
+    "build": "33188",
+    "compressed_size": 33895,
+    "hash": "f6128d211aae5a4c3b2706a1dd33e692",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/accountingKeysLoader.so",
+    "res_rel": "60/60f2a0b0e4a9a96d_f6128d211aae5a4c3b2706a1dd33e692",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/achievementEventsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34879,
+    "hash": "b5c688023f11fe158775dd7785a0d091",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/achievementEventsLoader.so",
+    "res_rel": "52/52188b0eefa18a74_b5c688023f11fe158775dd7785a0d091",
+    "size": 176592
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/activityNodesLoader.so": {
+    "build": "33188",
+    "compressed_size": 37602,
+    "hash": "ad46426697d131d18f236c5e57fd6a07",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/activityNodesLoader.so",
+    "res_rel": "4e/4e419a350dfba9e8_ad46426697d131d18f236c5e57fd6a07",
+    "size": 176720
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/agencyHelpVideoGroupsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34861,
+    "hash": "84b979c104d49cf62792ed0b64107c27",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/agencyHelpVideoGroupsLoader.so",
+    "res_rel": "74/74193c62d11c5c41_84b979c104d49cf62792ed0b64107c27",
+    "size": 176528
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/agencyHelpVideosLoader.so": {
+    "build": "33188",
+    "compressed_size": 33708,
+    "hash": "2f93be4a698d713891c876bf5978ac1e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/agencyHelpVideosLoader.so",
+    "res_rel": "8d/8d7610b2a1c40c94_2f93be4a698d713891c876bf5978ac1e",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/agentTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 32519,
+    "hash": "cb7fd7831aa8ebbee2b4be9ef62a9d55",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/agentTypesLoader.so",
+    "res_rel": "57/57550d47ddac02be_cb7fd7831aa8ebbee2b4be9ef62a9d55",
+    "size": 176320
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/agentsInSpaceLoader.so": {
+    "build": "33188",
+    "compressed_size": 33855,
+    "hash": "6cb553f4fb98c1976fcf8a5f8bb09fe5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/agentsInSpaceLoader.so",
+    "res_rel": "20/208aef3c0c5cdfd7_6cb553f4fb98c1976fcf8a5f8bb09fe5",
+    "size": 176336
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/ancestriesLoader.so": {
+    "build": "33188",
+    "compressed_size": 34333,
+    "hash": "277efea6414ed0ad054de1fcd2557acd",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/ancestriesLoader.so",
+    "res_rel": "26/26dc4ae795899595_277efea6414ed0ad054de1fcd2557acd",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/array.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 57517,
+    "hash": "b8309c538c9bdecbb805571fa5943a1b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/array.cpython-312-darwin.so",
+    "res_rel": "8b/8b954e6389490396_b8309c538c9bdecbb805571fa5943a1b",
+    "size": 255856
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/atomsLoader.so": {
+    "build": "33188",
+    "compressed_size": 41916,
+    "hash": "e11dd70c1fc6f156b12ddb7b862d449e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/atomsLoader.so",
+    "res_rel": "ca/ca0a3d48592e094c_e11dd70c1fc6f156b12ddb7b862d449e",
+    "size": 193488
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/audioMetadataLoader.so": {
+    "build": "33188",
+    "compressed_size": 47722,
+    "hash": "64916852ac69f603232d6c6e747b5129",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/audioMetadataLoader.so",
+    "res_rel": "79/7933132f16d882a9_64916852ac69f603232d6c6e747b5129",
+    "size": 242912
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/billTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33806,
+    "hash": "f38f7dbf4e86e5601c0fca3d78b29c4d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/billTypesLoader.so",
+    "res_rel": "77/771b2d2836eced70_f38f7dbf4e86e5601c0fca3d78b29c4d",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/billboardsLoader.so": {
+    "build": "33188",
+    "compressed_size": 45525,
+    "hash": "c6546f73c0823091d9a4f7d94bf8aeef",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/billboardsLoader.so",
+    "res_rel": "95/955cac5a39cf79c8_c6546f73c0823091d9a4f7d94bf8aeef",
+    "size": 226464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/binascii.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 86011,
+    "hash": "667707b31cdd37d7828c3ca2f6155175",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/binascii.cpython-312-darwin.so",
+    "res_rel": "17/17e555b07f72a5c7_667707b31cdd37d7828c3ca2f6155175",
+    "size": 259824
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/bloodlinesLoader.so": {
+    "build": "33188",
+    "compressed_size": 34232,
+    "hash": "2269daa3200833061bd4f8aae5bc794c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/bloodlinesLoader.so",
+    "res_rel": "d9/d966214636984257_2269daa3200833061bd4f8aae5bc794c",
+    "size": 176304
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/blue.so": {
+    "build": "33188",
+    "compressed_size": 5641170,
+    "hash": "439684687e5acd5943dd0c4a0a60df0b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/blue.so",
+    "res_rel": "43/433a7ebc6df3b90f_439684687e5acd5943dd0c4a0a60df0b",
+    "size": 13337440
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/bracketFramesLoader.so": {
+    "build": "33188",
+    "compressed_size": 36324,
+    "hash": "7a6d695c46dc49a1effc4d079461ce1f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/bracketFramesLoader.so",
+    "res_rel": "48/4817ff68cc714120_7a6d695c46dc49a1effc4d079461ce1f",
+    "size": 192912
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/bracketIconsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36353,
+    "hash": "bf9e954bd3d11651f04769c2844e4cc5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/bracketIconsLoader.so",
+    "res_rel": "56/56624a46154326ee_bf9e954bd3d11651f04769c2844e4cc5",
+    "size": 192880
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/bracketsByCategoryLoader.so": {
+    "build": "33188",
+    "compressed_size": 37465,
+    "hash": "4662f76acbdd7c3324ba43275402ae1b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/bracketsByCategoryLoader.so",
+    "res_rel": "ff/ff69ad85499d4c90_4662f76acbdd7c3324ba43275402ae1b",
+    "size": 193008
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/bracketsByGroupLoader.so": {
+    "build": "33188",
+    "compressed_size": 37461,
+    "hash": "f532ab695cf488367a03a289a7fab120",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/bracketsByGroupLoader.so",
+    "res_rel": "c3/c30830c8ade64ab1_f532ab695cf488367a03a289a7fab120",
+    "size": 193008
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/bracketsByTypeLoader.so": {
+    "build": "33188",
+    "compressed_size": 37451,
+    "hash": "1150278d3dfa854b694cacf9df52677c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/bracketsByTypeLoader.so",
+    "res_rel": "cc/cc2547be04153564_1150278d3dfa854b694cacf9df52677c",
+    "size": 193008
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/bundle.demo": {
+    "build": "33188",
+    "compressed_size": 5499688,
+    "hash": "b34f726dd300ae983533c343c456ef79",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/bundle.demo",
+    "res_rel": "f5/f5de52a53fa3e9bc_b34f726dd300ae983533c343c456ef79",
+    "size": 14422712
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cacert.pem": {
+    "build": "33188",
+    "compressed_size": 152818,
+    "hash": "edd513e1d62ca2b059821b8380c19d19",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cacert.pem",
+    "res_rel": "91/91671d9b22d7144b_edd513e1d62ca2b059821b8380c19d19",
+    "size": 284099
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/carbonselect.so": {
+    "build": "33188",
+    "compressed_size": 35042,
+    "hash": "653e157529ed0c793e79b6d124b82d04",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/carbonselect.so",
+    "res_rel": "3f/3f7715ec6a104e76_653e157529ed0c793e79b6d124b82d04",
+    "size": 172704
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/careerPathsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33764,
+    "hash": "4dd0984ca0b78c135e2c832c87a99a79",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/careerPathsLoader.so",
+    "res_rel": "c9/c92d5e1b3fcebdb8_4dd0984ca0b78c135e2c832c87a99a79",
+    "size": 176416
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/categoriesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33979,
+    "hash": "a5e424e5fd525faa7f3c07fbeb7e3048",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/categoriesLoader.so",
+    "res_rel": "36/364105273efa4748_a5e424e5fd525faa7f3c07fbeb7e3048",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Chromium Embedded Framework": {
+    "build": "33188",
+    "compressed_size": 75472161,
+    "hash": "035a1b5c38fdd2562cd6080d230d0962",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Chromium Embedded Framework",
+    "res_rel": "0b/0bffcb32fdd22579_035a1b5c38fdd2562cd6080d230d0962",
+    "size": 176072944
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libEGL.dylib": {
+    "build": "33188",
+    "compressed_size": 83152,
+    "hash": "2f12c64bb8e62c80608653bcd5d38876",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libEGL.dylib",
+    "res_rel": "71/716eed6c29a368f6_2f12c64bb8e62c80608653bcd5d38876",
+    "size": 245312
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libGLESv2.dylib": {
+    "build": "33188",
+    "compressed_size": 2715171,
+    "hash": "1fcabba0cdbbf41556394d0741b3c6e3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libGLESv2.dylib",
+    "res_rel": "fb/fb1f5ba951ee412b_1fcabba0cdbbf41556394d0741b3c6e3",
+    "size": 7020816
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libvk_swiftshader.dylib": {
+    "build": "33188",
+    "compressed_size": 6378218,
+    "hash": "e9270f0156bab5be25039b098bfaf3c8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libvk_swiftshader.dylib",
+    "res_rel": "26/26584d9ee1431bd8_e9270f0156bab5be25039b098bfaf3c8",
+    "size": 16245696
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/vk_swiftshader_icd.json": {
+    "build": "33188",
+    "compressed_size": 158,
+    "hash": "9777f008ed3e4df7a9a9abe98a6d63b5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/vk_swiftshader_icd.json",
+    "res_rel": "78/78361b1843921e66_9777f008ed3e4df7a9a9abe98a6d63b5",
+    "size": 110
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/Info.plist": {
+    "build": "33188",
+    "compressed_size": 533,
+    "hash": "4582a8aac71021c8f17810e04c4cb999",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/Info.plist",
+    "res_rel": "f1/f1ac66671c726ef1_4582a8aac71021c8f17810e04c4cb999",
+    "size": 1062
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/af.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 165708,
+    "hash": "e3adef930fdaff530ef88591a5b0da71",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/af.lproj/locale.pak",
+    "res_rel": "a0/a07ef0a782282eac_e3adef930fdaff530ef88591a5b0da71",
+    "size": 499950
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/am.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 200339,
+    "hash": "a2ce5b0a74794d3394d0126ed11e1696",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/am.lproj/locale.pak",
+    "res_rel": "2e/2e24839454f0ced1_a2ce5b0a74794d3394d0126ed11e1696",
+    "size": 809970
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ar.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 204431,
+    "hash": "3f216e9a70595d2ecf4c5959dbfc7ad3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ar.lproj/locale.pak",
+    "res_rel": "f6/f65ac670b42a9da0_3f216e9a70595d2ecf4c5959dbfc7ad3",
+    "size": 892490
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/bg.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 203291,
+    "hash": "2129fbcf5a1e49ffe2f34358bf81dae0",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/bg.lproj/locale.pak",
+    "res_rel": "c9/c9405eaf3f2b4594_2129fbcf5a1e49ffe2f34358bf81dae0",
+    "size": 923590
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/bn.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 211142,
+    "hash": "0d94c2c0644b6d7898af94cefd0b4e0d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/bn.lproj/locale.pak",
+    "res_rel": "37/3745c7136f20669b_0d94c2c0644b6d7898af94cefd0b4e0d",
+    "size": 1186461
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ca.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 173674,
+    "hash": "c1744dbbb8d0236d346aef87694e2262",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ca.lproj/locale.pak",
+    "res_rel": "e6/e60d92edb934bbe3_c1744dbbb8d0236d346aef87694e2262",
+    "size": 570439
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/chrome_100_percent.pak": {
+    "build": "33188",
+    "compressed_size": 559532,
+    "hash": "f0b0b3475c48221ecf80532c0bc1fb82",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/chrome_100_percent.pak",
+    "res_rel": "30/30bbb93d5b9f3fe9_f0b0b3475c48221ecf80532c0bc1fb82",
+    "size": 582613
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/chrome_200_percent.pak": {
+    "build": "33188",
+    "compressed_size": 1037577,
+    "hash": "860092ca76b1a8cf8ebe33e5658dcd7b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/chrome_200_percent.pak",
+    "res_rel": "47/4774ae2aa5eca36a_860092ca76b1a8cf8ebe33e5658dcd7b",
+    "size": 1076552
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/cs.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 185581,
+    "hash": "0aa5a82137f238e82c069aaa632de51d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/cs.lproj/locale.pak",
+    "res_rel": "7b/7b433a254fc7c801_0aa5a82137f238e82c069aaa632de51d",
+    "size": 580315
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/da.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 167790,
+    "hash": "979d6de8669ce44c1bc0711d4105873c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/da.lproj/locale.pak",
+    "res_rel": "e8/e84b6819fea3a164_979d6de8669ce44c1bc0711d4105873c",
+    "size": 527398
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/de.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 178502,
+    "hash": "f17f4c966bda0164a710c530dfa92563",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/de.lproj/locale.pak",
+    "res_rel": "79/7977f48c52630548_f17f4c966bda0164a710c530dfa92563",
+    "size": 567714
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/el.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 218070,
+    "hash": "a579452ac73a99e5a9a35c307b3099c4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/el.lproj/locale.pak",
+    "res_rel": "29/29bb80a1483e5cbe_a579452ac73a99e5a9a35c307b3099c4",
+    "size": 1010768
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/en.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 155773,
+    "hash": "662d47be118b2419a33d65a62f658ea3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/en.lproj/locale.pak",
+    "res_rel": "4d/4d64b57e3ea3d800_662d47be118b2419a33d65a62f658ea3",
+    "size": 462674
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/en_GB.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 155226,
+    "hash": "fc899a27ff2ce080a7b69558d93474de",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/en_GB.lproj/locale.pak",
+    "res_rel": "69/69195ce1c71db0ec_fc899a27ff2ce080a7b69558d93474de",
+    "size": 457657
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/es.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 171491,
+    "hash": "d80906cbec45f6dfd006df99a1d5f3ac",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/es.lproj/locale.pak",
+    "res_rel": "b8/b84e7b8e4ce166a3_d80906cbec45f6dfd006df99a1d5f3ac",
+    "size": 555890
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/es_419.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 172244,
+    "hash": "8c0672b7059538d26ca3b89b6d5af550",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/es_419.lproj/locale.pak",
+    "res_rel": "a8/a8197c3179e7f362_8c0672b7059538d26ca3b89b6d5af550",
+    "size": 557398
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/et.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 170188,
+    "hash": "70efd2ebf46c0e7a2bf0d5a2eae14e86",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/et.lproj/locale.pak",
+    "res_rel": "e3/e310d4273c38e486_70efd2ebf46c0e7a2bf0d5a2eae14e86",
+    "size": 506910
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fa.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 191749,
+    "hash": "e848066f45245ab15d7c45cdaee80941",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fa.lproj/locale.pak",
+    "res_rel": "c4/c4149932c6a454ba_e848066f45245ab15d7c45cdaee80941",
+    "size": 820354
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fi.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 170156,
+    "hash": "1306ba3befdc491b751f58eed7508aca",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fi.lproj/locale.pak",
+    "res_rel": "b1/b118a3c803b86812_1306ba3befdc491b751f58eed7508aca",
+    "size": 514812
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fil.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 173624,
+    "hash": "684be6cd10062b8c4407466ecf9d35da",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fil.lproj/locale.pak",
+    "res_rel": "74/74843a7e53f50dee_684be6cd10062b8c4407466ecf9d35da",
+    "size": 582265
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 179664,
+    "hash": "91c9124170073752842e8131a03d6d17",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fr.lproj/locale.pak",
+    "res_rel": "54/54559f8798c67a4b_91c9124170073752842e8131a03d6d17",
+    "size": 602675
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/gpu_shader_cache.bin": {
+    "build": "33188",
+    "compressed_size": 288237,
+    "hash": "5f4df00ed668a9dc1a4f8217a194dd39",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/gpu_shader_cache.bin",
+    "res_rel": "75/751b862f317df907_5f4df00ed668a9dc1a4f8217a194dd39",
+    "size": 968826
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/gu.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 210434,
+    "hash": "a627f1b21ff90d1b23eb6d948711ae0c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/gu.lproj/locale.pak",
+    "res_rel": "3e/3e92e6ff5e3137c3_a627f1b21ff90d1b23eb6d948711ae0c",
+    "size": 1169378
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/he.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 186012,
+    "hash": "cf54b21e8cd7d1ee8ac3ef29c2f02433",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/he.lproj/locale.pak",
+    "res_rel": "0b/0b9c6174e38da294_cf54b21e8cd7d1ee8ac3ef29c2f02433",
+    "size": 724147
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hi.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 218749,
+    "hash": "4a0bcdb1eeefa20477a2ea9f21eef838",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hi.lproj/locale.pak",
+    "res_rel": "f5/f5adfc56919d39a0_4a0bcdb1eeefa20477a2ea9f21eef838",
+    "size": 1241652
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 178366,
+    "hash": "f9e32f80b7e28c6c2baed3264e0d25db",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hr.lproj/locale.pak",
+    "res_rel": "75/75a34dcd05054235_f9e32f80b7e28c6c2baed3264e0d25db",
+    "size": 559556
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hu.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 187278,
+    "hash": "762191709e645ef5b3aa1846bdd33162",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hu.lproj/locale.pak",
+    "res_rel": "e9/e97d2b99b8e0bcc4_762191709e645ef5b3aa1846bdd33162",
+    "size": 602623
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/icudtl.dat": {
+    "build": "33188",
+    "compressed_size": 4578692,
+    "hash": "e0f1ad85c0933ecce2e003a2c59ae726",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/icudtl.dat",
+    "res_rel": "83/836c3550a649dca9_e0f1ad85c0933ecce2e003a2c59ae726",
+    "size": 10717392
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/id.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 157431,
+    "hash": "8219d23c2bff020dd3d6be7b4d268732",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/id.lproj/locale.pak",
+    "res_rel": "ec/ec6b9154e76c2822_8219d23c2bff020dd3d6be7b4d268732",
+    "size": 499020
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/it.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 170986,
+    "hash": "6196e1e162c16d2cd870636a1b34ee27",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/it.lproj/locale.pak",
+    "res_rel": "bd/bd58ec04e7e72e72_6196e1e162c16d2cd870636a1b34ee27",
+    "size": 554829
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ja.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 176620,
+    "hash": "e12df9680e85cddf6fc6cb3b39651f74",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ja.lproj/locale.pak",
+    "res_rel": "0f/0f29336499d1908e_e12df9680e85cddf6fc6cb3b39651f74",
+    "size": 672070
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/kn.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 214689,
+    "hash": "b80ba693f43b50a3a4d1b6d0964bec36",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/kn.lproj/locale.pak",
+    "res_rel": "bc/bc6b0342fa2f40f6_b80ba693f43b50a3a4d1b6d0964bec36",
+    "size": 1334289
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ko.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 166398,
+    "hash": "d354ca8e532fa5dcf754d9b9c80038a8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ko.lproj/locale.pak",
+    "res_rel": "03/031332840fde3145_d354ca8e532fa5dcf754d9b9c80038a8",
+    "size": 564655
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/lt.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 183675,
+    "hash": "856361cc1a0e7b8c754c220b7492a55c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/lt.lproj/locale.pak",
+    "res_rel": "5d/5d1d552e8d78070f_856361cc1a0e7b8c754c220b7492a55c",
+    "size": 608739
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/lv.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 184185,
+    "hash": "749406ebf5873802057483afea460ed4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/lv.lproj/locale.pak",
+    "res_rel": "f6/f61d14f05b794ebd_749406ebf5873802057483afea460ed4",
+    "size": 607948
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ml.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 221438,
+    "hash": "2770d226601452da926ca98f37de3b72",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ml.lproj/locale.pak",
+    "res_rel": "c7/c747a269d559d406_2770d226601452da926ca98f37de3b72",
+    "size": 1386843
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/mr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 206078,
+    "hash": "9a4388f3646ec71bb6e60913d37f937a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/mr.lproj/locale.pak",
+    "res_rel": "be/bed9c59d06c1825c_9a4388f3646ec71bb6e60913d37f937a",
+    "size": 1140422
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ms.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 160279,
+    "hash": "af7cb841954347119b12f3c633557014",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ms.lproj/locale.pak",
+    "res_rel": "b7/b771840d5f381c7b_af7cb841954347119b12f3c633557014",
+    "size": 522088
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/nb.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 163760,
+    "hash": "7e3eb194ac945cbc18ef4ec14f6b9786",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/nb.lproj/locale.pak",
+    "res_rel": "14/14218fd0eec67ab3_7e3eb194ac945cbc18ef4ec14f6b9786",
+    "size": 505025
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/nl.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 168148,
+    "hash": "844a965c7524681e95e4ff62a72a9511",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/nl.lproj/locale.pak",
+    "res_rel": "1d/1dd0485cc283226d_844a965c7524681e95e4ff62a72a9511",
+    "size": 522139
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pl.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 186621,
+    "hash": "33690095d452d375665cc9930f91ba65",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pl.lproj/locale.pak",
+    "res_rel": "02/02838ec542a13063_33690095d452d375665cc9930f91ba65",
+    "size": 585021
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pt_BR.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 171276,
+    "hash": "696275395f7961784b52d7dfd450426d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pt_BR.lproj/locale.pak",
+    "res_rel": "80/8069302789e7fb3c_696275395f7961784b52d7dfd450426d",
+    "size": 548409
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pt_PT.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 170365,
+    "hash": "63fc29fc495e7767170539eab1fae27d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pt_PT.lproj/locale.pak",
+    "res_rel": "fe/fe1fdb3978a6f2ec_63fc29fc495e7767170539eab1fae27d",
+    "size": 552208
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/resources.pak": {
+    "build": "33188",
+    "compressed_size": 7981714,
+    "hash": "5393299453f681b6735a8086314485d5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/resources.pak",
+    "res_rel": "68/682796512fd6de54_5393299453f681b6735a8086314485d5",
+    "size": 8032433
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ro.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 175512,
+    "hash": "e30e82b4e1fca393e73f3f6e1f73769d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ro.lproj/locale.pak",
+    "res_rel": "62/62407eb1fced57ec_e30e82b4e1fca393e73f3f6e1f73769d",
+    "size": 571397
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ru.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 210526,
+    "hash": "589da2c683b135d35b220b85926cb180",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ru.lproj/locale.pak",
+    "res_rel": "2c/2c609e3cbaf3ae12_589da2c683b135d35b220b85926cb180",
+    "size": 936096
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sk.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 189274,
+    "hash": "d77cc290d04b74223a7bda51f558c254",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sk.lproj/locale.pak",
+    "res_rel": "c6/c6bba24788d6c269_d77cc290d04b74223a7bda51f558c254",
+    "size": 589368
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sl.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 178655,
+    "hash": "9711d7adc9622d9c66d7aab2a69bb74c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sl.lproj/locale.pak",
+    "res_rel": "cf/cfc7f56876a75120_9711d7adc9622d9c66d7aab2a69bb74c",
+    "size": 565626
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/snapshot_blob.bin": {
+    "build": "33188",
+    "compressed_size": 72427,
+    "hash": "7bb720c7823d66ab64eb2ecb9590f58a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/snapshot_blob.bin",
+    "res_rel": "ce/ce076154ce3d3bde_7bb720c7823d66ab64eb2ecb9590f58a",
+    "size": 311746
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 199952,
+    "hash": "e39a0835716d1b6310c044c376720f09",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sr.lproj/locale.pak",
+    "res_rel": "2c/2c31192dfd31ae82_e39a0835716d1b6310c044c376720f09",
+    "size": 867589
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sv.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 163937,
+    "hash": "42f9adf0df54f0141f8fabbfc54faa22",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sv.lproj/locale.pak",
+    "res_rel": "0f/0fced0091ccc9626_42f9adf0df54f0141f8fabbfc54faa22",
+    "size": 509617
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sw.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 168682,
+    "hash": "861fe748edac58e4ade81f08916f7fe9",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sw.lproj/locale.pak",
+    "res_rel": "4f/4fbd46deea0f59b5_861fe748edac58e4ade81f08916f7fe9",
+    "size": 538066
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ta.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 213346,
+    "hash": "a41ffa03de39dd341cee8850e5480b50",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ta.lproj/locale.pak",
+    "res_rel": "86/86e45be99ac8e894_a41ffa03de39dd341cee8850e5480b50",
+    "size": 1381868
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/te.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 215343,
+    "hash": "6768cefa4dab08db40cdb86726e8cb78",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/te.lproj/locale.pak",
+    "res_rel": "0b/0b68835989abb2f8_6768cefa4dab08db40cdb86726e8cb78",
+    "size": 1274848
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/th.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 188948,
+    "hash": "60a3542b2d22ff340e29f14359f6f0f6",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/th.lproj/locale.pak",
+    "res_rel": "f4/f4e9c44dcabe099b_60a3542b2d22ff340e29f14359f6f0f6",
+    "size": 1068918
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/tr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 171408,
+    "hash": "1b214e440c0edb2a599da69bc87a62e4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/tr.lproj/locale.pak",
+    "res_rel": "a8/a8bfb3eee99eb0d1_1b214e440c0edb2a599da69bc87a62e4",
+    "size": 548235
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/uk.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 208405,
+    "hash": "382fafd72b501cb61315c66109250ed3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/uk.lproj/locale.pak",
+    "res_rel": "69/69f045c4170d47ab_382fafd72b501cb61315c66109250ed3",
+    "size": 934317
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ur.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 192955,
+    "hash": "0cb896ad34b6efe727fcd18e199f04d8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ur.lproj/locale.pak",
+    "res_rel": "ad/adaf1639b785b5b4_0cb896ad34b6efe727fcd18e199f04d8",
+    "size": 811863
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/v8_context_snapshot.arm64.bin": {
+    "build": "33188",
+    "compressed_size": 201743,
+    "hash": "c0d76c0b50b8aa4f277c2d96bc883d58",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/v8_context_snapshot.arm64.bin",
+    "res_rel": "ba/ba18ccadf08e8f6f_c0d76c0b50b8aa4f277c2d96bc883d58",
+    "size": 686805
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/vi.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 174152,
+    "hash": "e7a143ea82ac0e83b09a8c83ee089eae",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/vi.lproj/locale.pak",
+    "res_rel": "6f/6f39e60dc4216f82_e7a143ea82ac0e83b09a8c83ee089eae",
+    "size": 647686
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/zh_CN.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 167139,
+    "hash": "c7d649d7119ef0c22ad16ff3e1eb069a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/zh_CN.lproj/locale.pak",
+    "res_rel": "e6/e6579623091cccb7_c7d649d7119ef0c22ad16ff3e1eb069a",
+    "size": 469919
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/zh_TW.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 164694,
+    "hash": "49b0829b74766616f289c8655b4aa0c1",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/zh_TW.lproj/locale.pak",
+    "res_rel": "bb/bba1baef55c489ab_49b0829b74766616f289c8655b4aa0c1",
+    "size": 466317
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 5101,
+    "hash": "b3d7896bff284ac60e875315e39ba2cb",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/_CodeSignature/CodeResources",
+    "res_rel": "21/211d75463d6180ec_b3d7896bff284ac60e875315e39ba2cb",
+    "size": 24206
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 498,
+    "hash": "147b7ee1d655226cb12f5ac01587be00",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/Info.plist",
+    "res_rel": "5a/5af4e6fd3457cc7d_147b7ee1d655226cb12f5ac01587be00",
+    "size": 1013
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/MacOS/ccpcef Helper (Alerts)": {
+    "build": "33252",
+    "compressed_size": 91451,
+    "hash": "55c97befef07dec298eec07206ae95d3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/MacOS/ccpcef Helper (Alerts)",
+    "res_rel": "65/65e17ec6e65aa16b_55c97befef07dec298eec07206ae95d3",
+    "size": 424936
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/MacOS/ccpcef Helper (Alerts).sym": {
+    "build": "33188",
+    "compressed_size": 45752,
+    "hash": "2ba1e4de30ba00fa111ebe6d63e70478",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/MacOS/ccpcef Helper (Alerts).sym",
+    "res_rel": "1b/1b6adb29468b1714_2ba1e4de30ba00fa111ebe6d63e70478",
+    "size": 323742
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 766,
+    "hash": "3bb68c72ac2161f1da0ae6e8c9c4375e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "0f/0f4b0cc5348b1c8a_3bb68c72ac2161f1da0ae6e8c9c4375e",
+    "size": 2630
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 496,
+    "hash": "cb42a082ae07e576046c2ca9ae9ee963",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/Info.plist",
+    "res_rel": "14/14a75407f3a93c28_cb42a082ae07e576046c2ca9ae9ee963",
+    "size": 1001
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/MacOS/ccpcef Helper (GPU)": {
+    "build": "33252",
+    "compressed_size": 91447,
+    "hash": "bf408f3d063911482005c2cee17c45b5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/MacOS/ccpcef Helper (GPU)",
+    "res_rel": "64/6452b2815499788f_bf408f3d063911482005c2cee17c45b5",
+    "size": 424928
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/MacOS/ccpcef Helper (GPU).sym": {
+    "build": "33188",
+    "compressed_size": 45752,
+    "hash": "fc222c497ce9941ffd38b75017aa9f5f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/MacOS/ccpcef Helper (GPU).sym",
+    "res_rel": "d9/d943c11ed247a298_fc222c497ce9941ffd38b75017aa9f5f",
+    "size": 323742
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 764,
+    "hash": "23727c1118e1195fe4905ddb76829635",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "7f/7f784e6437e794a3_23727c1118e1195fe4905ddb76829635",
+    "size": 2624
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 499,
+    "hash": "09ab85b6eda0ae8def8fc814af997eaf",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/Info.plist",
+    "res_rel": "9c/9c0649940ee4dab1_09ab85b6eda0ae8def8fc814af997eaf",
+    "size": 1013
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/MacOS/ccpcef Helper (Plugin)": {
+    "build": "33252",
+    "compressed_size": 91450,
+    "hash": "b6ec64a335b76e49f3512dbfec5b2896",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/MacOS/ccpcef Helper (Plugin)",
+    "res_rel": "10/1036c3ec9e063863_b6ec64a335b76e49f3512dbfec5b2896",
+    "size": 424936
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/MacOS/ccpcef Helper (Plugin).sym": {
+    "build": "33188",
+    "compressed_size": 45751,
+    "hash": "2fe173069bc96e69c2a7af1432cc795b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/MacOS/ccpcef Helper (Plugin).sym",
+    "res_rel": "fa/fa4c9b645b876f7c_2fe173069bc96e69c2a7af1432cc795b",
+    "size": 323742
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 766,
+    "hash": "a98b022a53e26b2d042499257f3d67dd",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "a2/a2828e0bb60d5ea6_a98b022a53e26b2d042499257f3d67dd",
+    "size": 2630
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 501,
+    "hash": "5ae2cd0f0d928a7e01244eada77fe2d3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/Info.plist",
+    "res_rel": "e1/e1c38ee573c0dbe5_5ae2cd0f0d928a7e01244eada77fe2d3",
+    "size": 1021
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/MacOS/ccpcef Helper (Renderer)": {
+    "build": "33252",
+    "compressed_size": 91454,
+    "hash": "1950208531e21a542b378806edd9c601",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/MacOS/ccpcef Helper (Renderer)",
+    "res_rel": "8d/8d744310e195b0e3_1950208531e21a542b378806edd9c601",
+    "size": 424936
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/MacOS/ccpcef Helper (Renderer).sym": {
+    "build": "33188",
+    "compressed_size": 45751,
+    "hash": "7e8f121f4d58ff9b10cd9ba8e47063eb",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/MacOS/ccpcef Helper (Renderer).sym",
+    "res_rel": "43/432633baeec8affc_7e8f121f4d58ff9b10cd9ba8e47063eb",
+    "size": 323742
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 766,
+    "hash": "28b792d4298c6846094f5be0a173321d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "d6/d6a7af9e89536e82_28b792d4298c6846094f5be0a173321d",
+    "size": 2634
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 485,
+    "hash": "12ce03aa4b566391cd69d498ece706fa",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/Info.plist",
+    "res_rel": "c2/c283f6635978f84f_12ce03aa4b566391cd69d498ece706fa",
+    "size": 979
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/MacOS/ccpcef Helper": {
+    "build": "33252",
+    "compressed_size": 91445,
+    "hash": "3d5c65664d1378c2cc396dc78a62bd1b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/MacOS/ccpcef Helper",
+    "res_rel": "52/522e788ea67555e9_3d5c65664d1378c2cc396dc78a62bd1b",
+    "size": 424928
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/MacOS/ccpcef Helper.sym": {
+    "build": "33188",
+    "compressed_size": 45751,
+    "hash": "4a0929b3dd432f4200349637e03e160e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/MacOS/ccpcef Helper.sym",
+    "res_rel": "eb/eb404c78c87fe1ea_4a0929b3dd432f4200349637e03e160e",
+    "size": 323742
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 759,
+    "hash": "5479bd888bbff7adf5963049588382a9",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "c5/c527577f9aa04f48_5479bd888bbff7adf5963049588382a9",
+    "size": 2612
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 414,
+    "hash": "c5121cf33bbc942f4a026bdf62a9726d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/Info.plist",
+    "res_rel": "a5/a58fca66f7ae36da_c5121cf33bbc942f4a026bdf62a9726d",
+    "size": 802
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/MacOS/ccpcef": {
+    "build": "33252",
+    "compressed_size": 110201,
+    "hash": "ee8bcad72024659a806bad2c4ade2182",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/MacOS/ccpcef",
+    "res_rel": "e0/e03f6936ea477e36_ee8bcad72024659a806bad2c4ade2182",
+    "size": 551064
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/MacOS/ccpcef.sym": {
+    "build": "33188",
+    "compressed_size": 34376,
+    "hash": "e454104ff706c715d7cdf8fdbaeeb5de",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/MacOS/ccpcef.sym",
+    "res_rel": "63/635ac20b47b81f49_e454104ff706c715d7cdf8fdbaeeb5de",
+    "size": 225438
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 1034,
+    "hash": "feb6df263c79f51c6d39163897d9c49a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/arm64/ccpcef.app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "7c/7c435f91e10682f9_feb6df263c79f51c6d39163897d9c49a",
+    "size": 5201
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Chromium Embedded Framework": {
+    "build": "33188",
+    "compressed_size": 87734551,
+    "hash": "086d51ea937a52d9e4af8349c27920ed",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Chromium Embedded Framework",
+    "res_rel": "b0/b04107d4bf70f747_086d51ea937a52d9e4af8349c27920ed",
+    "size": 196566384
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libEGL.dylib": {
+    "build": "33188",
+    "compressed_size": 91579,
+    "hash": "c7442331a1276c9914a1f94259d37ca4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libEGL.dylib",
+    "res_rel": "7f/7fcbe5c95bc1c414_c7442331a1276c9914a1f94259d37ca4",
+    "size": 228816
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libGLESv2.dylib": {
+    "build": "33188",
+    "compressed_size": 3044957,
+    "hash": "6288e63a2fe85c7403e5a2fd28c14452",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libGLESv2.dylib",
+    "res_rel": "e2/e27fc4bcf2cc4a49_6288e63a2fe85c7403e5a2fd28c14452",
+    "size": 7685600
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libvk_swiftshader.dylib": {
+    "build": "33188",
+    "compressed_size": 1714964,
+    "hash": "23063feb190695ebd5a9794ef0be0945",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/libvk_swiftshader.dylib",
+    "res_rel": "5d/5d9828ba99a9b98e_23063feb190695ebd5a9794ef0be0945",
+    "size": 4481568
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/vk_swiftshader_icd.json": {
+    "build": "33188",
+    "compressed_size": 158,
+    "hash": "9777f008ed3e4df7a9a9abe98a6d63b5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Libraries/vk_swiftshader_icd.json",
+    "res_rel": "81/8180068425f9659c_9777f008ed3e4df7a9a9abe98a6d63b5",
+    "size": 110
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/Info.plist": {
+    "build": "33188",
+    "compressed_size": 533,
+    "hash": "4582a8aac71021c8f17810e04c4cb999",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/Info.plist",
+    "res_rel": "a5/a509f6305b75ed9b_4582a8aac71021c8f17810e04c4cb999",
+    "size": 1062
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/af.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 165708,
+    "hash": "e3adef930fdaff530ef88591a5b0da71",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/af.lproj/locale.pak",
+    "res_rel": "e4/e49867793c6dca1e_e3adef930fdaff530ef88591a5b0da71",
+    "size": 499950
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/am.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 200339,
+    "hash": "a2ce5b0a74794d3394d0126ed11e1696",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/am.lproj/locale.pak",
+    "res_rel": "e2/e2e0085d1cf5d037_a2ce5b0a74794d3394d0126ed11e1696",
+    "size": 809970
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ar.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 204431,
+    "hash": "3f216e9a70595d2ecf4c5959dbfc7ad3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ar.lproj/locale.pak",
+    "res_rel": "0a/0a0ece29659604ea_3f216e9a70595d2ecf4c5959dbfc7ad3",
+    "size": 892490
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/bg.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 203291,
+    "hash": "2129fbcf5a1e49ffe2f34358bf81dae0",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/bg.lproj/locale.pak",
+    "res_rel": "ed/edead895ab5c6bd2_2129fbcf5a1e49ffe2f34358bf81dae0",
+    "size": 923590
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/bn.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 211142,
+    "hash": "0d94c2c0644b6d7898af94cefd0b4e0d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/bn.lproj/locale.pak",
+    "res_rel": "55/55f7f83e3aae9ce9_0d94c2c0644b6d7898af94cefd0b4e0d",
+    "size": 1186461
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ca.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 173674,
+    "hash": "c1744dbbb8d0236d346aef87694e2262",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ca.lproj/locale.pak",
+    "res_rel": "10/10ba1162850d6155_c1744dbbb8d0236d346aef87694e2262",
+    "size": 570439
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/chrome_100_percent.pak": {
+    "build": "33188",
+    "compressed_size": 559532,
+    "hash": "f0b0b3475c48221ecf80532c0bc1fb82",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/chrome_100_percent.pak",
+    "res_rel": "90/90d492fe23b03c3f_f0b0b3475c48221ecf80532c0bc1fb82",
+    "size": 582613
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/chrome_200_percent.pak": {
+    "build": "33188",
+    "compressed_size": 1037577,
+    "hash": "860092ca76b1a8cf8ebe33e5658dcd7b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/chrome_200_percent.pak",
+    "res_rel": "34/343dc344d3c9a7ac_860092ca76b1a8cf8ebe33e5658dcd7b",
+    "size": 1076552
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/cs.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 185581,
+    "hash": "0aa5a82137f238e82c069aaa632de51d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/cs.lproj/locale.pak",
+    "res_rel": "ec/ec1a1a889af63997_0aa5a82137f238e82c069aaa632de51d",
+    "size": 580315
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/da.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 167790,
+    "hash": "979d6de8669ce44c1bc0711d4105873c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/da.lproj/locale.pak",
+    "res_rel": "27/273efc238922ceb2_979d6de8669ce44c1bc0711d4105873c",
+    "size": 527398
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/de.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 178502,
+    "hash": "f17f4c966bda0164a710c530dfa92563",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/de.lproj/locale.pak",
+    "res_rel": "3d/3d4a37ed28fb7296_f17f4c966bda0164a710c530dfa92563",
+    "size": 567714
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/el.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 218070,
+    "hash": "a579452ac73a99e5a9a35c307b3099c4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/el.lproj/locale.pak",
+    "res_rel": "95/95dc478216b26fc4_a579452ac73a99e5a9a35c307b3099c4",
+    "size": 1010768
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/en.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 155773,
+    "hash": "662d47be118b2419a33d65a62f658ea3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/en.lproj/locale.pak",
+    "res_rel": "fe/fe763c0475f94a02_662d47be118b2419a33d65a62f658ea3",
+    "size": 462674
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/en_GB.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 155226,
+    "hash": "fc899a27ff2ce080a7b69558d93474de",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/en_GB.lproj/locale.pak",
+    "res_rel": "eb/ebe76aec5820b78e_fc899a27ff2ce080a7b69558d93474de",
+    "size": 457657
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/es.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 171491,
+    "hash": "d80906cbec45f6dfd006df99a1d5f3ac",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/es.lproj/locale.pak",
+    "res_rel": "0a/0a374e1a9837600d_d80906cbec45f6dfd006df99a1d5f3ac",
+    "size": 555890
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/es_419.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 172244,
+    "hash": "8c0672b7059538d26ca3b89b6d5af550",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/es_419.lproj/locale.pak",
+    "res_rel": "75/75cd059e1f93ffd8_8c0672b7059538d26ca3b89b6d5af550",
+    "size": 557398
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/et.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 170188,
+    "hash": "70efd2ebf46c0e7a2bf0d5a2eae14e86",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/et.lproj/locale.pak",
+    "res_rel": "7a/7afc69c948c8cc7c_70efd2ebf46c0e7a2bf0d5a2eae14e86",
+    "size": 506910
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fa.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 191749,
+    "hash": "e848066f45245ab15d7c45cdaee80941",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fa.lproj/locale.pak",
+    "res_rel": "ee/ee6159f154b41cbc_e848066f45245ab15d7c45cdaee80941",
+    "size": 820354
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fi.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 170156,
+    "hash": "1306ba3befdc491b751f58eed7508aca",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fi.lproj/locale.pak",
+    "res_rel": "b1/b157f278620074d4_1306ba3befdc491b751f58eed7508aca",
+    "size": 514812
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fil.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 173624,
+    "hash": "684be6cd10062b8c4407466ecf9d35da",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fil.lproj/locale.pak",
+    "res_rel": "a4/a49d935b6c749d2c_684be6cd10062b8c4407466ecf9d35da",
+    "size": 582265
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 179664,
+    "hash": "91c9124170073752842e8131a03d6d17",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/fr.lproj/locale.pak",
+    "res_rel": "45/458bfbce1c618859_91c9124170073752842e8131a03d6d17",
+    "size": 602675
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/gpu_shader_cache.bin": {
+    "build": "33188",
+    "compressed_size": 288237,
+    "hash": "5f4df00ed668a9dc1a4f8217a194dd39",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/gpu_shader_cache.bin",
+    "res_rel": "a1/a1fadd41711ff265_5f4df00ed668a9dc1a4f8217a194dd39",
+    "size": 968826
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/gu.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 210434,
+    "hash": "a627f1b21ff90d1b23eb6d948711ae0c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/gu.lproj/locale.pak",
+    "res_rel": "ca/ca2f64452054d56d_a627f1b21ff90d1b23eb6d948711ae0c",
+    "size": 1169378
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/he.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 186012,
+    "hash": "cf54b21e8cd7d1ee8ac3ef29c2f02433",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/he.lproj/locale.pak",
+    "res_rel": "ab/ab8ed5d006fa0ed2_cf54b21e8cd7d1ee8ac3ef29c2f02433",
+    "size": 724147
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hi.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 218749,
+    "hash": "4a0bcdb1eeefa20477a2ea9f21eef838",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hi.lproj/locale.pak",
+    "res_rel": "10/10e6cd52fa0be15e_4a0bcdb1eeefa20477a2ea9f21eef838",
+    "size": 1241652
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 178366,
+    "hash": "f9e32f80b7e28c6c2baed3264e0d25db",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hr.lproj/locale.pak",
+    "res_rel": "41/4111759ca28ee8e7_f9e32f80b7e28c6c2baed3264e0d25db",
+    "size": 559556
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hu.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 187278,
+    "hash": "762191709e645ef5b3aa1846bdd33162",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/hu.lproj/locale.pak",
+    "res_rel": "79/79116c5f0aa72c02_762191709e645ef5b3aa1846bdd33162",
+    "size": 602623
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/icudtl.dat": {
+    "build": "33188",
+    "compressed_size": 4578692,
+    "hash": "e0f1ad85c0933ecce2e003a2c59ae726",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/icudtl.dat",
+    "res_rel": "5b/5bb2162556c50e77_e0f1ad85c0933ecce2e003a2c59ae726",
+    "size": 10717392
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/id.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 157431,
+    "hash": "8219d23c2bff020dd3d6be7b4d268732",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/id.lproj/locale.pak",
+    "res_rel": "41/41a042321713c8c8_8219d23c2bff020dd3d6be7b4d268732",
+    "size": 499020
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/it.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 170986,
+    "hash": "6196e1e162c16d2cd870636a1b34ee27",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/it.lproj/locale.pak",
+    "res_rel": "95/95592d7482f05718_6196e1e162c16d2cd870636a1b34ee27",
+    "size": 554829
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ja.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 176620,
+    "hash": "e12df9680e85cddf6fc6cb3b39651f74",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ja.lproj/locale.pak",
+    "res_rel": "15/158d032403549b80_e12df9680e85cddf6fc6cb3b39651f74",
+    "size": 672070
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/kn.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 214689,
+    "hash": "b80ba693f43b50a3a4d1b6d0964bec36",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/kn.lproj/locale.pak",
+    "res_rel": "53/538044bc725012c4_b80ba693f43b50a3a4d1b6d0964bec36",
+    "size": 1334289
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ko.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 166398,
+    "hash": "d354ca8e532fa5dcf754d9b9c80038a8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ko.lproj/locale.pak",
+    "res_rel": "49/49c40184e9d1bc43_d354ca8e532fa5dcf754d9b9c80038a8",
+    "size": 564655
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/lt.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 183675,
+    "hash": "856361cc1a0e7b8c754c220b7492a55c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/lt.lproj/locale.pak",
+    "res_rel": "1d/1d1761334df8e3bd_856361cc1a0e7b8c754c220b7492a55c",
+    "size": 608739
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/lv.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 184185,
+    "hash": "749406ebf5873802057483afea460ed4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/lv.lproj/locale.pak",
+    "res_rel": "84/8417a1717ff79c0f_749406ebf5873802057483afea460ed4",
+    "size": 607948
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ml.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 221438,
+    "hash": "2770d226601452da926ca98f37de3b72",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ml.lproj/locale.pak",
+    "res_rel": "96/96c59b86afa7dcfc_2770d226601452da926ca98f37de3b72",
+    "size": 1386843
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/mr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 206078,
+    "hash": "9a4388f3646ec71bb6e60913d37f937a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/mr.lproj/locale.pak",
+    "res_rel": "fd/fddd249cfc734226_9a4388f3646ec71bb6e60913d37f937a",
+    "size": 1140422
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ms.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 160279,
+    "hash": "af7cb841954347119b12f3c633557014",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ms.lproj/locale.pak",
+    "res_rel": "3d/3dcb9b72c9b605b5_af7cb841954347119b12f3c633557014",
+    "size": 522088
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/nb.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 163760,
+    "hash": "7e3eb194ac945cbc18ef4ec14f6b9786",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/nb.lproj/locale.pak",
+    "res_rel": "77/7726a6bbfc429f71_7e3eb194ac945cbc18ef4ec14f6b9786",
+    "size": 505025
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/nl.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 168148,
+    "hash": "844a965c7524681e95e4ff62a72a9511",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/nl.lproj/locale.pak",
+    "res_rel": "1e/1e0771013357206f_844a965c7524681e95e4ff62a72a9511",
+    "size": 522139
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pl.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 186621,
+    "hash": "33690095d452d375665cc9930f91ba65",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pl.lproj/locale.pak",
+    "res_rel": "58/58f810360ad64f41_33690095d452d375665cc9930f91ba65",
+    "size": 585021
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pt_BR.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 171276,
+    "hash": "696275395f7961784b52d7dfd450426d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pt_BR.lproj/locale.pak",
+    "res_rel": "bf/bfb1d9cf36d3892a_696275395f7961784b52d7dfd450426d",
+    "size": 548409
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pt_PT.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 170365,
+    "hash": "63fc29fc495e7767170539eab1fae27d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/pt_PT.lproj/locale.pak",
+    "res_rel": "56/56be90236560b4c2_63fc29fc495e7767170539eab1fae27d",
+    "size": 552208
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/resources.pak": {
+    "build": "33188",
+    "compressed_size": 7981714,
+    "hash": "5393299453f681b6735a8086314485d5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/resources.pak",
+    "res_rel": "11/11ed71006894d6d6_5393299453f681b6735a8086314485d5",
+    "size": 8032433
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ro.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 175512,
+    "hash": "e30e82b4e1fca393e73f3f6e1f73769d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ro.lproj/locale.pak",
+    "res_rel": "26/2684ca00ef02796a_e30e82b4e1fca393e73f3f6e1f73769d",
+    "size": 571397
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ru.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 210526,
+    "hash": "589da2c683b135d35b220b85926cb180",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ru.lproj/locale.pak",
+    "res_rel": "2c/2c9feced193bbad4_589da2c683b135d35b220b85926cb180",
+    "size": 936096
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sk.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 189274,
+    "hash": "d77cc290d04b74223a7bda51f558c254",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sk.lproj/locale.pak",
+    "res_rel": "16/160112ebe27adedf_d77cc290d04b74223a7bda51f558c254",
+    "size": 589368
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sl.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 178655,
+    "hash": "9711d7adc9622d9c66d7aab2a69bb74c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sl.lproj/locale.pak",
+    "res_rel": "0a/0a90477262939cfa_9711d7adc9622d9c66d7aab2a69bb74c",
+    "size": 565626
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/snapshot_blob.bin": {
+    "build": "33188",
+    "compressed_size": 72691,
+    "hash": "5e8cbd69b5bc84667f917b0c57accba8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/snapshot_blob.bin",
+    "res_rel": "19/19c8fccbc623634c_5e8cbd69b5bc84667f917b0c57accba8",
+    "size": 311746
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 199952,
+    "hash": "e39a0835716d1b6310c044c376720f09",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sr.lproj/locale.pak",
+    "res_rel": "e6/e65737295e7e54a8_e39a0835716d1b6310c044c376720f09",
+    "size": 867589
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sv.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 163937,
+    "hash": "42f9adf0df54f0141f8fabbfc54faa22",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sv.lproj/locale.pak",
+    "res_rel": "6f/6f497679d92f2344_42f9adf0df54f0141f8fabbfc54faa22",
+    "size": 509617
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sw.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 168682,
+    "hash": "861fe748edac58e4ade81f08916f7fe9",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/sw.lproj/locale.pak",
+    "res_rel": "65/658d334250b0ccc3_861fe748edac58e4ade81f08916f7fe9",
+    "size": 538066
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ta.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 213346,
+    "hash": "a41ffa03de39dd341cee8850e5480b50",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ta.lproj/locale.pak",
+    "res_rel": "72/7237dc3507ba8ea2_a41ffa03de39dd341cee8850e5480b50",
+    "size": 1381868
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/te.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 215343,
+    "hash": "6768cefa4dab08db40cdb86726e8cb78",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/te.lproj/locale.pak",
+    "res_rel": "75/7555a0fa5a7f0946_6768cefa4dab08db40cdb86726e8cb78",
+    "size": 1274848
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/th.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 188948,
+    "hash": "60a3542b2d22ff340e29f14359f6f0f6",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/th.lproj/locale.pak",
+    "res_rel": "ec/ec528251f6c30b39_60a3542b2d22ff340e29f14359f6f0f6",
+    "size": 1068918
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/tr.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 171408,
+    "hash": "1b214e440c0edb2a599da69bc87a62e4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/tr.lproj/locale.pak",
+    "res_rel": "1d/1d24d3243d1b6ff3_1b214e440c0edb2a599da69bc87a62e4",
+    "size": 548235
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/uk.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 208405,
+    "hash": "382fafd72b501cb61315c66109250ed3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/uk.lproj/locale.pak",
+    "res_rel": "4f/4fb79a5e555f3ae5_382fafd72b501cb61315c66109250ed3",
+    "size": 934317
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ur.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 192955,
+    "hash": "0cb896ad34b6efe727fcd18e199f04d8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/ur.lproj/locale.pak",
+    "res_rel": "f9/f9d519ff1c7bdeee_0cb896ad34b6efe727fcd18e199f04d8",
+    "size": 811863
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/v8_context_snapshot.x86_64.bin": {
+    "build": "33188",
+    "compressed_size": 202001,
+    "hash": "09e424f4400122d62df5a310b92ed97c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/v8_context_snapshot.x86_64.bin",
+    "res_rel": "b2/b2970cd520646c7a_09e424f4400122d62df5a310b92ed97c",
+    "size": 686805
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/vi.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 174152,
+    "hash": "e7a143ea82ac0e83b09a8c83ee089eae",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/vi.lproj/locale.pak",
+    "res_rel": "b2/b2524359a01ee444_e7a143ea82ac0e83b09a8c83ee089eae",
+    "size": 647686
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/zh_CN.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 167139,
+    "hash": "c7d649d7119ef0c22ad16ff3e1eb069a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/zh_CN.lproj/locale.pak",
+    "res_rel": "a3/a326ccf79b50f829_c7d649d7119ef0c22ad16ff3e1eb069a",
+    "size": 469919
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/zh_TW.lproj/locale.pak": {
+    "build": "33188",
+    "compressed_size": 164694,
+    "hash": "49b0829b74766616f289c8655b4aa0c1",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/Resources/zh_TW.lproj/locale.pak",
+    "res_rel": "d1/d10412284b745bf9_49b0829b74766616f289c8655b4aa0c1",
+    "size": 466317
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 5104,
+    "hash": "59edebc67d69478dc59b29e9049da5a1",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/Chromium Embedded Framework.framework/_CodeSignature/CodeResources",
+    "res_rel": "99/996ec75739f3ba3e_59edebc67d69478dc59b29e9049da5a1",
+    "size": 24208
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 498,
+    "hash": "147b7ee1d655226cb12f5ac01587be00",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/Info.plist",
+    "res_rel": "04/04a41b4b9df58d57_147b7ee1d655226cb12f5ac01587be00",
+    "size": 1013
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/MacOS/ccpcef Helper (Alerts)": {
+    "build": "33252",
+    "compressed_size": 91587,
+    "hash": "54bfec77da57ab9504b3abd4f311433f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/MacOS/ccpcef Helper (Alerts)",
+    "res_rel": "1f/1f054d588d3183f5_54bfec77da57ab9504b3abd4f311433f",
+    "size": 388752
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/MacOS/ccpcef Helper (Alerts).sym": {
+    "build": "33188",
+    "compressed_size": 46224,
+    "hash": "3ccbefcc52b8fa9e1207ed12b882fce8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/MacOS/ccpcef Helper (Alerts).sym",
+    "res_rel": "8b/8b457d154d68d796_3ccbefcc52b8fa9e1207ed12b882fce8",
+    "size": 331934
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 764,
+    "hash": "376e56a49b24a4f62cef7ce7f7d96ae3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Alerts).app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "a3/a3c4810c2ae6dd80_376e56a49b24a4f62cef7ce7f7d96ae3",
+    "size": 2630
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 496,
+    "hash": "cb42a082ae07e576046c2ca9ae9ee963",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/Info.plist",
+    "res_rel": "3a/3a60fcfc9125612a_cb42a082ae07e576046c2ca9ae9ee963",
+    "size": 1001
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/MacOS/ccpcef Helper (GPU)": {
+    "build": "33252",
+    "compressed_size": 91585,
+    "hash": "a7b08fbe7d07c0559db40ed6254ecbba",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/MacOS/ccpcef Helper (GPU)",
+    "res_rel": "0d/0d744ce3871bafc9_a7b08fbe7d07c0559db40ed6254ecbba",
+    "size": 388752
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/MacOS/ccpcef Helper (GPU).sym": {
+    "build": "33188",
+    "compressed_size": 46225,
+    "hash": "58283c674a980f73a2513c9ea1dd3601",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/MacOS/ccpcef Helper (GPU).sym",
+    "res_rel": "96/96a09929455fbd4a_58283c674a980f73a2513c9ea1dd3601",
+    "size": 331934
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 763,
+    "hash": "698a9414dba88127ce7b84ed6508bffb",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (GPU).app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "bf/bf6b297994555629_698a9414dba88127ce7b84ed6508bffb",
+    "size": 2624
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 499,
+    "hash": "09ab85b6eda0ae8def8fc814af997eaf",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/Info.plist",
+    "res_rel": "fe/fef9a7c75a200cc3_09ab85b6eda0ae8def8fc814af997eaf",
+    "size": 1013
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/MacOS/ccpcef Helper (Plugin)": {
+    "build": "33252",
+    "compressed_size": 91585,
+    "hash": "bf61f7826c08ef0a5dead66907d85a67",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/MacOS/ccpcef Helper (Plugin)",
+    "res_rel": "3d/3d222ac66c335a8d_bf61f7826c08ef0a5dead66907d85a67",
+    "size": 388752
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/MacOS/ccpcef Helper (Plugin).sym": {
+    "build": "33188",
+    "compressed_size": 46225,
+    "hash": "17c9c53d66e44e797962676f7cb16c8a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/MacOS/ccpcef Helper (Plugin).sym",
+    "res_rel": "44/4429b64ec3029d5e_17c9c53d66e44e797962676f7cb16c8a",
+    "size": 331934
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 765,
+    "hash": "5d63192b5c7bb5593bcfefef27053623",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Plugin).app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "be/bec0e065140bdfd4_5d63192b5c7bb5593bcfefef27053623",
+    "size": 2630
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 501,
+    "hash": "5ae2cd0f0d928a7e01244eada77fe2d3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/Info.plist",
+    "res_rel": "24/24ddca9f263e5447_5ae2cd0f0d928a7e01244eada77fe2d3",
+    "size": 1021
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/MacOS/ccpcef Helper (Renderer)": {
+    "build": "33252",
+    "compressed_size": 91587,
+    "hash": "b059c176a9d10cdccf42147319f871e0",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/MacOS/ccpcef Helper (Renderer)",
+    "res_rel": "6b/6b2904e9713ef065_b059c176a9d10cdccf42147319f871e0",
+    "size": 388752
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/MacOS/ccpcef Helper (Renderer).sym": {
+    "build": "33188",
+    "compressed_size": 46225,
+    "hash": "4bd9bf1b0a3262f7ca1fbbca6fcd8f60",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/MacOS/ccpcef Helper (Renderer).sym",
+    "res_rel": "2e/2efe9a556832f806_4bd9bf1b0a3262f7ca1fbbca6fcd8f60",
+    "size": 331934
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 767,
+    "hash": "2cf182b69ae34c4f1c80b0e0c1aa312e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper (Renderer).app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "16/162c6972dab17110_2cf182b69ae34c4f1c80b0e0c1aa312e",
+    "size": 2634
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 485,
+    "hash": "12ce03aa4b566391cd69d498ece706fa",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/Info.plist",
+    "res_rel": "c7/c7a3ff7e3df3500d_12ce03aa4b566391cd69d498ece706fa",
+    "size": 979
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/MacOS/ccpcef Helper": {
+    "build": "33252",
+    "compressed_size": 91586,
+    "hash": "bd878edd8956680672593e76c5b7deda",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/MacOS/ccpcef Helper",
+    "res_rel": "ac/ac3c436a055283cb_bd878edd8956680672593e76c5b7deda",
+    "size": 388752
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/MacOS/ccpcef Helper.sym": {
+    "build": "33188",
+    "compressed_size": 46223,
+    "hash": "0b2c9cac98aef313f63994158da85b0b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/MacOS/ccpcef Helper.sym",
+    "res_rel": "29/29c7c8a8be57ee74_0b2c9cac98aef313f63994158da85b0b",
+    "size": 331934
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 758,
+    "hash": "5fd34a8b4557d14d2b2eea8fe4c733e3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Frameworks/ccpcef Helper.app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "32/3230409b77ac133a_5fd34a8b4557d14d2b2eea8fe4c733e3",
+    "size": 2612
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Info.plist": {
+    "build": "33188",
+    "compressed_size": 414,
+    "hash": "c5121cf33bbc942f4a026bdf62a9726d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/Info.plist",
+    "res_rel": "b6/b6761184d55afbcc_c5121cf33bbc942f4a026bdf62a9726d",
+    "size": 802
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/MacOS/ccpcef": {
+    "build": "33252",
+    "compressed_size": 109640,
+    "hash": "322582dcd029d64f0adb7f0e9a7f010a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/MacOS/ccpcef",
+    "res_rel": "9c/9c237c8b5e06899c_322582dcd029d64f0adb7f0e9a7f010a",
+    "size": 513448
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/MacOS/ccpcef.sym": {
+    "build": "33188",
+    "compressed_size": 35251,
+    "hash": "ab962026b0e2cfcc8542e0ce4d5e94b3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/MacOS/ccpcef.sym",
+    "res_rel": "ff/ffa2dd72afbe5117_ab962026b0e2cfcc8542e0ce4d5e94b3",
+    "size": 237726
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 1032,
+    "hash": "3b224caf2bde0625d10e4735763d92c1",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cef/x64/ccpcef.app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "3e/3eda6d2c4526ffef_3b224caf2bde0625d10e4735763d92c1",
+    "size": 5201
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/challengeConditionsLoader.so": {
+    "build": "33188",
+    "compressed_size": 32915,
+    "hash": "a449046f5dca26b77b075cbc550aa20d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/challengeConditionsLoader.so",
+    "res_rel": "7b/7b9bd048d36a4f85_a449046f5dca26b77b075cbc550aa20d",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/challengeEventsLoader.so": {
+    "build": "33188",
+    "compressed_size": 32924,
+    "hash": "274ffdd0a64eab62e365afd48d5422a8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/challengeEventsLoader.so",
+    "res_rel": "9a/9a2e7f5044742272_274ffdd0a64eab62e365afd48d5422a8",
+    "size": 176384
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/challengesLoader.so": {
+    "build": "33188",
+    "compressed_size": 40327,
+    "hash": "df48cc586053ca0629bfbd5a075aca47",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/challengesLoader.so",
+    "res_rel": "c3/c390f615374dafaa_df48cc586053ca0629bfbd5a075aca47",
+    "size": 193152
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/character_avatarbehaviorsLoader.so": {
+    "build": "33188",
+    "compressed_size": 35158,
+    "hash": "27075b605ece7bdc48d911ea3e5588f2",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/character_avatarbehaviorsLoader.so",
+    "res_rel": "0e/0ea07630536a369e_27075b605ece7bdc48d911ea3e5588f2",
+    "size": 176624
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/character_colorLocationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33781,
+    "hash": "a2ab163af44a74ea44707b8a2f3d0083",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/character_colorLocationsLoader.so",
+    "res_rel": "c9/c9e2dfeb2bcfffc1_a2ab163af44a74ea44707b8a2f3d0083",
+    "size": 176464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/character_colorNamesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33640,
+    "hash": "01b11212405597bb6de1b88e243e7c37",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/character_colorNamesLoader.so",
+    "res_rel": "74/7422e2bffc683359_01b11212405597bb6de1b88e243e7c37",
+    "size": 176448
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/character_modifierLocationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33709,
+    "hash": "43bc7f3c3c637ec64e3a62a0a17f3cef",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/character_modifierLocationsLoader.so",
+    "res_rel": "d5/d51f185135ba9219_43bc7f3c3c637ec64e3a62a0a17f3cef",
+    "size": 176480
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/character_portraitresourcesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33787,
+    "hash": "276624e2a616cdc7f2503550b49cbfb5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/character_portraitresourcesLoader.so",
+    "res_rel": "2c/2c2ec9c8eb833822_276624e2a616cdc7f2503550b49cbfb5",
+    "size": 176480
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/character_resourcesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35645,
+    "hash": "52674b047fe6d065b29da69526385104",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/character_resourcesLoader.so",
+    "res_rel": "f4/f4c2a760a2d22553_52674b047fe6d065b29da69526385104",
+    "size": 176624
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/character_sculptingLocationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33727,
+    "hash": "dc77433197065d79337868080c2fef9f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/character_sculptingLocationsLoader.so",
+    "res_rel": "f2/f204e0c354305787_dc77433197065d79337868080c2fef9f",
+    "size": 176480
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/checkPointsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33673,
+    "hash": "3920c9752d934a9e044a1fd0f8fc5def",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/checkPointsLoader.so",
+    "res_rel": "ba/ba5354a93363991d_3920c9752d934a9e044a1fd0f8fc5def",
+    "size": 176416
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/collisionsLoader.so": {
+    "build": "33188",
+    "compressed_size": 38437,
+    "hash": "8d4a69e3d4cf8d2579058fa080a4cbbf",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/collisionsLoader.so",
+    "res_rel": "ad/ad62d54a58832ca9_8d4a69e3d4cf8d2579058fa080a4cbbf",
+    "size": 193088
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/commandSetsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36005,
+    "hash": "8338b26da35f76ae3848c55456caeee7",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/commandSetsLoader.so",
+    "res_rel": "e4/e4e1eab109454186_8338b26da35f76ae3848c55456caeee7",
+    "size": 176624
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/compressibleTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 32274,
+    "hash": "0a79b8c8b5fb7f05148741210e607bf4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/compressibleTypesLoader.so",
+    "res_rel": "5a/5aa49a152584d703_0a79b8c8b5fb7f05148741210e607bf4",
+    "size": 176272
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/contrabandTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 36162,
+    "hash": "829f98b9e837781d3959fcdaeba20dab",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/contrabandTypesLoader.so",
+    "res_rel": "53/5351b97901915ee5_829f98b9e837781d3959fcdaeba20dab",
+    "size": 192896
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/controlTowerResourcesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35722,
+    "hash": "8d0de2fd6d121ff7f3595b9441494594",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/controlTowerResourcesLoader.so",
+    "res_rel": "7e/7ec7a71edfe7f155_8d0de2fd6d121ff7f3595b9441494594",
+    "size": 176624
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/conversationAgentsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33999,
+    "hash": "8c9ff6a6abd2aafa1f00c6a66354a2f3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/conversationAgentsLoader.so",
+    "res_rel": "af/af2dd1f8fb2125e9_8c9ff6a6abd2aafa1f00c6a66354a2f3",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/conversationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 38727,
+    "hash": "a8067fb8e79f1552fbc843ec4694205a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/conversationsLoader.so",
+    "res_rel": "2b/2bc515216a67779a_a8067fb8e79f1552fbc843ec4694205a",
+    "size": 193296
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/corporationActivitiesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33559,
+    "hash": "d557cd43cdb1bd3e8ab687266583713d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/corporationActivitiesLoader.so",
+    "res_rel": "b1/b1e68cca43a57c0d_d557cd43cdb1bd3e8ab687266583713d",
+    "size": 176368
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/corporationRoleGroupsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33968,
+    "hash": "cfcdb9f2e443e380d98b0911d9c555cf",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/corporationRoleGroupsLoader.so",
+    "res_rel": "69/69f487b9ed73bf0c_cfcdb9f2e443e380d98b0911d9c555cf",
+    "size": 176528
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/corporationRolesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33814,
+    "hash": "c169ceb8db7d6a0594bca932812a7b11",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/corporationRolesLoader.so",
+    "res_rel": "09/09eb90ab6d605f2b_c169ceb8db7d6a0594bca932812a7b11",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/cratesLoader.so": {
+    "build": "33188",
+    "compressed_size": 37595,
+    "hash": "933e94c61cdcff35d5c59c5c2c5adf2a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/cratesLoader.so",
+    "res_rel": "59/59f915ab53483adc_933e94c61cdcff35d5c59c5c2c5adf2a",
+    "size": 176848
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/currencyBucketsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33771,
+    "hash": "dd9b6dbee932427876c1d15c230240cf",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/currencyBucketsLoader.so",
+    "res_rel": "00/00cff949ee1f2090_dd9b6dbee932427876c1d15c230240cf",
+    "size": 192832
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dailyChallengeCampaignsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33658,
+    "hash": "3ac2ff7490b197cb1f350f399d37abca",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dailyChallengeCampaignsLoader.so",
+    "res_rel": "9b/9b309904daa1ab07_3ac2ff7490b197cb1f350f399d37abca",
+    "size": 176368
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dailyChallengePoolsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36503,
+    "hash": "140187813eaf76f9dac2f219e42c507a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dailyChallengePoolsLoader.so",
+    "res_rel": "99/99a20930dbbca457_140187813eaf76f9dac2f219e42c507a",
+    "size": 176608
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dailyChallengeRewardsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36091,
+    "hash": "dbef2f59939ad776b4a14684d3824ef0",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dailyChallengeRewardsLoader.so",
+    "res_rel": "d6/d6f6a602612dbac8_dbef2f59939ad776b4a14684d3824ef0",
+    "size": 176640
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dailyChallengesLoader.so": {
+    "build": "33188",
+    "compressed_size": 38976,
+    "hash": "8313c97931c937ad860534acc3d091e6",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dailyChallengesLoader.so",
+    "res_rel": "c5/c5181509702cbcc5_8313c97931c937ad860534acc3d091e6",
+    "size": 193168
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/defaultOverviewsLoader.so": {
+    "build": "33188",
+    "compressed_size": 35006,
+    "hash": "9145c4da8bafa15c6d5e3231bba5ab43",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/defaultOverviewsLoader.so",
+    "res_rel": "0d/0d670599b255b4ff_9145c4da8bafa15c6d5e3231bba5ab43",
+    "size": 176592
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dogmaAttributeCategoriesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33780,
+    "hash": "026a54700669ea1cd36aae8e25233787",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dogmaAttributeCategoriesLoader.so",
+    "res_rel": "07/072a3c2588db2748_026a54700669ea1cd36aae8e25233787",
+    "size": 176464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dogmaAttributesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35257,
+    "hash": "76b00f31347fa0d5dc68232e0384f6fb",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dogmaAttributesLoader.so",
+    "res_rel": "9a/9a671ff0a6d2e773_76b00f31347fa0d5dc68232e0384f6fb",
+    "size": 176496
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dogmaEffectsLoader.so": {
+    "build": "33188",
+    "compressed_size": 40229,
+    "hash": "2990bc0c60873bed13e291412d0609bc",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dogmaEffectsLoader.so",
+    "res_rel": "38/38c744de47c53a86_2990bc0c60873bed13e291412d0609bc",
+    "size": 193040
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dogmaUnitsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33863,
+    "hash": "91c3e5143b3354931e34083137dd2131",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dogmaUnitsLoader.so",
+    "res_rel": "6c/6ce7309bd63df473_91c3e5143b3354931e34083137dd2131",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dungeonAssetManipulationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 38121,
+    "hash": "30bd1627c20a50b77554116d0c3485a0",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dungeonAssetManipulationsLoader.so",
+    "res_rel": "cb/cb02069c03c515f6_30bd1627c20a50b77554116d0c3485a0",
+    "size": 193104
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dungeonEnvironmentTemplatesLoader.so": {
+    "build": "33188",
+    "compressed_size": 37540,
+    "hash": "7d88cc9ba86e597e4aba4643a1857eed",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dungeonEnvironmentTemplatesLoader.so",
+    "res_rel": "4e/4ead67f53e9cbfac_7d88cc9ba86e597e4aba4643a1857eed",
+    "size": 193008
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dungeonsLoader.so": {
+    "build": "33188",
+    "compressed_size": 68070,
+    "hash": "b47f56771ce8181f7930e12c71cdc5c6",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dungeonsLoader.so",
+    "res_rel": "b6/b684e9b8d765f017_b47f56771ce8181f7930e12c71cdc5c6",
+    "size": 325776
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/dynamicItemAttributesLoader.so": {
+    "build": "33188",
+    "compressed_size": 39426,
+    "hash": "765573195484aa07420b706500af6a38",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/dynamicItemAttributesLoader.so",
+    "res_rel": "68/6805b3fbc2a9ea71_765573195484aa07420b706500af6a38",
+    "size": 193136
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/effectSequencesLoader.so": {
+    "build": "33188",
+    "compressed_size": 41278,
+    "hash": "54cd3b08e946f9300c93db2780fb8f2f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/effectSequencesLoader.so",
+    "res_rel": "79/7944d4aa54a00a1f_54cd3b08e946f9300c93db2780fb8f2f",
+    "size": 193296
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/effectsLoader.so": {
+    "build": "33188",
+    "compressed_size": 40463,
+    "hash": "b9fb500f0eb0e604fe69e63c90f57d49",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/effectsLoader.so",
+    "res_rel": "f4/f4109e6ef9fcde88_b9fb500f0eb0e604fe69e63c90f57d49",
+    "size": 193264
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/environmentTemplateAnchorCategoryIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36283,
+    "hash": "593a12ae635c6c1e9b12277e5e811599",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/environmentTemplateAnchorCategoryIDsLoader.so",
+    "res_rel": "1b/1b7b81aa3979f728_593a12ae635c6c1e9b12277e5e811599",
+    "size": 192896
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/environmentTemplateAnchorGroupIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36267,
+    "hash": "ef044a141c80b79233a475a7d12610a8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/environmentTemplateAnchorGroupIDsLoader.so",
+    "res_rel": "1f/1fd112a8816f88d3_ef044a141c80b79233a475a7d12610a8",
+    "size": 192864
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/environmentTemplateAnchorTypeIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36285,
+    "hash": "e4ed5a3c9da2ec7b5209350258120f2e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/environmentTemplateAnchorTypeIDsLoader.so",
+    "res_rel": "26/268ec7bbdbd14f3c_e4ed5a3c9da2ec7b5209350258120f2e",
+    "size": 192864
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/environmentTemplatesLoader.so": {
+    "build": "33188",
+    "compressed_size": 47311,
+    "hash": "c6f31467b2fb59aebf52d63c7125ba22",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/environmentTemplatesLoader.so",
+    "res_rel": "ec/ecbb74b2d12a4478_c6f31467b2fb59aebf52d63c7125ba22",
+    "size": 226480
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/epicArcsLoader.so": {
+    "build": "33188",
+    "compressed_size": 38109,
+    "hash": "10897ecca1b21283bdb17b34901df90d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/epicArcsLoader.so",
+    "res_rel": "b2/b2479f1676c43150_10897ecca1b21283bdb17b34901df90d",
+    "size": 193040
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/essReserveKeysLoader.so": {
+    "build": "33188",
+    "compressed_size": 33659,
+    "hash": "a20ba9de98ca461cd81196585533d9b9",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/essReserveKeysLoader.so",
+    "res_rel": "ae/aef39d88405e82ef_a20ba9de98ca461cd81196585533d9b9",
+    "size": 176336
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/eve_crashmon": {
+    "build": "33252",
+    "compressed_size": 435455,
+    "hash": "6919960246fec4bf62800264f448fcef",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/eve_crashmon",
+    "res_rel": "a4/a4d36f4f5d4e0535_6919960246fec4bf62800264f448fcef",
+    "size": 1225808
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/eve_public_grpc_client.so": {
+    "build": "33188",
+    "compressed_size": 7436809,
+    "hash": "23c380083034c01a06c50350f55c0295",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/eve_public_grpc_client.so",
+    "res_rel": "42/426a084dabd14d30_23c380083034c01a06c50350f55c0295",
+    "size": 18601152
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/exefile": {
+    "build": "33252",
+    "compressed_size": 199639,
+    "hash": "413dbd8985501adfdfd57dda8435c922",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/exefile",
+    "res_rel": "1f/1f202f2c3f447bf5_413dbd8985501adfdfd57dda8435c922",
+    "size": 592976
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/expertSystemsLoader.so": {
+    "build": "33188",
+    "compressed_size": 37809,
+    "hash": "34d7f7e7d4eb992083e97d2a5fcf9e62",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/expertSystemsLoader.so",
+    "res_rel": "86/866f0335ade18fec_34d7f7e7d4eb992083e97d2a5fcf9e62",
+    "size": 225696
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/explosionBucketIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 40057,
+    "hash": "efb0a67f4da7113e366ff3b05e187e25",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/explosionBucketIDsLoader.so",
+    "res_rel": "db/db193d339dd36c8d_efb0a67f4da7113e366ff3b05e187e25",
+    "size": 193264
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/explosionIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34402,
+    "hash": "82b2964d50cbcb4b22431416cfee6e6c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/explosionIDsLoader.so",
+    "res_rel": "27/275a79257f15bf4f_82b2964d50cbcb4b22431416cfee6e6c",
+    "size": 176448
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/factionsLoader.so": {
+    "build": "33188",
+    "compressed_size": 35676,
+    "hash": "c77b879a003ac2075e8e9503b10a02d2",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/factionsLoader.so",
+    "res_rel": "08/08034a3732aaab89_c77b879a003ac2075e8e9503b10a02d2",
+    "size": 192928
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/fcntl.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 23477,
+    "hash": "14c2a8a7ac4e0d44f9467e62069d5fd6",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/fcntl.cpython-312-darwin.so",
+    "res_rel": "b1/b1cd873c763eff88_14c2a8a7ac4e0d44f9467e62069d5fd6",
+    "size": 154080
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/globalTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35429,
+    "hash": "e38f6f32a663ac55272c364321473edc",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/globalTypesLoader.so",
+    "res_rel": "5b/5be34d6669abe536_e38f6f32a663ac55272c364321473edc",
+    "size": 192496
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/goalsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33709,
+    "hash": "c54e7181ac614291b6b00668cb876325",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/goalsLoader.so",
+    "res_rel": "91/91c4b229467fdd3a_c54e7181ac614291b6b00668cb876325",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/graphicIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 42927,
+    "hash": "7965421a92161aa4cbd5054dcda1d18a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/graphicIDsLoader.so",
+    "res_rel": "46/468eeda39f5a77c2_7965421a92161aa4cbd5054dcda1d18a",
+    "size": 226368
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/graphicLocationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 38056,
+    "hash": "3f386a333258817045336d5ddf1bceb5",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/graphicLocationsLoader.so",
+    "res_rel": "cc/cc8405fc55a4caa4_3f386a333258817045336d5ddf1bceb5",
+    "size": 193280
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/graphicMaterialSetsLoader.so": {
+    "build": "33188",
+    "compressed_size": 35814,
+    "hash": "a26532da1c66bc661ebb4c0d0a17127f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/graphicMaterialSetsLoader.so",
+    "res_rel": "79/79efcd3dafadc2a2_a26532da1c66bc661ebb4c0d0a17127f",
+    "size": 176704
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/groupGraphicsLoader.so": {
+    "build": "33188",
+    "compressed_size": 38190,
+    "hash": "519e1790327596e7b693b2868616c655",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/groupGraphicsLoader.so",
+    "res_rel": "33/33143addaca51478_519e1790327596e7b693b2868616c655",
+    "size": 193216
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/groupRewardsLoader.so": {
+    "build": "33188",
+    "compressed_size": 37253,
+    "hash": "c423b50f6c7924e2ca9aaec08e4a8746",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/groupRewardsLoader.so",
+    "res_rel": "97/971f06c5a2bd57e9_c423b50f6c7924e2ca9aaec08e4a8746",
+    "size": 176656
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/groupsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34321,
+    "hash": "59d6453a042ba726ff06e9a8bc80fa34",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/groupsLoader.so",
+    "res_rel": "68/6841aa0ec6a8b314_59d6453a042ba726ff06e9a8bc80fa34",
+    "size": 176304
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/hudEffectSlotsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34157,
+    "hash": "4c40be3aad358e69fd57dafbc6d6cbb8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/hudEffectSlotsLoader.so",
+    "res_rel": "0d/0d182b8a839225c1_4c40be3aad358e69fd57dafbc6d6cbb8",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/iconIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33898,
+    "hash": "785efed6994114790fe6782fac99baac",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/iconIDsLoader.so",
+    "res_rel": "2f/2feff69c3a0502e7_785efed6994114790fe6782fac99baac",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/industry_blueprintsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36102,
+    "hash": "4d6740070fde6e2cf18d2d600b9209fa",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/industry_blueprintsLoader.so",
+    "res_rel": "64/64748d69aa1ca551_4d6740070fde6e2cf18d2d600b9209fa",
+    "size": 193008
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/industry_facilitiesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35841,
+    "hash": "133002a8f659c370fe01f8982e23bffe",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/industry_facilitiesLoader.so",
+    "res_rel": "21/217a90ac90c751c8_133002a8f659c370fe01f8982e23bffe",
+    "size": 192912
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/libTracyClient.0.11.1.dylib": {
+    "build": "33188",
+    "compressed_size": 188419,
+    "hash": "8e784af2d848b9048e376074d007b458",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/libTracyClient.0.11.1.dylib",
+    "res_rel": "01/014a45857fcd58b9_8e784af2d848b9048e376074d007b458",
+    "size": 527568
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/libpython3.12.dylib": {
+    "build": "33188",
+    "compressed_size": 4724919,
+    "hash": "b4f723a8538c90e5dde02303f3247104",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/libpython3.12.dylib",
+    "res_rel": "36/36c62960f999e3aa_b4f723a8538c90e5dde02303f3247104",
+    "size": 15415248
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/libtbb.dylib": {
+    "build": "33252",
+    "compressed_size": 134883,
+    "hash": "e10b321ca316027a3a127bd516881071",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/libtbb.dylib",
+    "res_rel": "48/48915b8976b00a8a_e10b321ca316027a3a127bd516881071",
+    "size": 456704
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/libuv.1.0.0.dylib": {
+    "build": "33188",
+    "compressed_size": 172777,
+    "hash": "0505f34827420460b10dcdc0d14085ae",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/libuv.1.0.0.dylib",
+    "res_rel": "eb/ebdebe5c229a530c_0505f34827420460b10dcdc0d14085ae",
+    "size": 492592
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/marketGroupsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33978,
+    "hash": "bd046683e478a2c8e9ad00df54f5c87c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/marketGroupsLoader.so",
+    "res_rel": "79/796411a43b415f40_bd046683e478a2c8e9ad00df54f5c87c",
+    "size": 176320
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/math.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 69725,
+    "hash": "72d7aa1aa5509b962fd880bc906885b4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/math.cpython-312-darwin.so",
+    "res_rel": "a2/a2c89c615d8fe665_72d7aa1aa5509b962fd880bc906885b4",
+    "size": 251872
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/menuHighlightsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34937,
+    "hash": "af7f9e553dbeb6d566f35a80b4a6194f",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/menuHighlightsLoader.so",
+    "res_rel": "ef/ef1146056066cb6a_af7f9e553dbeb6d566f35a80b4a6194f",
+    "size": 192976
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/metaGroupsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33938,
+    "hash": "db37ca14db67523c1e739876b0eba9b6",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/metaGroupsLoader.so",
+    "res_rel": "e0/e08b86712524f45d_db37ca14db67523c1e739876b0eba9b6",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/missionsLoader.so": {
+    "build": "33188",
+    "compressed_size": 38399,
+    "hash": "3a7a93fbf07582cf0b711105e0b1e974",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/missionsLoader.so",
+    "res_rel": "8a/8a9968fa12401663_3a7a93fbf07582cf0b711105e0b1e974",
+    "size": 192896
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/musicTriggersLoader.so": {
+    "build": "33188",
+    "compressed_size": 33772,
+    "hash": "685fa1651a4ac00b7e0f86be04e6f4f3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/musicTriggersLoader.so",
+    "res_rel": "50/50b54ff0c11a8c18_685fa1651a4ac00b7e0f86be04e6f4f3",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/newActivitiesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35518,
+    "hash": "4edb9f0be3b0e41e1a980da0cd504188",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/newActivitiesLoader.so",
+    "res_rel": "f6/f6c9575a4eecd1c1_4edb9f0be3b0e41e1a980da0cd504188",
+    "size": 176592
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/newFeaturesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35848,
+    "hash": "294831532c52c19540f7ea28a21014c7",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/newFeaturesLoader.so",
+    "res_rel": "b3/b31720a5e707872f_294831532c52c19540f7ea28a21014c7",
+    "size": 192976
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/nodeGraphsLoader.so": {
+    "build": "33188",
+    "compressed_size": 48823,
+    "hash": "d73e7eb29e5709e729177322dd95c909",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/nodeGraphsLoader.so",
+    "res_rel": "b3/b38a10e0f026d41d_d73e7eb29e5709e729177322dd95c909",
+    "size": 226688
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/nodeTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 42855,
+    "hash": "0d87e11e69db4e076a6fbfbcb4db263d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/nodeTypesLoader.so",
+    "res_rel": "38/38cb3a6324b72d7b_0d87e11e69db4e076a6fbfbcb4db263d",
+    "size": 193520
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/npcCharactersLoader.so": {
+    "build": "33188",
+    "compressed_size": 37647,
+    "hash": "0f66d29b798c4cc44507c719ef05c842",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/npcCharactersLoader.so",
+    "res_rel": "1a/1ae2a3a360fbc029_0f66d29b798c4cc44507c719ef05c842",
+    "size": 192992
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/npcCorporationDivisionsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34050,
+    "hash": "aafa31ecb7d0833c4055b6aa06625dc4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/npcCorporationDivisionsLoader.so",
+    "res_rel": "ad/ad4acb0da1482ffb_aafa31ecb7d0833c4055b6aa06625dc4",
+    "size": 176464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/npcCorporationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 44397,
+    "hash": "19208462397d8694dd4667ee3df1d6a4",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/npcCorporationsLoader.so",
+    "res_rel": "e5/e56bf94d4da86186_19208462397d8694dd4667ee3df1d6a4",
+    "size": 226288
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/objectiveChainsLoader.so": {
+    "build": "33188",
+    "compressed_size": 59067,
+    "hash": "c81cd4490dee33d002e7a0a1fedb6274",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/objectiveChainsLoader.so",
+    "res_rel": "ea/eac49d32a9ccaecb_c81cd4490dee33d002e7a0a1fedb6274",
+    "size": 292800
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/objectiveTaskTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 37399,
+    "hash": "15081101fea74c26101a5fb37529c853",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/objectiveTaskTypesLoader.so",
+    "res_rel": "90/90bb50c38fb2d1bb_15081101fea74c26101a5fb37529c853",
+    "size": 193072
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/objectiveTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 46570,
+    "hash": "9eea3f17a23783d1e7a799b9ef8c13c3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/objectiveTypesLoader.so",
+    "res_rel": "16/16ac55ed79d0afe0_9eea3f17a23783d1e7a799b9ef8c13c3",
+    "size": 226352
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/objectivesLoader.so": {
+    "build": "33188",
+    "compressed_size": 34009,
+    "hash": "65c170e27eb25267a06fd786af396f29",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/objectivesLoader.so",
+    "res_rel": "4f/4f238f76d0860b50_65c170e27eb25267a06fd786af396f29",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/operationCategoriesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35135,
+    "hash": "a3dab1652f4b1bb39f1d6e898ab7123b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/operationCategoriesLoader.so",
+    "res_rel": "d8/d804d7de83f3309f_a3dab1652f4b1bb39f1d6e898ab7123b",
+    "size": 176624
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/operationSitesLoader.so": {
+    "build": "33188",
+    "compressed_size": 34580,
+    "hash": "820664d0810867244a377e4d75cadec7",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/operationSitesLoader.so",
+    "res_rel": "79/79fba52729d4197b_820664d0810867244a377e4d75cadec7",
+    "size": 176448
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/operationTasksLoader.so": {
+    "build": "33188",
+    "compressed_size": 46072,
+    "hash": "f084f3cfa7763b7a99f6becec39fea3b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/operationTasksLoader.so",
+    "res_rel": "40/40915f53431bde99_f084f3cfa7763b7a99f6becec39fea3b",
+    "size": 226352
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/operationTreeStructuresLoader.so": {
+    "build": "33188",
+    "compressed_size": 37479,
+    "hash": "95a94ed0fca58938df4199b713d9b48d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/operationTreeStructuresLoader.so",
+    "res_rel": "48/48d0296dbca17451_95a94ed0fca58938df4199b713d9b48d",
+    "size": 193088
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/operationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 39832,
+    "hash": "83e2ff01dcf18c746896d16c1303e98e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/operationsLoader.so",
+    "res_rel": "59/599f9cde53aff776_83e2ff01dcf18c746896d16c1303e98e",
+    "size": 193056
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/packages/XInput_Python-0.4.0.dist-info/METADATA": {
+    "build": "33188",
+    "compressed_size": 2747,
+    "hash": "8573aff8774624be033d7883ebc4a7aa",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/packages/XInput_Python-0.4.0.dist-info/METADATA",
+    "res_rel": "8c/8c575a8276181222_8573aff8774624be033d7883ebc4a7aa",
+    "size": 7805
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/packages/certifi/cacert.pem": {
+    "build": "33188",
+    "compressed_size": 152818,
+    "hash": "edd513e1d62ca2b059821b8380c19d19",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/packages/certifi/cacert.pem",
+    "res_rel": "25/256587f644e6b7e4_edd513e1d62ca2b059821b8380c19d19",
+    "size": 284099
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/packages/dnspython-2.8.0.dist-info/METADATA": {
+    "build": "33188",
+    "compressed_size": 2236,
+    "hash": "cc17a4e269033d9d239e646195ab133e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/packages/dnspython-2.8.0.dist-info/METADATA",
+    "res_rel": "c9/c902fd9f68002de6_cc17a4e269033d9d239e646195ab133e",
+    "size": 5680
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/packages/monolithgeoip2/data/GeoLite2-ASN.mmdb": {
+    "build": "33188",
+    "compressed_size": 4228823,
+    "hash": "68d666cf693b04d78aed58e8c01fdf2d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/packages/monolithgeoip2/data/GeoLite2-ASN.mmdb",
+    "res_rel": "37/3792f429a71566fb_68d666cf693b04d78aed58e8c01fdf2d",
+    "size": 7736838
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/packages/monolithgeoip2/data/GeoLite2-Country.mmdb": {
+    "build": "33188",
+    "compressed_size": 2687273,
+    "hash": "8446015cf0f72c0a80accae45b7a3e17",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/packages/monolithgeoip2/data/GeoLite2-Country.mmdb",
+    "res_rel": "6a/6a2b9ffe68a3c6e3_8446015cf0f72c0a80accae45b7a3e17",
+    "size": 5470083
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/petitionEventsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33768,
+    "hash": "82d7ffd105b9b23f4bcc841b2d31f94c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/petitionEventsLoader.so",
+    "res_rel": "56/56d7295e26a313b7_82d7ffd105b9b23f4bcc841b2d31f94c",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/petitionPropertiesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33947,
+    "hash": "3789aa27eb792267fa310d6f7f9962a0",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/petitionPropertiesLoader.so",
+    "res_rel": "8f/8ff6d90d67c2257f_3789aa27eb792267fa310d6f7f9962a0",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/prometheus_module.so": {
+    "build": "33188",
+    "compressed_size": 1412468,
+    "hash": "49aaa0f73bce9ac8880b0753cde3bad8",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/prometheus_module.so",
+    "res_rel": "de/de573751eb567f00_49aaa0f73bce9ac8880b0753cde3bad8",
+    "size": 10029840
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/pvpFilamentEventDatesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33725,
+    "hash": "d5151ce38bd8f4f28110b0713a7d4962",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/pvpFilamentEventDatesLoader.so",
+    "res_rel": "95/952f2e2dde05e083_d5151ce38bd8f4f28110b0713a7d4962",
+    "size": 176464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/pvpFilamentMatchTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 36981,
+    "hash": "612fe59aff117da13f93c9afbd32df6b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/pvpFilamentMatchTypesLoader.so",
+    "res_rel": "db/dbd99cedd31141b0_612fe59aff117da13f93c9afbd32df6b",
+    "size": 176544
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/pyexpat.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 184797,
+    "hash": "9d686f636e0cc6f393559ec4ae6d5ccc",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/pyexpat.cpython-312-darwin.so",
+    "res_rel": "2c/2ce459fc860577dc_9d686f636e0cc6f393559ec4ae6d5ccc",
+    "size": 537552
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/racesLoader.so": {
+    "build": "33188",
+    "compressed_size": 36508,
+    "hash": "83fb524f7f22e11f308ca488f84c548e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/racesLoader.so",
+    "res_rel": "88/88a013afe084d380_83fb524f7f22e11f308ca488f84c548e",
+    "size": 192768
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/recruitmentGroupsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33739,
+    "hash": "2ecc2e1de988c57dea3f509a21a917b7",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/recruitmentGroupsLoader.so",
+    "res_rel": "ac/ac92811a7c1c57f4_2ecc2e1de988c57dea3f509a21a917b7",
+    "size": 176336
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/recruitmentTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33817,
+    "hash": "55a44d7ab8ab5519e62b9d7c4161c2cb",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/recruitmentTypesLoader.so",
+    "res_rel": "81/812c148a62aa208b_55a44d7ab8ab5519e62b9d7c4161c2cb",
+    "size": 176336
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/requiredSkillsForTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 35797,
+    "hash": "9a46f0c11e1700fe7b2796613761477c",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/requiredSkillsForTypesLoader.so",
+    "res_rel": "96/96db813d7300684b_9a46f0c11e1700fe7b2796613761477c",
+    "size": 192768
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/requiredSkillsIndexLoader.so": {
+    "build": "33188",
+    "compressed_size": 40760,
+    "hash": "9a49236a174f78e40514e7fe08a95f82",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/requiredSkillsIndexLoader.so",
+    "res_rel": "86/86484bd5f0bd31bb_9a49236a174f78e40514e7fe08a95f82",
+    "size": 225968
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/schematicsLoader.so": {
+    "build": "33188",
+    "compressed_size": 37465,
+    "hash": "36ed05916edb85067ba3a36b9a0a63a3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/schematicsLoader.so",
+    "res_rel": "b5/b52954e2ae450bee_36ed05916edb85067ba3a36b9a0a63a3",
+    "size": 225600
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/schoolMapLoader.so": {
+    "build": "33188",
+    "compressed_size": 33637,
+    "hash": "13070e4dd88f8b8495218c0282aae1ed",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/schoolMapLoader.so",
+    "res_rel": "54/545d37ee72fe66a0_13070e4dd88f8b8495218c0282aae1ed",
+    "size": 176304
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/schoolsLoader.so": {
+    "build": "33188",
+    "compressed_size": 35491,
+    "hash": "40a54e31e8c14ca687b2bd7e7d99f654",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/schoolsLoader.so",
+    "res_rel": "4b/4b1933aed1d1d9ff_40a54e31e8c14ca687b2bd7e7d99f654",
+    "size": 192848
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/seasonSelectionLoader.so": {
+    "build": "33188",
+    "compressed_size": 28672,
+    "hash": "435ef5f999bb1eb5f6eb95b5ef1e1194",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/seasonSelectionLoader.so",
+    "res_rel": "32/32d910b5dee1cdf3_435ef5f999bb1eb5f6eb95b5ef1e1194",
+    "size": 159184
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/seasonalCampaignsLoginRewardsLoader.so": {
+    "build": "33188",
+    "compressed_size": 37380,
+    "hash": "c02a54880c2ffa3310f24eda0546ec70",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/seasonalCampaignsLoginRewardsLoader.so",
+    "res_rel": "e1/e1b09e267b1dd396_c02a54880c2ffa3310f24eda0546ec70",
+    "size": 192992
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/skillPlansLoader.so": {
+    "build": "33188",
+    "compressed_size": 37328,
+    "hash": "8f125fc95359249bbb2b555f3d6bb26e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/skillPlansLoader.so",
+    "res_rel": "52/524bb5609f0e7163_8f125fc95359249bbb2b555f3d6bb26e",
+    "size": 176624
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/skillTreeGroupsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34963,
+    "hash": "e32fb7c9333e8eb249de571b64c7ca59",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/skillTreeGroupsLoader.so",
+    "res_rel": "11/117e5931a7e1cfcb_e32fb7c9333e8eb249de571b64c7ca59",
+    "size": 176496
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/skyBoxEffectsLoader.so": {
+    "build": "33188",
+    "compressed_size": 35228,
+    "hash": "af9625e2123c1fd1f7b9a96cc84d98b6",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/skyBoxEffectsLoader.so",
+    "res_rel": "75/75e358794dd2262e_af9625e2123c1fd1f7b9a96cc84d98b6",
+    "size": 192912
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/soundIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 33611,
+    "hash": "642091888c1d3577b2186b4562c1483b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/soundIDsLoader.so",
+    "res_rel": "7d/7d24ae1498af20c7_642091888c1d3577b2186b4562c1483b",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/spaceComponentsByTypeLoader.so": {
+    "build": "33188",
+    "compressed_size": 79506,
+    "hash": "ae1a2f4d892ded405f9bb14df90c58c3",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/spaceComponentsByTypeLoader.so",
+    "res_rel": "60/608757be2eae158d_ae1a2f4d892ded405f9bb14df90c58c3",
+    "size": 391952
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/spaceObjectHighlightsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34464,
+    "hash": "877215b59dcd6905e0a765e389fffa2d",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/spaceObjectHighlightsLoader.so",
+    "res_rel": "a7/a7186ce1b105e492_877215b59dcd6905e0a765e389fffa2d",
+    "size": 176464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/staticdata/mapObjects.db": {
+    "build": "33188",
+    "compressed_size": 9876203,
+    "hash": "e57d795abccbdb35af01ffffd3329aca",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/staticdata/mapObjects.db",
+    "res_rel": "74/74f548912363c128_e57d795abccbdb35af01ffffd3329aca",
+    "size": 18493440
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/stationOperationsLoader.so": {
+    "build": "33188",
+    "compressed_size": 38049,
+    "hash": "58ec026d070a0117b24c143934b90892",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/stationOperationsLoader.so",
+    "res_rel": "7d/7da74b303e7b6154_58ec026d070a0117b24c143934b90892",
+    "size": 193040
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/stationServicesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33783,
+    "hash": "0f9526ea6f9f62abeedbe51b360df760",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/stationServicesLoader.so",
+    "res_rel": "e2/e2654fbb3d4c393e_0f9526ea6f9f62abeedbe51b360df760",
+    "size": 176336
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/stationStandingsRestrictionsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36156,
+    "hash": "9dc34a71eb3dc621470b3f88e0baa865",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/stationStandingsRestrictionsLoader.so",
+    "res_rel": "3a/3a336e9b043b83ee_9dc34a71eb3dc621470b3f88e0baa865",
+    "size": 192928
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/surveysLoader.so": {
+    "build": "33188",
+    "compressed_size": 37325,
+    "hash": "389ea2a963653e5ff078756b4d2a6430",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/surveysLoader.so",
+    "res_rel": "c5/c5cc171e93b4cfcd_389ea2a963653e5ff078756b4d2a6430",
+    "size": 176608
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/tagsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34028,
+    "hash": "cb5996e77899ac611e2763d22bec6562",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/tagsLoader.so",
+    "res_rel": "58/58598da62bdfe88d_cb5996e77899ac611e2763d22bec6562",
+    "size": 176384
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/travelEffectsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34932,
+    "hash": "5ef8e4dc4aa27e6997592fc7cd164317",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/travelEffectsLoader.so",
+    "res_rel": "08/084edd1b40dc325c_5ef8e4dc4aa27e6997592fc7cd164317",
+    "size": 176496
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/typeDogmaLoader.so": {
+    "build": "33188",
+    "compressed_size": 36932,
+    "hash": "7f519a27ef6c675594e6f0d41c28bffe",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/typeDogmaLoader.so",
+    "res_rel": "fe/fe8c99fdefd62bce_7f519a27ef6c675594e6f0d41c28bffe",
+    "size": 192992
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/typeListLoader.so": {
+    "build": "33188",
+    "compressed_size": 35903,
+    "hash": "0aceac1836bc69e706385d425c4c8211",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/typeListLoader.so",
+    "res_rel": "b7/b751a412f406b9ac_0aceac1836bc69e706385d425c4c8211",
+    "size": 192944
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/typeMaterialsLoader.so": {
+    "build": "33188",
+    "compressed_size": 35543,
+    "hash": "b3ebd3ee03e2f49cf8400fa4a9caba0e",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/typeMaterialsLoader.so",
+    "res_rel": "22/22c0b3fa81c9ba0c_b3ebd3ee03e2f49cf8400fa4a9caba0e",
+    "size": 192896
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/typesLoader.so": {
+    "build": "33188",
+    "compressed_size": 37187,
+    "hash": "925082095e22fe846fdd9e2bd9e77649",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/typesLoader.so",
+    "res_rel": "2d/2d858f9a5ee90e2b_925082095e22fe846fdd9e2bd9e77649",
+    "size": 192992
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/uiBlinksLoader.so": {
+    "build": "33188",
+    "compressed_size": 33882,
+    "hash": "83c2a36d576a23071fe2af5b88e5d5c7",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/uiBlinksLoader.so",
+    "res_rel": "5c/5c8f6775a9c0c351_83c2a36d576a23071fe2af5b88e5d5c7",
+    "size": 176400
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/uiElementTypesLoader.so": {
+    "build": "33188",
+    "compressed_size": 33719,
+    "hash": "a93dbc97b90e10285cf97019c74c7b4a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/uiElementTypesLoader.so",
+    "res_rel": "ef/ef902b1a25b7472b_a93dbc97b90e10285cf97019c74c7b4a",
+    "size": 176432
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/uiHelpPointersLoader.so": {
+    "build": "33188",
+    "compressed_size": 35881,
+    "hash": "8e63dbb30cf915c113ded13d76ab6354",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/uiHelpPointersLoader.so",
+    "res_rel": "b9/b91b162047df5e47_8e63dbb30cf915c113ded13d76ab6354",
+    "size": 176592
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/uiHidingTemplatesLoader.so": {
+    "build": "33188",
+    "compressed_size": 36322,
+    "hash": "823cd03a03e287be3ef3116f76f3b16a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/uiHidingTemplatesLoader.so",
+    "res_rel": "c6/c652eee208968f7a_823cd03a03e287be3ef3116f76f3b16a",
+    "size": 192896
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/uiHighlightsLoader.so": {
+    "build": "33188",
+    "compressed_size": 36964,
+    "hash": "e8425a19726a340ecd473751ac777b26",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/uiHighlightsLoader.so",
+    "res_rel": "aa/aad8a99c4f258a1b_e8425a19726a340ecd473751ac777b26",
+    "size": 193200
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/unicodedata.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 840526,
+    "hash": "ee54a3aae43daa08137556d43eb8c34b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/unicodedata.cpython-312-darwin.so",
+    "res_rel": "30/30b8451deb550ae8_ee54a3aae43daa08137556d43eb8c34b",
+    "size": 2383168
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/voidSpaceEncountersLoader.so": {
+    "build": "33188",
+    "compressed_size": 35300,
+    "hash": "9dc58c66bae625614e14a149b75b66de",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/voidSpaceEncountersLoader.so",
+    "res_rel": "21/21b4b802f406cc9c_9dc58c66bae625614e14a149b75b66de",
+    "size": 176528
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/wwiseEventsLoader.so": {
+    "build": "33188",
+    "compressed_size": 37108,
+    "hash": "366007845fabb7bfb0ce992202022e1a",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/wwiseEventsLoader.so",
+    "res_rel": "1f/1f902a8f6bb786c2_366007845fabb7bfb0ce992202022e1a",
+    "size": 193216
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/wwiseSoundBanksLoader.so": {
+    "build": "33188",
+    "compressed_size": 34372,
+    "hash": "85f013028a172caa88f76c2514340f74",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/wwiseSoundBanksLoader.so",
+    "res_rel": "a7/a7bfc847b625e285_85f013028a172caa88f76c2514340f74",
+    "size": 176464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/wwiseWemFileIDsLoader.so": {
+    "build": "33188",
+    "compressed_size": 34130,
+    "hash": "1cc3b3d338e3e668fead562e33135cdb",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/wwiseWemFileIDsLoader.so",
+    "res_rel": "17/17f0a9341ee1677e_1cc3b3d338e3e668fead562e33135cdb",
+    "size": 176464
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/zk_signer": {
+    "build": "33252",
+    "compressed_size": 84183226,
+    "hash": "0a787a571fbb51ec0acd7315d282d62b",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/zk_signer",
+    "res_rel": "83/83a439c9a8d30dc1_0a787a571fbb51ec0acd7315d282d62b",
+    "size": 268197136
+  },
+  "app:/EVE.app/Contents/Resources/build/bin64/zlib.cpython-312-darwin.so": {
+    "build": "33188",
+    "compressed_size": 155987,
+    "hash": "d60bb2b82643375491c4d8a838ae3715",
+    "path": "app:/EVE.app/Contents/Resources/build/bin64/zlib.cpython-312-darwin.so",
+    "res_rel": "2a/2a73245d8a834554_d60bb2b82643375491c4d8a838ae3715",
+    "size": 404144
+  },
+  "app:/EVE.app/Contents/Resources/build/code.ccp": {
+    "build": "33188",
+    "compressed_size": 37413111,
+    "hash": "352d82ad112ec5804aef78126a38650e",
+    "path": "app:/EVE.app/Contents/Resources/build/code.ccp",
+    "res_rel": "aa/aa3f1508bd431f96_352d82ad112ec5804aef78126a38650e",
+    "size": 108059345
+  },
+  "app:/EVE.app/Contents/Resources/build/manifest.dat": {
+    "build": "33188",
+    "compressed_size": 16223,
+    "hash": "f734104ce394b634556d879c7aa458d6",
+    "path": "app:/EVE.app/Contents/Resources/build/manifest.dat",
+    "res_rel": "43/43b03b5def8a5d07_f734104ce394b634556d879c7aa458d6",
+    "size": 46931
+  },
+  "app:/EVE.app/Contents/Resources/build/res/planetResources.pickle": {
+    "build": "33188",
+    "compressed_size": 197306,
+    "hash": "2e2bb515e1e67607785dd50e32eb9769",
+    "path": "app:/EVE.app/Contents/Resources/build/res/planetResources.pickle",
+    "res_rel": "56/5670748e14796ef7_2e2bb515e1e67607785dd50e32eb9769",
+    "size": 202125
+  },
+  "app:/EVE.app/Contents/Resources/build/resfiledependencies.yaml": {
+    "build": "33188",
+    "compressed_size": 170498,
+    "hash": "a0e6f77403dbc4e179e3176651aa412f",
+    "path": "app:/EVE.app/Contents/Resources/build/resfiledependencies.yaml",
+    "res_rel": "e8/e82ebcba7ffdcd0f_a0e6f77403dbc4e179e3176651aa412f",
+    "size": 4294014
+  },
+  "app:/EVE.app/Contents/Resources/build/resfileindex.txt": {
+    "build": "33188",
+    "compressed_size": 1989668,
+    "hash": "400cbd585069dc1d630575889ed3dace",
+    "path": "app:/EVE.app/Contents/Resources/build/resfileindex.txt",
+    "res_rel": "39/39a92fd505620283_400cbd585069dc1d630575889ed3dace",
+    "size": 7966008
+  },
+  "app:/EVE.app/Contents/Resources/build/resfileindex_macOS.txt": {
+    "build": "33188",
+    "compressed_size": 61970,
+    "hash": "87d5ec126484ca7b66d42fdd5fabaef9",
+    "path": "app:/EVE.app/Contents/Resources/build/resfileindex_macOS.txt",
+    "res_rel": "e7/e757488a7586e7d1_87d5ec126484ca7b66d42fdd5fabaef9",
+    "size": 243150
+  },
+  "app:/EVE.app/Contents/Resources/build/resfileindex_prefetch.txt": {
+    "build": "33188",
+    "compressed_size": 997803,
+    "hash": "7592298745ebe51ccf6d5b81a9e78fce",
+    "path": "app:/EVE.app/Contents/Resources/build/resfileindex_prefetch.txt",
+    "res_rel": "ab/abe43b7e170e116b_7592298745ebe51ccf6d5b81a9e78fce",
+    "size": 4641807
+  },
+  "app:/EVE.app/Contents/Resources/build/start.ini": {
+    "build": "33188",
+    "compressed_size": 310,
+    "hash": "34a467cb477aec7943862136364ddf06",
+    "path": "app:/EVE.app/Contents/Resources/build/start.ini",
+    "res_rel": "ef/ef3f16c00e8c3a73_34a467cb477aec7943862136364ddf06",
+    "size": 337
+  },
+  "app:/EVE.app/Contents/_CodeSignature/CodeResources": {
+    "build": "33188",
+    "compressed_size": 25504,
+    "hash": "297dd68e597dac5be4984fb9db20a529",
+    "path": "app:/EVE.app/Contents/_CodeSignature/CodeResources",
+    "res_rel": "e1/e153695f22394ecd_297dd68e597dac5be4984fb9db20a529",
+    "size": 152428
+  }
+}

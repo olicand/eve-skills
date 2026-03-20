@@ -1,0 +1,270 @@
+{
+  "dependencies": [
+    "eve/inventory/generic_item.proto",
+    "eve/inventory/generic_item_type.proto",
+    "eve/planetinteraction/schematic/schematic.proto",
+    "google/protobuf/timestamp.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.pin.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.pin.Type",
+      "name": "Type",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "product_type",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.inventory.genericitemtype.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "cycle_time_sec",
+          "number": 2,
+          "type": "uint64",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "qty_per_cycle",
+          "number": 3,
+          "type": "uint64",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "heads",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.ExtractorDetails.Head"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "head_radius",
+          "number": 5,
+          "type": "float",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.pin.ExtractorDetails",
+      "name": "ExtractorDetails",
+      "nested_messages": [
+        {
+          "enum_types": [],
+          "fields": [
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "id",
+              "number": 1,
+              "type": "uint64",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "longitude",
+              "number": 2,
+              "type": "float",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "latitude",
+              "number": 3,
+              "type": "float",
+              "type_name": null
+            }
+          ],
+          "full_name": "eve.planetinteraction.pin.ExtractorDetails.Head",
+          "name": "Head",
+          "nested_messages": []
+        }
+      ]
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "type",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.Type"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "longitude",
+          "number": 2,
+          "type": "float",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "latitude",
+          "number": 3,
+          "type": "float",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "content",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.inventory.genericitem.Attributes"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_extractor_details",
+          "number": 5,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "extractor",
+          "number": 6,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.ExtractorDetails"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_schematic",
+          "number": 7,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "schematic",
+          "number": 8,
+          "type": "message",
+          "type_name": "eve.planetinteraction.schematic.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_install_time",
+          "number": 9,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "install_time",
+          "number": 10,
+          "type": "message",
+          "type_name": "google.protobuf.Timestamp"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_expiry_time",
+          "number": 11,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "expiry_time",
+          "number": 12,
+          "type": "message",
+          "type_name": "google.protobuf.Timestamp"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_last_cycle_start",
+          "number": 13,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "last_cycle_start",
+          "number": 14,
+          "type": "message",
+          "type_name": "google.protobuf.Timestamp"
+        }
+      ],
+      "full_name": "eve.planetinteraction.pin.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "id",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.Attributes"
+        }
+      ],
+      "full_name": "eve.planetinteraction.pin.Pin",
+      "name": "Pin",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/planetinteraction/pin/pin.proto",
+  "package": "eve.planetinteraction.pin"
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "EVE Frontier Utopia Analysis"
+  short_description: "Extract Frontier interaction surfaces"
+  default_prompt: "Use $eve-frontier-utopia-analysis to extract EVE Frontier Utopia interaction points into a separate output folder."
+
+policy:
+  allow_implicit_invocation: true

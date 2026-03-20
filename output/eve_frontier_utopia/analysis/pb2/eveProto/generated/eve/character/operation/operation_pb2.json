@@ -1,0 +1,147 @@
+{
+  "dependencies": [
+    "eve/character/character.proto",
+    "eve/operation/category.proto",
+    "eve/operation/operation.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "operation",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.operation.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "category",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.operation.category.Identifier"
+        }
+      ],
+      "full_name": "eve.character.operation.Started",
+      "name": "Started",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "operation",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.operation.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "category",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.operation.category.Identifier"
+        }
+      ],
+      "full_name": "eve.character.operation.Completed",
+      "name": "Completed",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "operation",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.operation.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "category",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.operation.category.Identifier"
+        }
+      ],
+      "full_name": "eve.character.operation.Stopped",
+      "name": "Stopped",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "operation",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.operation.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "category",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.operation.category.Identifier"
+        }
+      ],
+      "full_name": "eve.character.operation.StartRequest",
+      "name": "StartRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [],
+      "full_name": "eve.character.operation.StartResponse",
+      "name": "StartResponse",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/character/operation/operation.proto",
+  "package": "eve.character.operation"
+}

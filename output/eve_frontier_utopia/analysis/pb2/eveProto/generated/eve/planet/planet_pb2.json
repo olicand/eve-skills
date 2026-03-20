@@ -1,0 +1,207 @@
+{
+  "dependencies": [
+    "eve/math/vector.proto",
+    "eve/planet/planet_type.proto",
+    "eve/solarsystem/solarsystem.proto"
+  ],
+  "enum_types": [
+    {
+      "full_name": "eve.planet.Surface",
+      "name": "Surface",
+      "values": [
+        {
+          "name": "UNKNOWN",
+          "number": 0
+        },
+        {
+          "name": "TEMPERATE",
+          "number": 1
+        },
+        {
+          "name": "BARREN",
+          "number": 2
+        },
+        {
+          "name": "OCEANIC",
+          "number": 3
+        },
+        {
+          "name": "ICE",
+          "number": 4
+        },
+        {
+          "name": "GAS",
+          "number": 5
+        },
+        {
+          "name": "LAVA",
+          "number": 6
+        },
+        {
+          "name": "STORM",
+          "number": 7
+        },
+        {
+          "name": "PLASMA",
+          "number": 8
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planet.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "solarsystem",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        },
+        {
+          "enum_name": "eve.planet.Surface",
+          "label": "optional",
+          "name": "surface",
+          "number": 2,
+          "type": "enum",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "name",
+          "number": 3,
+          "type": "string",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "position",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.math.Vector3"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "type",
+          "number": 5,
+          "type": "message",
+          "type_name": "eve.planettype.Identifier"
+        }
+      ],
+      "full_name": "eve.planet.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "id",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planet.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planet.Attributes"
+        }
+      ],
+      "full_name": "eve.planet.Planet",
+      "name": "Planet",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "planet",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planet.Identifier"
+        }
+      ],
+      "full_name": "eve.planet.GetRequest",
+      "name": "GetRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "planet",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planet.Attributes"
+        }
+      ],
+      "full_name": "eve.planet.GetResponse",
+      "name": "GetResponse",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "solar_system",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        }
+      ],
+      "full_name": "eve.planet.GetPlanetsInSolarSystemRequest",
+      "name": "GetPlanetsInSolarSystemRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "planets",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planet.Identifier"
+        }
+      ],
+      "full_name": "eve.planet.GetPlanetsInSolarSystemResponse",
+      "name": "GetPlanetsInSolarSystemResponse",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/planet/planet.proto",
+  "package": "eve.planet"
+}

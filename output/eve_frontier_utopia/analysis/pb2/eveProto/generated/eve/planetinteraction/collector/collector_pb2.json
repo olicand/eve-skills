@@ -1,0 +1,140 @@
+{
+  "dependencies": [
+    "eve/character/character.proto",
+    "eve/planet/planet.proto",
+    "google/protobuf/timestamp.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint32",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.collector.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "planet",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planet.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.collector.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "collector",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.collector.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "cycle_completion",
+          "number": 2,
+          "type": "message",
+          "type_name": "google.protobuf.Timestamp"
+        }
+      ],
+      "full_name": "eve.planetinteraction.collector.Started",
+      "name": "Started",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "collector",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.collector.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.collector.Stopped",
+      "name": "Stopped",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "collector",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.collector.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.collector.Offlined",
+      "name": "Offlined",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "collector",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.collector.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.collector.GetRequest",
+      "name": "GetRequest",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "collector",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.collector.Attributes"
+        }
+      ],
+      "full_name": "eve.planetinteraction.collector.GetResponse",
+      "name": "GetResponse",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/planetinteraction/collector/collector.proto",
+  "package": "eve.planetinteraction.collector"
+}

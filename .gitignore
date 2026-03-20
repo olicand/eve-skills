@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python caches and local virtualenvs
+__pycache__/
+*.py[cod]
+.venv*/
+
+# Reverse-engineered raw client artifacts
+output/eve_frontier_utopia/code_ccp/
+output/eve_frontier_utopia/raw/
+output/eve_frontier_utopia/samples/
+output/eve_frontier_utopia/staticdata/
+output/eve_frontier_utopia/analysis/pyc_disassembly/
+output/eve_frontier_utopia/analysis/pyc_metadata/
+output/eve_frontier_utopia/analysis/pb2/**/*_error.json

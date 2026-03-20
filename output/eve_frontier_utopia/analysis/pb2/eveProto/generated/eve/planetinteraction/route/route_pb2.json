@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "eve/inventory/generic_item_type.proto",
+    "eve/planetinteraction/pin/pin.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.route.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_pin",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_pin",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "content_type",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.inventory.genericitemtype.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "content_quantity",
+          "number": 4,
+          "type": "float",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "waypoints",
+          "number": 5,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.Identifier"
+        }
+      ],
+      "full_name": "eve.planetinteraction.route.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "id",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.route.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planetinteraction.route.Attributes"
+        }
+      ],
+      "full_name": "eve.planetinteraction.route.Route",
+      "name": "Route",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/planetinteraction/route/route.proto",
+  "package": "eve.planetinteraction.route"
+}

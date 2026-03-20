@@ -1,0 +1,515 @@
+{
+  "analysis_root": "/Users/ocrand/Documents/New project/eve_skills/output/eve_frontier_utopia/analysis",
+  "analysis_summary": {
+    "pb2_modules_attempted": 19,
+    "pb2_modules_ok": 19,
+    "pyc_modules_attempted": 7,
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.3.2)]"
+  },
+  "families": [
+    {
+      "description": "Player-built structures, smart assemblies, hangars, cargo windows, and construction-site flows.",
+      "family": "assembly_and_building",
+      "key_modules": [
+        "frontier/smart_assemblies/client/window/cargo.pyc",
+        "frontier/base_building/client/construction_site/ui/window.pyc",
+        "frontier/smart_assemblies/client/window/controller.pyc",
+        "frontier/base_building/client/construction_site/ui/item_slot_controller.pyc",
+        "frontier/smart_assemblies/client/gate/operation.pyc",
+        "frontier/smart_assemblies/client/storage/controller.pyc",
+        "frontier/smart_assemblies/client/window/container.pyc",
+        "frontier/smart_assemblies/client/window/industry_container.pyc",
+        "frontier/smart_assemblies/client/storage/container.pyc",
+        "frontier/base_building/client/build/service.pyc"
+      ],
+      "module_count": 115,
+      "pb2_interfaces": [],
+      "symbol_highlights": [
+        {
+          "module": "frontier/smart_assemblies/client/window/cargo.pyc",
+          "symbols": [
+            "CargoContainer",
+            "CargoContainer.__init__",
+            "CargoContainer.Close",
+            "CargoContainer._construct_main_content",
+            "CargoContainer._stack_all",
+            "CargoContainer._select_inventory",
+            "CargoContainer._load_inventory",
+            "CargoContainer._relevant_filter"
+          ]
+        },
+        {
+          "module": "frontier/base_building/client/construction_site/ui/window.pyc",
+          "symbols": [
+            "open_assembly_construction",
+            "AssemblyConstructionWindow",
+            "AssemblyConstructionWindow.__init__",
+            "AssemblyConstructionWindow.ApplyAttributes",
+            "AssemblyConstructionWindow._get_nearby_inventories",
+            "AssemblyConstructionWindow.Close",
+            "AssemblyConstructionWindow._delayed_close",
+            "AssemblyConstructionWindow.GetMenuMoreOptions"
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Stargates, gate linking/unlinking, jump-drive flows, and travel-related client services.",
+      "family": "gates_and_travel",
+      "key_modules": [
+        "frontier/jump_drive/client/service.pyc",
+        "frontier/jump_drive/client/jump_drive.pyc",
+        "frontier/crdata/common/objects/cr_stargate.pyc",
+        "frontier/jump_drive/common/const.pyc",
+        "frontier/jump_drive/client/map_filter.pyc",
+        "eveProto/generated/eve/assembly/gate/gate_pb2.pyc",
+        "frontier/jump_drive/common/jump_drive_fuel_cost.pyc",
+        "eveProto/generated/eve/assembly/gate/api/events_pb2.pyc",
+        "eveProto/generated/eve/assembly/gate/api/requests_pb2.pyc",
+        "frontier/warping/common/warp_functions.pyc"
+      ],
+      "module_count": 18,
+      "pb2_interfaces": [
+        {
+          "import_name": "eveProto.generated.eve.assembly.gate.api.events_pb2",
+          "messages": [
+            "Created",
+            "Linked",
+            "Unlinked",
+            "Jumped"
+          ],
+          "package": "eve.assembly.gate.api",
+          "path": "analysis/pb2/eveProto/generated/eve/assembly/gate/api/events_pb2.json",
+          "proto_file": "eve/assembly/gate/api/events.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.assembly.gate.api.requests_pb2",
+          "messages": [
+            "CreateRequest",
+            "CreateResponse",
+            "GetRequest",
+            "GetResponse",
+            "PrepareOnlineTransactionRequest",
+            "PrepareOnlineTransactionResponse",
+            "PrepareOfflineTransactionRequest",
+            "PrepareOfflineTransactionResponse",
+            "PrepareLinkGateTransactionRequest",
+            "PrepareLinkGateTransactionResponse",
+            "PrepareUnlinkGateTransactionRequest",
+            "PrepareUnlinkGateTransactionResponse",
+            "PrepareJumpTransactionRequest",
+            "PrepareJumpTransactionResponse",
+            "DeleteRequest",
+            "DeleteResponse"
+          ],
+          "package": "eve.assembly.gate.api",
+          "path": "analysis/pb2/eveProto/generated/eve/assembly/gate/api/requests_pb2.json",
+          "proto_file": "eve/assembly/gate/api/requests.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.assembly.gate.gate_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes"
+          ],
+          "package": "eve.assembly.gate",
+          "path": "analysis/pb2/eveProto/generated/eve/assembly/gate/gate_pb2.json",
+          "proto_file": "eve/assembly/gate/gate.proto"
+        }
+      ],
+      "symbol_highlights": [
+        {
+          "module": "frontier/jump_drive/client/service.pyc",
+          "symbols": [
+            "JumpService",
+            "JumpService.Run",
+            "JumpService.Run.<lambda>"
+          ]
+        },
+        {
+          "module": "frontier/jump_drive/client/jump_drive.pyc",
+          "symbols": [
+            "try_jump_jumpdrive",
+            "_get_jump_drive_manager"
+          ]
+        },
+        {
+          "module": "frontier/crdata/common/objects/cr_stargate.pyc",
+          "symbols": [
+            "CRWarpgate",
+            "CRWarpgate.__init__",
+            "CRWarpgate.gateActivationRange",
+            "CRWarpgate.dunKeyTypeID",
+            "CRWarpgate.dunKeyQuantity",
+            "CRWarpgate.dunOpenUntil",
+            "CRWarpgate.dunSpawnID",
+            "CRWarpgate.dunToGateID"
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Legacy structure browser, deployment, access groups, and structure-side UI entry points carried into Frontier.",
+      "family": "legacy_structure_ui",
+      "key_modules": [
+        "eve/client/script/ui/structure/deployment/stargateSystemEntry.pyc",
+        "eve/client/script/ui/structure/deployment/stargateDeploymentCont.pyc",
+        "eve/client/script/ui/structure/structureSettings/serviceListCont.pyc",
+        "eve/client/script/ui/structure/structureSettings/controllers/settingController.pyc",
+        "eve/client/script/ui/structure/structureBrowser/controllers/filterContController.pyc",
+        "eve/client/script/ui/structure/structureBrowser/controllers/reinforceTimersBundle.pyc",
+        "eve/client/script/ui/structure/structureSettings/controllers/allProfilesController.pyc",
+        "eve/client/script/ui/structure/structureSettings/controllers/slimProfileController.pyc",
+        "eve/client/script/ui/structure/structureBrowser/controllers/structureEntryController.pyc",
+        "eve/client/script/ui/structure/structureBrowser/controllers/structureBrowserController.pyc"
+      ],
+      "module_count": 75,
+      "pb2_interfaces": [],
+      "symbol_highlights": []
+    },
+    {
+      "description": "Keeper/objective flows plus explicit character operation lifecycle events and requests.",
+      "family": "operations_and_objectives",
+      "key_modules": [
+        "frontier/keeper/client/service.pyc",
+        "frontier/keeper/client/controller.pyc",
+        "frontier/keeper/client/menu/controllers.pyc",
+        "eveProto/generated/eve/operation/category_pb2.pyc",
+        "eveProto/generated/eve/operation/operation_pb2.pyc",
+        "eveProto/generated/eve/character/operation/operation_pb2.pyc",
+        "frontier/keeper/client/menu/container.pyc",
+        "frontier/keeper/client/keeper_container.pyc",
+        "frontier/keeper/client/link.pyc",
+        "frontier/keeper/color.pyc"
+      ],
+      "module_count": 25,
+      "pb2_interfaces": [
+        {
+          "import_name": "eveProto.generated.eve.character.operation.operation_pb2",
+          "messages": [
+            "Started",
+            "Completed",
+            "Stopped",
+            "StartRequest",
+            "StartResponse"
+          ],
+          "package": "eve.character.operation",
+          "path": "analysis/pb2/eveProto/generated/eve/character/operation/operation_pb2.json",
+          "proto_file": "eve/character/operation/operation.proto"
+        }
+      ],
+      "symbol_highlights": []
+    },
+    {
+      "description": "Planets, pins, colonies, collectors, links, routes, factories, storage, and planet-resource data.",
+      "family": "planetary_and_resources",
+      "key_modules": [
+        "eveProto/generated/eve/planetinteraction/colony/colony_pb2.pyc",
+        "eveProto/generated/eve/planetinteraction/factory/factory_pb2.pyc",
+        "eveProto/generated/eve/planetinteraction/storage/storage_pb2.pyc",
+        "eveProto/generated/eve/planetinteraction/collector/collector_pb2.pyc",
+        "eveProto/generated/eve/planet/pin_pb2.pyc",
+        "eveProto/generated/eve/planet/pin_type_pb2.pyc",
+        "eveProto/generated/eve/planetinteraction/pin/pin_pb2.pyc",
+        "eveProto/generated/eve/planetinteraction/link/link_pb2.pyc",
+        "eveProto/generated/eve/planetinteraction/route/route_pb2.pyc",
+        "eveProto/generated/eve/planet/planet_pb2.pyc"
+      ],
+      "module_count": 22,
+      "pb2_interfaces": [
+        {
+          "import_name": "eveProto.generated.eve.planet.pin_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes"
+          ],
+          "package": "eve.planet.pin",
+          "path": "analysis/pb2/eveProto/generated/eve/planet/pin_pb2.json",
+          "proto_file": "eve/planet/pin.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planet.planet_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes",
+            "Planet",
+            "GetRequest",
+            "GetResponse",
+            "GetPlanetsInSolarSystemRequest",
+            "GetPlanetsInSolarSystemResponse"
+          ],
+          "package": "eve.planet",
+          "path": "analysis/pb2/eveProto/generated/eve/planet/planet_pb2.json",
+          "proto_file": "eve/planet/planet.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planetinteraction.collector.collector_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes",
+            "Started",
+            "Stopped",
+            "Offlined",
+            "GetRequest",
+            "GetResponse"
+          ],
+          "package": "eve.planetinteraction.collector",
+          "path": "analysis/pb2/eveProto/generated/eve/planetinteraction/collector/collector_pb2.json",
+          "proto_file": "eve/planetinteraction/collector/collector.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planetinteraction.colony.colony_pb2",
+          "messages": [
+            "Pin",
+            "Route",
+            "Link",
+            "Identifier",
+            "Attributes"
+          ],
+          "package": "eve.planetinteraction.colony",
+          "path": "analysis/pb2/eveProto/generated/eve/planetinteraction/colony/colony_pb2.json",
+          "proto_file": "eve/planetinteraction/colony/colony.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planetinteraction.factory.factory_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes",
+            "Started",
+            "Offlined",
+            "GetRequest",
+            "GetResponse"
+          ],
+          "package": "eve.planetinteraction.factory",
+          "path": "analysis/pb2/eveProto/generated/eve/planetinteraction/factory/factory_pb2.json",
+          "proto_file": "eve/planetinteraction/factory/factory.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planetinteraction.link.link_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes",
+            "Link"
+          ],
+          "package": "eve.planetinteraction.link",
+          "path": "analysis/pb2/eveProto/generated/eve/planetinteraction/link/link_pb2.json",
+          "proto_file": "eve/planetinteraction/link/link.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planetinteraction.pin.pin_pb2",
+          "messages": [
+            "Identifier",
+            "Type",
+            "ExtractorDetails",
+            "Attributes",
+            "Pin"
+          ],
+          "package": "eve.planetinteraction.pin",
+          "path": "analysis/pb2/eveProto/generated/eve/planetinteraction/pin/pin_pb2.json",
+          "proto_file": "eve/planetinteraction/pin/pin.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planetinteraction.route.route_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes",
+            "Route"
+          ],
+          "package": "eve.planetinteraction.route",
+          "path": "analysis/pb2/eveProto/generated/eve/planetinteraction/route/route_pb2.json",
+          "proto_file": "eve/planetinteraction/route/route.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planetinteraction.schematic.schematic_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes",
+            "GetRequest",
+            "GetResponse"
+          ],
+          "package": "eve.planetinteraction.schematic",
+          "path": "analysis/pb2/eveProto/generated/eve/planetinteraction/schematic/schematic_pb2.json",
+          "proto_file": "eve/planetinteraction/schematic/schematic.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.planetinteraction.storage.storage_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes",
+            "Started",
+            "CapacityReached",
+            "GetRequest",
+            "GetResponse"
+          ],
+          "package": "eve.planetinteraction.storage",
+          "path": "analysis/pb2/eveProto/generated/eve/planetinteraction/storage/storage_pb2.json",
+          "proto_file": "eve/planetinteraction/storage/storage.proto"
+        }
+      ],
+      "symbol_highlights": []
+    },
+    {
+      "description": "Signature scanning, hacking containers, and deadspace site interactions such as data and relic sites.",
+      "family": "scanning_and_sites",
+      "key_modules": [
+        "frontier/signatures_and_scanning/client/scanning_service.pyc",
+        "frontier/signatures_and_scanning/client/lasso.pyc",
+        "frontier/signatures_and_scanning/client/insider.pyc",
+        "frontier/signatures_and_scanning/common/scanning.pyc",
+        "frontier/signatures_and_scanning/common/signature.pyc",
+        "frontier/signatures_and_scanning/client/repository.pyc",
+        "eveProto/generated/eve/character/hacking/container_pb2.pyc",
+        "eveProto/generated/eve/dungeon/dungeon_pb2.pyc",
+        "eveProto/generated/eve/dungeon/instance_pb2.pyc",
+        "eveProto/generated/eve/deadspace/archetype_pb2.pyc"
+      ],
+      "module_count": 37,
+      "pb2_interfaces": [
+        {
+          "import_name": "eveProto.generated.eve.character.hacking.container_pb2",
+          "messages": [
+            "Succeeded"
+          ],
+          "package": "eve.character.hacking.container",
+          "path": "analysis/pb2/eveProto/generated/eve/character/hacking/container_pb2.json",
+          "proto_file": "eve/character/hacking/container.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.deadspace.datasite.data_site_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes"
+          ],
+          "package": "eve.deadspace.datasite",
+          "path": "analysis/pb2/eveProto/generated/eve/deadspace/datasite/data_site_pb2.json",
+          "proto_file": "eve/deadspace/datasite/data_site.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.deadspace.datasite.event_pb2",
+          "messages": [
+            "CharacterCompleted"
+          ],
+          "package": "eve.deadspace.datasite.event",
+          "path": "analysis/pb2/eveProto/generated/eve/deadspace/datasite/event_pb2.json",
+          "proto_file": "eve/deadspace/datasite/event.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.deadspace.relicsite.event_pb2",
+          "messages": [
+            "CharacterCompleted"
+          ],
+          "package": "eve.deadspace.relicsite.event",
+          "path": "analysis/pb2/eveProto/generated/eve/deadspace/relicsite/event_pb2.json",
+          "proto_file": "eve/deadspace/relicsite/event.proto"
+        },
+        {
+          "import_name": "eveProto.generated.eve.deadspace.relicsite.relic_site_pb2",
+          "messages": [
+            "Identifier",
+            "Attributes"
+          ],
+          "package": "eve.deadspace.relicsite",
+          "path": "analysis/pb2/eveProto/generated/eve/deadspace/relicsite/relic_site_pb2.json",
+          "proto_file": "eve/deadspace/relicsite/relic_site.proto"
+        }
+      ],
+      "symbol_highlights": [
+        {
+          "module": "frontier/signatures_and_scanning/client/scanning_service.pyc",
+          "symbols": [
+            "ScanningService",
+            "ScanningService.__init__",
+            "ScanningService.Run",
+            "ScanningService.remote_service",
+            "ScanningService.get_signature_repository",
+            "ScanningService.OnScanResults",
+            "ScanningService.OnPassiveScanResults",
+            "ScanningService.OnPassiveScannerFailure"
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Station HUD, docking/undocking, and station-side inventory or session transitions inferred from client modules.",
+      "family": "station_flow",
+      "key_modules": [
+        "frontier/station_hud/undock/controller.pyc",
+        "frontier/station_hud/service.pyc",
+        "frontier/station_hud/ship_selection/controller.pyc",
+        "frontier/station_hud/undock/widget.pyc",
+        "frontier/station_hud/undock/integration.pyc",
+        "frontier/station/common/undock.pyc",
+        "eve/client/script/ui/station/undockQuestions.pyc",
+        "frontier/station_hud/base.pyc",
+        "frontier/station_hud/fuel.pyc",
+        "frontier/station_hud/color.pyc"
+      ],
+      "module_count": 61,
+      "pb2_interfaces": [],
+      "symbol_highlights": [
+        {
+          "module": "frontier/station_hud/undock/controller.pyc",
+          "symbols": [
+            "UndockProgress",
+            "UndockController",
+            "UndockController.__init__",
+            "UndockController.progress",
+            "UndockController.undock",
+            "UndockController.abort"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Static world counts come from mapObjects.db and confirm where coordinates/IDs exist in the client cache.",
+    "Module families come from local client code and indicate interaction surfaces even when no pb2 schema is exported yet.",
+    "pb2 interfaces are confirmed from Python 3.12 imports against the extracted code, with a minimal uthread2 stub during analysis.",
+    "Raw celestial group IDs still need full Frontier static-data name resolution before treating them as final labels."
+  ],
+  "output_root": "/Users/ocrand/Documents/New project/eve_skills/output/eve_frontier_utopia",
+  "planet_resources": {
+    "found": true,
+    "keys": [
+      "depletionStdDevMax",
+      "depletionTemplates",
+      "depletionStdDevStepSize",
+      "depletionStdDevMin"
+    ],
+    "pickle_type": "dict"
+  },
+  "static_world": {
+    "celestial_group_counts": [
+      {
+        "count": 147060,
+        "groupID": 8,
+        "hint": "Likely moons."
+      },
+      {
+        "count": 83257,
+        "groupID": 7,
+        "hint": "Likely planets."
+      },
+      {
+        "count": 24026,
+        "groupID": 6,
+        "hint": "Likely sun objects (one per solar system in this dump)."
+      },
+      {
+        "count": 6876,
+        "groupID": 10,
+        "hint": "Likely stargates / travel nodes."
+      }
+    ],
+    "celestials_count": 261219,
+    "celestials_system_count": 24026,
+    "npc_station_count": 98,
+    "npc_station_system_count": 98,
+    "npc_station_type_counts": [
+      {
+        "count": 98,
+        "typeID": 85226
+      }
+    ]
+  }
+}

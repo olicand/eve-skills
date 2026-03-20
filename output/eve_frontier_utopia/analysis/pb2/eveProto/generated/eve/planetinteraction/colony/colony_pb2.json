@@ -1,0 +1,387 @@
+{
+  "dependencies": [
+    "eve/inventory/generic_item.proto",
+    "eve/inventory/generic_item_type.proto",
+    "eve/planet/pin.proto",
+    "eve/planet/pin_type.proto",
+    "eve/planetinteraction/link/link.proto",
+    "eve/planetinteraction/pin/pin.proto",
+    "eve/planetinteraction/route/route.proto",
+    "eve/planetinteraction/schematic/schematic.proto",
+    "google/protobuf/timestamp.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "id",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planet.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "type",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planet.pintype.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "longitude",
+          "number": 3,
+          "type": "float",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "latitude",
+          "number": 4,
+          "type": "float",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "content",
+          "number": 5,
+          "type": "message",
+          "type_name": "eve.inventory.genericitem.Attributes"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_extractor_details",
+          "number": 6,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "extractor",
+          "number": 7,
+          "type": "message",
+          "type_name": "eve.planetinteraction.colony.Pin.ExtractorDetails"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_schematic",
+          "number": 8,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "schematic",
+          "number": 9,
+          "type": "message",
+          "type_name": "eve.planetinteraction.schematic.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_install_time",
+          "number": 10,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "install_time",
+          "number": 11,
+          "type": "message",
+          "type_name": "google.protobuf.Timestamp"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_expiry_time",
+          "number": 12,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "expiry_time",
+          "number": 13,
+          "type": "message",
+          "type_name": "google.protobuf.Timestamp"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "no_last_cycle_start",
+          "number": 14,
+          "type": "bool",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "last_cycle_start",
+          "number": 15,
+          "type": "message",
+          "type_name": "google.protobuf.Timestamp"
+        }
+      ],
+      "full_name": "eve.planetinteraction.colony.Pin",
+      "name": "Pin",
+      "nested_messages": [
+        {
+          "enum_types": [],
+          "fields": [
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "id",
+              "number": 1,
+              "type": "uint64",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "longitude",
+              "number": 2,
+              "type": "float",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "latitude",
+              "number": 3,
+              "type": "float",
+              "type_name": null
+            }
+          ],
+          "full_name": "eve.planetinteraction.colony.Pin.Head",
+          "name": "Head",
+          "nested_messages": []
+        },
+        {
+          "enum_types": [],
+          "fields": [
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "product_type",
+              "number": 1,
+              "type": "message",
+              "type_name": "eve.inventory.genericitemtype.Identifier"
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "cycle_time_sec",
+              "number": 2,
+              "type": "uint64",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "qty_per_cycle",
+              "number": 3,
+              "type": "uint64",
+              "type_name": null
+            },
+            {
+              "enum_name": null,
+              "label": "repeated",
+              "name": "heads",
+              "number": 4,
+              "type": "message",
+              "type_name": "eve.planetinteraction.colony.Pin.Head"
+            },
+            {
+              "enum_name": null,
+              "label": "optional",
+              "name": "head_radius",
+              "number": 5,
+              "type": "float",
+              "type_name": null
+            }
+          ],
+          "full_name": "eve.planetinteraction.colony.Pin.ExtractorDetails",
+          "name": "ExtractorDetails",
+          "nested_messages": []
+        }
+      ]
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_pin",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planet.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_pin",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planet.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "content_type",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.inventory.genericitemtype.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "content_quantity",
+          "number": 4,
+          "type": "float",
+          "type_name": null
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "waypoints",
+          "number": 5,
+          "type": "message",
+          "type_name": "eve.planet.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "id",
+          "number": 6,
+          "type": "uint64",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.colony.Route",
+      "name": "Route",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_pin",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planet.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_pin",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planet.pin.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "level",
+          "number": 3,
+          "type": "uint32",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.colony.Link",
+      "name": "Link",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "sequential",
+          "number": 1,
+          "type": "uint32",
+          "type_name": null
+        }
+      ],
+      "full_name": "eve.planetinteraction.colony.Identifier",
+      "name": "Identifier",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "pins",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.planetinteraction.colony.Pin"
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "links",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.planetinteraction.colony.Link"
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "routes",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.planetinteraction.colony.Route"
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "colony_pins",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.planetinteraction.pin.Pin"
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "colony_links",
+          "number": 5,
+          "type": "message",
+          "type_name": "eve.planetinteraction.link.Link"
+        },
+        {
+          "enum_name": null,
+          "label": "repeated",
+          "name": "colony_routes",
+          "number": 6,
+          "type": "message",
+          "type_name": "eve.planetinteraction.route.Route"
+        }
+      ],
+      "full_name": "eve.planetinteraction.colony.Attributes",
+      "name": "Attributes",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/planetinteraction/colony/colony.proto",
+  "package": "eve.planetinteraction.colony"
+}

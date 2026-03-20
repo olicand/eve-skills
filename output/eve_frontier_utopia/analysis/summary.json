@@ -1,0 +1,112 @@
+{
+  "extracted_root": "/Users/ocrand/Documents/New project/eve_skills/output/eve_frontier_utopia/code_ccp/extracted",
+  "module_results": [
+    {
+      "path": "frontier/station_hud/undock/controller.pyc",
+      "status": "ok"
+    },
+    {
+      "path": "frontier/smart_assemblies/client/window/cargo.pyc",
+      "status": "ok"
+    },
+    {
+      "path": "frontier/base_building/client/construction_site/ui/window.pyc",
+      "status": "ok"
+    },
+    {
+      "path": "frontier/signatures_and_scanning/client/scanning_service.pyc",
+      "status": "ok"
+    },
+    {
+      "path": "frontier/jump_drive/client/service.pyc",
+      "status": "ok"
+    },
+    {
+      "path": "frontier/jump_drive/client/jump_drive.pyc",
+      "status": "ok"
+    },
+    {
+      "path": "frontier/crdata/common/objects/cr_stargate.pyc",
+      "status": "ok"
+    }
+  ],
+  "pb2_results": [
+    {
+      "import_name": "eveProto.generated.eve.assembly.gate.api.requests_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.assembly.gate.api.events_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.assembly.gate.gate_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.character.hacking.container_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.deadspace.datasite.data_site_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.deadspace.datasite.event_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.deadspace.relicsite.relic_site_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.deadspace.relicsite.event_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.character.operation.operation_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planet.planet_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planet.pin_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planetinteraction.collector.collector_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planetinteraction.colony.colony_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planetinteraction.factory.factory_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planetinteraction.link.link_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planetinteraction.pin.pin_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planetinteraction.route.route_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planetinteraction.schematic.schematic_pb2",
+      "status": "ok"
+    },
+    {
+      "import_name": "eveProto.generated.eve.planetinteraction.storage.storage_pb2",
+      "status": "ok"
+    }
+  ],
+  "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.3.2)]"
+}

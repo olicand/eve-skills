@@ -1,0 +1,148 @@
+{
+  "dependencies": [
+    "eve/assembly/gate/gate.proto",
+    "eve/character/character.proto",
+    "eve/solarsystem/solarsystem.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "attributes",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Attributes"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.Created",
+      "name": "Created",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_gate",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_solar_system",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_solar_system",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.Linked",
+      "name": "Linked",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_gate",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_solar_system",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_solar_system",
+          "number": 4,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.Unlinked",
+      "name": "Unlinked",
+      "nested_messages": []
+    },
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "source_gate",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "destination_gate",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.assembly.gate.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 3,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        }
+      ],
+      "full_name": "eve.assembly.gate.api.Jumped",
+      "name": "Jumped",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/assembly/gate/api/events.proto",
+  "package": "eve.assembly.gate.api"
+}

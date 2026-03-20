@@ -1,0 +1,35 @@
+{
+  "dependencies": [
+    "eve/character/character.proto",
+    "eve/solarsystem/solarsystem.proto"
+  ],
+  "enum_types": [],
+  "messages": [
+    {
+      "enum_types": [],
+      "fields": [
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "character",
+          "number": 1,
+          "type": "message",
+          "type_name": "eve.character.Identifier"
+        },
+        {
+          "enum_name": null,
+          "label": "optional",
+          "name": "solar_system",
+          "number": 2,
+          "type": "message",
+          "type_name": "eve.solarsystem.Identifier"
+        }
+      ],
+      "full_name": "eve.character.hacking.container.Succeeded",
+      "name": "Succeeded",
+      "nested_messages": []
+    }
+  ],
+  "name": "eve/character/hacking/container.proto",
+  "package": "eve.character.hacking.container"
+}
